@@ -826,6 +826,224 @@ export const posts: Post[] = [
       },
     ],
   },
+
+  /* Notion sync */
+  {
+    id: 95010665,
+    title: "10년 간 손톱 물어뜯던 습관, 이렇게 고쳤습니다",
+    authorName: "익명",
+    dateText: "2026.03.09",
+    viewsText: "0 읽음",
+    authorAvatarUrl: "/images/blog/profile-nww.jpg",
+    initialLikeCount: 0,
+    commentCount: 0,
+    articleHTML: `
+<p style="text-align:center;">손톱을 물어뜯기 시작한지 어언 10년째..</p>
+<p style="text-align:center;">어느 날 문득 제 손을 봤는데 상태가 말이 아닌거에요.</p>
+<figure>
+  <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/2e730524-c938-49ae-8845-e1733e642af9/5f4a81c5-59cd-4bca-b474-73f1e14dea2c/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-03-08_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_11.05.56.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=ASIAZI2LB466Z2P42IQX%2F20260309%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20260309T103311Z&amp;X-Amz-Expires=3600&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGIaCXVzLXdlc3QtMiJHMEUCIQD%2B5ZG%2F8yiVg8JaamlFFowR%2FEy8nz6aPNv9OeN6Qi7i1gIgKZreGoiHU1y%2FYq%2BEDh%2BNHCTPZDIFUSlltIv2jX7vC%2BUq%2FwMIKxAAGgw2Mzc0MjMxODM4MDUiDPGUfratOAia0aeboSrcAxVXVh%2B83BEY1msdK3zkrkBPDwqgQQTUC4efeoya5wG1%2Bxstsh6kx%2FPAyX57E5qkEWFJnc%2FDlGw1ARkS%2FRGZZBikgWBxLzeAapz17%2F1bPKdlnqVSEApmJ%2Fn77ul6qEj4FuEM1NwAylXlIXa%2ByGaTf5ptJ0X8m11zxPFtTRYcrld%2BRl1%2BsL4Pc4IabaqlG%2BfFyv%2FZmaVtzVXFvME1uWPBZCGQf%2Fu6yJZ0tx2bqkjrdAeJ45ImMUy11KrltjOJ4ns3vg83%2FJwK25R2z8jqrjWQVX0Q9FF8t15y%2B0W%2F7jA7cNr5DyCyYF1YLph9jUG8Xtq%2BImYjHGgm%2BRtXkEx6v5RDu4Ej880GFkTuISAM4WrFxdXiJC3tB6BKuCWOqpv%2B6lkK%2BkcezTOokxMbx7NUWUuSpdJrklNsh710B9zm0WMHqCCJ%2Bt%2B0rN3EAzRynqjP5a1O9tBbcMqdz8aliSKuelv%2BkHV5c6N5CJaALJp2gIMyDnEyoAS3DpAbVUPWclipg0ILYm0jMIK8oajPzJ%2FqJGEUm%2Fd1cAdxYI0x7afpjUQveVD3k%2F0hXfy0p1MFbQMgHWpi07yc%2B%2F636oJR6SBIElO3bkWXO3IusbK30KLiTV%2FFXD%2BAYJrAbtpMoumGuHdkMOupus0GOqUBUIR%2BISGEh0ancRiEd17A8nKwW6gwvAG65rAdCPHApGpXNtayr2K5TzGbrmyPqhI5rnIafvCfQCS%2F4j%2FX1NpfL48%2BliHlq7VK76tAzEpJRxM1KypSYPGn4OzDoAQzgkBUerbABOxUsg1tQofSxELxWI7FO3jts3XyjK%2FHxa7JK1M4hcVTc1YDw7CD3xvd0iqxjXehSkSc2iTli7htQ32uuivIH3Oa&amp;X-Amz-Signature=ecb7b497bbc22819664ddaf5a2ec15a43a70a3789eae3f58c04a93085c4a1eb7&amp;X-Amz-SignedHeaders=host&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject" alt="" />
+
+</figure>
+<p style="text-align:center;">짧다 못해 살까지 파먹은 손톱,</p>
+<p style="text-align:center;">주변 피부까지 같이 뜯으며 생긴 거스러미,</p>
+<p style="text-align:center;">갈라지고 너덜너덜해진 손끝…</p>
+<p style="text-align:center;">딱 봐도 관리 안하는 사람 손이었어요.</p>
+<p style="text-align:center;">이게 한번 신경쓰이기 시작하니까</p>
+<p style="text-align:center;">사람 만날 때마다 괜히 손을 숨기게 되더라고요.</p>
+<p style="text-align:center;">미팅이나 회의할 때 괜히 사람들이 손 쳐다보는거 같고</p>
+<p style="text-align:center;">카드 꺼낼 때마다 신경쓰이고</p>
+<p style="text-align:center;">일상생활 할 때 괜히 자신감이 떨어지는 느낌…</p>
+<br/>
+<figure>
+  <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/2e730524-c938-49ae-8845-e1733e642af9/4adea1cf-444a-4002-8cd0-95adfdb507a5/%E3%84%B4_1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=ASIAZI2LB466Z2P42IQX%2F20260309%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20260309T103311Z&amp;X-Amz-Expires=3600&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGIaCXVzLXdlc3QtMiJHMEUCIQD%2B5ZG%2F8yiVg8JaamlFFowR%2FEy8nz6aPNv9OeN6Qi7i1gIgKZreGoiHU1y%2FYq%2BEDh%2BNHCTPZDIFUSlltIv2jX7vC%2BUq%2FwMIKxAAGgw2Mzc0MjMxODM4MDUiDPGUfratOAia0aeboSrcAxVXVh%2B83BEY1msdK3zkrkBPDwqgQQTUC4efeoya5wG1%2Bxstsh6kx%2FPAyX57E5qkEWFJnc%2FDlGw1ARkS%2FRGZZBikgWBxLzeAapz17%2F1bPKdlnqVSEApmJ%2Fn77ul6qEj4FuEM1NwAylXlIXa%2ByGaTf5ptJ0X8m11zxPFtTRYcrld%2BRl1%2BsL4Pc4IabaqlG%2BfFyv%2FZmaVtzVXFvME1uWPBZCGQf%2Fu6yJZ0tx2bqkjrdAeJ45ImMUy11KrltjOJ4ns3vg83%2FJwK25R2z8jqrjWQVX0Q9FF8t15y%2B0W%2F7jA7cNr5DyCyYF1YLph9jUG8Xtq%2BImYjHGgm%2BRtXkEx6v5RDu4Ej880GFkTuISAM4WrFxdXiJC3tB6BKuCWOqpv%2B6lkK%2BkcezTOokxMbx7NUWUuSpdJrklNsh710B9zm0WMHqCCJ%2Bt%2B0rN3EAzRynqjP5a1O9tBbcMqdz8aliSKuelv%2BkHV5c6N5CJaALJp2gIMyDnEyoAS3DpAbVUPWclipg0ILYm0jMIK8oajPzJ%2FqJGEUm%2Fd1cAdxYI0x7afpjUQveVD3k%2F0hXfy0p1MFbQMgHWpi07yc%2B%2F636oJR6SBIElO3bkWXO3IusbK30KLiTV%2FFXD%2BAYJrAbtpMoumGuHdkMOupus0GOqUBUIR%2BISGEh0ancRiEd17A8nKwW6gwvAG65rAdCPHApGpXNtayr2K5TzGbrmyPqhI5rnIafvCfQCS%2F4j%2FX1NpfL48%2BliHlq7VK76tAzEpJRxM1KypSYPGn4OzDoAQzgkBUerbABOxUsg1tQofSxELxWI7FO3jts3XyjK%2FHxa7JK1M4hcVTc1YDw7CD3xvd0iqxjXehSkSc2iTli7htQ32uuivIH3Oa&amp;X-Amz-Signature=fa1d109e8f0a3d1da2c667e08b18cd2f85de8379c1a4a254b52abfb787af2a17&amp;X-Amz-SignedHeaders=host&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject" alt="" />
+
+</figure>
+<br/>
+<p style="text-align:center;">그리고 손톱이 사람 전체 인상에도 영향을 주더라구요</p>
+<p style="text-align:center;">소개팅 나갔는데 손톱이 뭉툭하고 지저분하면 </p>
+<p style="text-align:center;">혹은 긴장해서 손톱 물어뜯고 있으면</p>
+<p style="text-align:center;">그 사람에 대해 좋은 인상이 들까요?</p>
+<br/>
+<p style="text-align:center;">아무리 다른 부분이 완벽해도 확 깰걸요..</p>
+<p style="text-align:center;">별거 아닌데 손톱이 깔끔해 보인다는 것만으로</p>
+<p style="text-align:center;">사람 인상이 달라져요. 이건 진짜에요..</p>
+<figure>
+  <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/2e730524-c938-49ae-8845-e1733e642af9/7ffecac8-bce9-4f36-a903-f38ff0ac1831/SE-56B869C7-8530-4F47-A929-BFDB3A760BE9.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=ASIAZI2LB466Z2P42IQX%2F20260309%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20260309T103311Z&amp;X-Amz-Expires=3600&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGIaCXVzLXdlc3QtMiJHMEUCIQD%2B5ZG%2F8yiVg8JaamlFFowR%2FEy8nz6aPNv9OeN6Qi7i1gIgKZreGoiHU1y%2FYq%2BEDh%2BNHCTPZDIFUSlltIv2jX7vC%2BUq%2FwMIKxAAGgw2Mzc0MjMxODM4MDUiDPGUfratOAia0aeboSrcAxVXVh%2B83BEY1msdK3zkrkBPDwqgQQTUC4efeoya5wG1%2Bxstsh6kx%2FPAyX57E5qkEWFJnc%2FDlGw1ARkS%2FRGZZBikgWBxLzeAapz17%2F1bPKdlnqVSEApmJ%2Fn77ul6qEj4FuEM1NwAylXlIXa%2ByGaTf5ptJ0X8m11zxPFtTRYcrld%2BRl1%2BsL4Pc4IabaqlG%2BfFyv%2FZmaVtzVXFvME1uWPBZCGQf%2Fu6yJZ0tx2bqkjrdAeJ45ImMUy11KrltjOJ4ns3vg83%2FJwK25R2z8jqrjWQVX0Q9FF8t15y%2B0W%2F7jA7cNr5DyCyYF1YLph9jUG8Xtq%2BImYjHGgm%2BRtXkEx6v5RDu4Ej880GFkTuISAM4WrFxdXiJC3tB6BKuCWOqpv%2B6lkK%2BkcezTOokxMbx7NUWUuSpdJrklNsh710B9zm0WMHqCCJ%2Bt%2B0rN3EAzRynqjP5a1O9tBbcMqdz8aliSKuelv%2BkHV5c6N5CJaALJp2gIMyDnEyoAS3DpAbVUPWclipg0ILYm0jMIK8oajPzJ%2FqJGEUm%2Fd1cAdxYI0x7afpjUQveVD3k%2F0hXfy0p1MFbQMgHWpi07yc%2B%2F636oJR6SBIElO3bkWXO3IusbK30KLiTV%2FFXD%2BAYJrAbtpMoumGuHdkMOupus0GOqUBUIR%2BISGEh0ancRiEd17A8nKwW6gwvAG65rAdCPHApGpXNtayr2K5TzGbrmyPqhI5rnIafvCfQCS%2F4j%2FX1NpfL48%2BliHlq7VK76tAzEpJRxM1KypSYPGn4OzDoAQzgkBUerbABOxUsg1tQofSxELxWI7FO3jts3XyjK%2FHxa7JK1M4hcVTc1YDw7CD3xvd0iqxjXehSkSc2iTli7htQ32uuivIH3Oa&amp;X-Amz-Signature=5bef9e6755f238b570f7bf0951e92db0bd42acc1c5ae23b562984a25d094ce64&amp;X-Amz-SignedHeaders=host&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject" alt="손톱 상태 광명 찾은 지금의 손" />
+<figcaption>손톱 상태 광명 찾은 지금의 손</figcaption>
+</figure>
+<br/>
+<p style="text-align:center;">그래서 저도 손톱 물어뜯는 습관 고치려고 </p>
+<p style="text-align:center;">무던히 노력했는데 진짜 쉽지 않더라구요😭</p>
+<p style="text-align:center;">이게 고치기 힘든 이유가</p>
+<p style="text-align:center;">손톱 물어뜯다보면</p>
+<p style="text-align:center;">손톱이 점점 얇아지고</p>
+<p style="text-align:center;">표면은 울퉁불퉁해지고</p>
+<p style="text-align:center;">끝은 점점 더 갈라지고</p>
+<p style="text-align:center;">그러면 또 걸리적거려서 또 뜯게 되고..</p>
+<p style="text-align:center;">한번이라도 물어뜯은 경험 있다면 공감하실 거에요</p>
+<p style="text-align:center;">악순환의 굴레죠.. </p>
+<figure>
+  <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/2e730524-c938-49ae-8845-e1733e642af9/5b966aea-c9b3-417f-9303-08940dec35f1/%E1%84%83%E1%85%A2%E1%84%8C%E1%85%B5_1tinted.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=ASIAZI2LB466Z2P42IQX%2F20260309%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20260309T103312Z&amp;X-Amz-Expires=3600&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGIaCXVzLXdlc3QtMiJHMEUCIQD%2B5ZG%2F8yiVg8JaamlFFowR%2FEy8nz6aPNv9OeN6Qi7i1gIgKZreGoiHU1y%2FYq%2BEDh%2BNHCTPZDIFUSlltIv2jX7vC%2BUq%2FwMIKxAAGgw2Mzc0MjMxODM4MDUiDPGUfratOAia0aeboSrcAxVXVh%2B83BEY1msdK3zkrkBPDwqgQQTUC4efeoya5wG1%2Bxstsh6kx%2FPAyX57E5qkEWFJnc%2FDlGw1ARkS%2FRGZZBikgWBxLzeAapz17%2F1bPKdlnqVSEApmJ%2Fn77ul6qEj4FuEM1NwAylXlIXa%2ByGaTf5ptJ0X8m11zxPFtTRYcrld%2BRl1%2BsL4Pc4IabaqlG%2BfFyv%2FZmaVtzVXFvME1uWPBZCGQf%2Fu6yJZ0tx2bqkjrdAeJ45ImMUy11KrltjOJ4ns3vg83%2FJwK25R2z8jqrjWQVX0Q9FF8t15y%2B0W%2F7jA7cNr5DyCyYF1YLph9jUG8Xtq%2BImYjHGgm%2BRtXkEx6v5RDu4Ej880GFkTuISAM4WrFxdXiJC3tB6BKuCWOqpv%2B6lkK%2BkcezTOokxMbx7NUWUuSpdJrklNsh710B9zm0WMHqCCJ%2Bt%2B0rN3EAzRynqjP5a1O9tBbcMqdz8aliSKuelv%2BkHV5c6N5CJaALJp2gIMyDnEyoAS3DpAbVUPWclipg0ILYm0jMIK8oajPzJ%2FqJGEUm%2Fd1cAdxYI0x7afpjUQveVD3k%2F0hXfy0p1MFbQMgHWpi07yc%2B%2F636oJR6SBIElO3bkWXO3IusbK30KLiTV%2FFXD%2BAYJrAbtpMoumGuHdkMOupus0GOqUBUIR%2BISGEh0ancRiEd17A8nKwW6gwvAG65rAdCPHApGpXNtayr2K5TzGbrmyPqhI5rnIafvCfQCS%2F4j%2FX1NpfL48%2BliHlq7VK76tAzEpJRxM1KypSYPGn4OzDoAQzgkBUerbABOxUsg1tQofSxELxWI7FO3jts3XyjK%2FHxa7JK1M4hcVTc1YDw7CD3xvd0iqxjXehSkSc2iTli7htQ32uuivIH3Oa&amp;X-Amz-Signature=b38fe5f937fe8aa2c0cfe116f29ff2bde5d1ab844a7251a29f3541500e964b49&amp;X-Amz-SignedHeaders=host&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject" alt="" />
+
+</figure>
+<br/>
+<p style="text-align:center;">문제는 여기서 끝이 아니라는 겁니다.</p>
+<p style="text-align:center;">이걸 계속 반복하면 손톱 자체가 망가집니다.</p>
+<p style="text-align:center;"><strong>손톱 모양이 아예 변해요</strong></p>
+<p style="text-align:center;"><strong>한번 짧아지고 뭉툭한 바디는 되돌릴 수가 없어요..</strong></p>
+<figure>
+  <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/2e730524-c938-49ae-8845-e1733e642af9/5d9070e2-d1ec-44c9-9aee-942daf5e3d96/79044c27c35e061ed5cb27ad812460bf.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=ASIAZI2LB466Z2P42IQX%2F20260309%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20260309T103312Z&amp;X-Amz-Expires=3600&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGIaCXVzLXdlc3QtMiJHMEUCIQD%2B5ZG%2F8yiVg8JaamlFFowR%2FEy8nz6aPNv9OeN6Qi7i1gIgKZreGoiHU1y%2FYq%2BEDh%2BNHCTPZDIFUSlltIv2jX7vC%2BUq%2FwMIKxAAGgw2Mzc0MjMxODM4MDUiDPGUfratOAia0aeboSrcAxVXVh%2B83BEY1msdK3zkrkBPDwqgQQTUC4efeoya5wG1%2Bxstsh6kx%2FPAyX57E5qkEWFJnc%2FDlGw1ARkS%2FRGZZBikgWBxLzeAapz17%2F1bPKdlnqVSEApmJ%2Fn77ul6qEj4FuEM1NwAylXlIXa%2ByGaTf5ptJ0X8m11zxPFtTRYcrld%2BRl1%2BsL4Pc4IabaqlG%2BfFyv%2FZmaVtzVXFvME1uWPBZCGQf%2Fu6yJZ0tx2bqkjrdAeJ45ImMUy11KrltjOJ4ns3vg83%2FJwK25R2z8jqrjWQVX0Q9FF8t15y%2B0W%2F7jA7cNr5DyCyYF1YLph9jUG8Xtq%2BImYjHGgm%2BRtXkEx6v5RDu4Ej880GFkTuISAM4WrFxdXiJC3tB6BKuCWOqpv%2B6lkK%2BkcezTOokxMbx7NUWUuSpdJrklNsh710B9zm0WMHqCCJ%2Bt%2B0rN3EAzRynqjP5a1O9tBbcMqdz8aliSKuelv%2BkHV5c6N5CJaALJp2gIMyDnEyoAS3DpAbVUPWclipg0ILYm0jMIK8oajPzJ%2FqJGEUm%2Fd1cAdxYI0x7afpjUQveVD3k%2F0hXfy0p1MFbQMgHWpi07yc%2B%2F636oJR6SBIElO3bkWXO3IusbK30KLiTV%2FFXD%2BAYJrAbtpMoumGuHdkMOupus0GOqUBUIR%2BISGEh0ancRiEd17A8nKwW6gwvAG65rAdCPHApGpXNtayr2K5TzGbrmyPqhI5rnIafvCfQCS%2F4j%2FX1NpfL48%2BliHlq7VK76tAzEpJRxM1KypSYPGn4OzDoAQzgkBUerbABOxUsg1tQofSxELxWI7FO3jts3XyjK%2FHxa7JK1M4hcVTc1YDw7CD3xvd0iqxjXehSkSc2iTli7htQ32uuivIH3Oa&amp;X-Amz-Signature=376c57048935883bd1693e11bce8f44958462ed8221ac6badabb7c83f74766ca&amp;X-Amz-SignedHeaders=host&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject" alt="" />
+
+</figure>
+<br/>
+<p style="text-align:center;">손톱 물어뜯는 사람들 해보는거 저도 다 해봤습니다.</p>
+<ul>
+<li>손톱깎이로 최대한 짧게 자르기</li>
+<li>네일샵 가서 젤네일로 덮기</li>
+<li>쓴 맛 나는 매니큐어 발라서 못 뜯게 하기</li>
+</ul>
+<figure>
+  <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/2e730524-c938-49ae-8845-e1733e642af9/a3cdf817-37e7-4e4f-a709-f72cddbaecc5/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-03-08_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_10.46.41.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=ASIAZI2LB466Z2P42IQX%2F20260309%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20260309T103312Z&amp;X-Amz-Expires=3600&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGIaCXVzLXdlc3QtMiJHMEUCIQD%2B5ZG%2F8yiVg8JaamlFFowR%2FEy8nz6aPNv9OeN6Qi7i1gIgKZreGoiHU1y%2FYq%2BEDh%2BNHCTPZDIFUSlltIv2jX7vC%2BUq%2FwMIKxAAGgw2Mzc0MjMxODM4MDUiDPGUfratOAia0aeboSrcAxVXVh%2B83BEY1msdK3zkrkBPDwqgQQTUC4efeoya5wG1%2Bxstsh6kx%2FPAyX57E5qkEWFJnc%2FDlGw1ARkS%2FRGZZBikgWBxLzeAapz17%2F1bPKdlnqVSEApmJ%2Fn77ul6qEj4FuEM1NwAylXlIXa%2ByGaTf5ptJ0X8m11zxPFtTRYcrld%2BRl1%2BsL4Pc4IabaqlG%2BfFyv%2FZmaVtzVXFvME1uWPBZCGQf%2Fu6yJZ0tx2bqkjrdAeJ45ImMUy11KrltjOJ4ns3vg83%2FJwK25R2z8jqrjWQVX0Q9FF8t15y%2B0W%2F7jA7cNr5DyCyYF1YLph9jUG8Xtq%2BImYjHGgm%2BRtXkEx6v5RDu4Ej880GFkTuISAM4WrFxdXiJC3tB6BKuCWOqpv%2B6lkK%2BkcezTOokxMbx7NUWUuSpdJrklNsh710B9zm0WMHqCCJ%2Bt%2B0rN3EAzRynqjP5a1O9tBbcMqdz8aliSKuelv%2BkHV5c6N5CJaALJp2gIMyDnEyoAS3DpAbVUPWclipg0ILYm0jMIK8oajPzJ%2FqJGEUm%2Fd1cAdxYI0x7afpjUQveVD3k%2F0hXfy0p1MFbQMgHWpi07yc%2B%2F636oJR6SBIElO3bkWXO3IusbK30KLiTV%2FFXD%2BAYJrAbtpMoumGuHdkMOupus0GOqUBUIR%2BISGEh0ancRiEd17A8nKwW6gwvAG65rAdCPHApGpXNtayr2K5TzGbrmyPqhI5rnIafvCfQCS%2F4j%2FX1NpfL48%2BliHlq7VK76tAzEpJRxM1KypSYPGn4OzDoAQzgkBUerbABOxUsg1tQofSxELxWI7FO3jts3XyjK%2FHxa7JK1M4hcVTc1YDw7CD3xvd0iqxjXehSkSc2iTli7htQ32uuivIH3Oa&amp;X-Amz-Signature=4147c46c7d58ca239a439351513375fbe4f8a91bb2bec3a1c6d7d33aafeedbda&amp;X-Amz-SignedHeaders=host&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject" alt="종잇장 손톱의 원인이 된,, 젤네일로 무작정 덮던 시절 " />
+<figcaption>종잇장 손톱의 원인이 된,, 젤네일로 무작정 덮던 시절 </figcaption>
+</figure>
+<p style="text-align:center;">근데요,</p>
+<p style="text-align:center;">짧게 잘라도 조금만 길어서 공간 생기면 또 물어뜯고</p>
+<p style="text-align:center;">젤네일은 제거하고 나면 손톱이 종잇장처럼 약해지고</p>
+<p style="text-align:center;">쓴 맛 나는 매니큐어는 맛 때문에 손이 안가고,</p>
+<p style="text-align:center;">벗겨지면 더 신경쓰이고…</p>
+<br/>
+<p style="text-align:center;">모든 방법을 시도해본 끝에 내린 저의 결론은</p>
+<p style="text-align:center;"><strong>습관을 고치려고 하기보다</strong></p>
+<p style="text-align:center;"><strong>안 뜯을 수 있는 손톱 상태를 만드는 게 먼저라는 거였어요.</strong></p>
+<p style="text-align:center;">손톱이 두껍고 단단해지고 표면이 매끈해지면</p>
+<p style="text-align:center;">신기하게도 손이 입으로 잘 안 갑니다.</p>
+<p style="text-align:center;">건드릴 이유가 없어지거든요.</p>
+<p style="text-align:center;">이게 제가 물어뜯는 습관 고치기 전후 손톱 비교에요</p>
+<br/>
+<figure>
+  <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/2e730524-c938-49ae-8845-e1733e642af9/7d2405d1-c08a-4824-a872-aed9c6c77c34/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-03-08_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_11.03.32.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=ASIAZI2LB466Z2P42IQX%2F20260309%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20260309T103312Z&amp;X-Amz-Expires=3600&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGIaCXVzLXdlc3QtMiJHMEUCIQD%2B5ZG%2F8yiVg8JaamlFFowR%2FEy8nz6aPNv9OeN6Qi7i1gIgKZreGoiHU1y%2FYq%2BEDh%2BNHCTPZDIFUSlltIv2jX7vC%2BUq%2FwMIKxAAGgw2Mzc0MjMxODM4MDUiDPGUfratOAia0aeboSrcAxVXVh%2B83BEY1msdK3zkrkBPDwqgQQTUC4efeoya5wG1%2Bxstsh6kx%2FPAyX57E5qkEWFJnc%2FDlGw1ARkS%2FRGZZBikgWBxLzeAapz17%2F1bPKdlnqVSEApmJ%2Fn77ul6qEj4FuEM1NwAylXlIXa%2ByGaTf5ptJ0X8m11zxPFtTRYcrld%2BRl1%2BsL4Pc4IabaqlG%2BfFyv%2FZmaVtzVXFvME1uWPBZCGQf%2Fu6yJZ0tx2bqkjrdAeJ45ImMUy11KrltjOJ4ns3vg83%2FJwK25R2z8jqrjWQVX0Q9FF8t15y%2B0W%2F7jA7cNr5DyCyYF1YLph9jUG8Xtq%2BImYjHGgm%2BRtXkEx6v5RDu4Ej880GFkTuISAM4WrFxdXiJC3tB6BKuCWOqpv%2B6lkK%2BkcezTOokxMbx7NUWUuSpdJrklNsh710B9zm0WMHqCCJ%2Bt%2B0rN3EAzRynqjP5a1O9tBbcMqdz8aliSKuelv%2BkHV5c6N5CJaALJp2gIMyDnEyoAS3DpAbVUPWclipg0ILYm0jMIK8oajPzJ%2FqJGEUm%2Fd1cAdxYI0x7afpjUQveVD3k%2F0hXfy0p1MFbQMgHWpi07yc%2B%2F636oJR6SBIElO3bkWXO3IusbK30KLiTV%2FFXD%2BAYJrAbtpMoumGuHdkMOupus0GOqUBUIR%2BISGEh0ancRiEd17A8nKwW6gwvAG65rAdCPHApGpXNtayr2K5TzGbrmyPqhI5rnIafvCfQCS%2F4j%2FX1NpfL48%2BliHlq7VK76tAzEpJRxM1KypSYPGn4OzDoAQzgkBUerbABOxUsg1tQofSxELxWI7FO3jts3XyjK%2FHxa7JK1M4hcVTc1YDw7CD3xvd0iqxjXehSkSc2iTli7htQ32uuivIH3Oa&amp;X-Amz-Signature=7c98cfc0e0e9088de859e761b9905c83b01b31a926b46bb76c0b9ddbdc8970b1&amp;X-Amz-SignedHeaders=host&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject" alt="" />
+
+</figure>
+<br/>
+<p style="text-align:center;">손톱을 근본부터 바꾸기 위해 </p>
+<p style="text-align:center;">눈에 띄는 손톱영양제들은 다 사본거 같아요.</p>
+<p style="text-align:center;">국내 제품, 해외 제품… 총 10개 정도? 써봤어요.</p>
+<p style="text-align:center;">근데 솔직히 말하면 대부분 비슷했습니다.</p>
+<p style="text-align:center;">겉만 반드르르하고 속까지 영양이 흡수되는지 잘 모르겠는..?</p>
+<p style="text-align:center;">투명매니큐어랑 구분이 안가는 느낌이었어요</p>
+<br/>
+<p style="text-align:center;">근데 딱 하나 다른 제품이 있었어요.</p>
+<p style="text-align:center;">￼정보 알려드리기 전에 </p>
+<p style="text-align:center;">제가 여러개 써보고 돈 날리면서 얻은 팁,</p>
+<p style="text-align:center;">손톱영양제, 강화제 잘 고르는 기준 먼저 알려드릴게요</p>
+<br/>
+<ol>
+<li><strong>코팅형 제품이 좋아요</strong></li>
+</ol>
+<p style="text-align:center;">에센스나 크림 타입은 생활하면서 금방 씻겨나가니까</p>
+<p style="text-align:center;">그냥 핸드크림 바르는거랑 별반 다를게 없더라구요</p>
+<p style="text-align:center;">손톱에 코팅이 단단하게 씌워지면 확실히 덜 물어뜯게 되고</p>
+<p style="text-align:center;">영양 유지력도 올라가는 거 같아요</p>
+<br/>
+<ol>
+<li><strong>답답하면 바로 탈락</strong></li>
+</ol>
+<p style="text-align:center;">손톱 위에 코팅막이 두껍게 올라가면</p>
+<p style="text-align:center;">결국 신경쓰여서 또 뜯게 됩니다.</p>
+<p style="text-align:center;">얇고 가볍게 발려야 손톱 위에 뭐가 있는걸 까먹어서</p>
+<p style="text-align:center;">손톱에 신경이 덜 쓰이게 되어요</p>
+<br/>
+<ol>
+<li><strong>냄새랑 발림성도 은근 중요해요</strong></li>
+</ol>
+<p style="text-align:center;">올리브영에서 1등한다는 반디꺼 제품도 써봤는데 </p>
+<p style="text-align:center;">냄새가 엄청 독하고 떡지고 효과도 잘 모르겠고 </p>
+<p style="text-align:center;">이게 영양제가 맞는지 의심되는 수준이었어요</p>
+<p style="text-align:center;">손톱은 꾸준히 관리해야되는 영역이라</p>
+<p style="text-align:center;">사용감도 꼭 챙겨야 합니다!</p>
+<br/>
+<ol>
+<li><strong>발랐을 때 손톱이 예뻐보여야 합니다</strong></li>
+</ol>
+<p style="text-align:center;">손톱이 예뻐보이면 이상하게 덜 뜯어요</p>
+<p style="text-align:center;">이거 진짜입니다.</p>
+<p style="text-align:center;">손톱이 망가져 있을 때는 계속 뜯고 싶었는데</p>
+<p style="text-align:center;">손톱이 윤기나고 괜찮아 보이니까 괜히 건드리기 싫더라고요.</p>
+<br/>
+<figure>
+  <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/2e730524-c938-49ae-8845-e1733e642af9/21bec522-75e6-4d41-8e81-c39a896e2c6d/IMG_4900.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=ASIAZI2LB466UQAK77JS%2F20260309%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20260309T103314Z&amp;X-Amz-Expires=3600&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGIaCXVzLXdlc3QtMiJIMEYCIQDvFIy0w027dFneqz7CKvIkUdZ%2FhBQJcU4WR%2FeqYefVygIhAJueyXRol84O28Hbbx1ocD%2Fu48BRoYs3MhI%2FVf74zFiwKv8DCCsQABoMNjM3NDIzMTgzODA1IgxJMt04CeDIKPbO4gYq3AO1jjVV4cybUUmT8eUgMLxJosK3te5nEMqPAQiiRRAzkrXK%2BR4Pp5mQiMJaI1ngSY5vAizTsrUgJ7%2BasXzOHfDC1m7HR%2FdEG1jA7k3sM9vx8WVqRGj7N9%2FAH%2FTyGuqxEjSu%2FOurIZO%2BGmAQxkauyVoFRGqAmxF%2ButIYgwIOZ%2B1HJhQcj413fLBo3azuZu2ob%2Brrs4iCPt3AwAi1z9A%2F%2F9ZYgft7I2G01PV%2B2CnBVLi%2FYPuUreMGKsIE0%2Fm3wtO2d%2ByCn%2FWgkA4sXobpeOOc9kHOiiC2idS3yd6RapKNvZUbXFLAy6BSMx1ToVQHzOUxSDOsBo7zUZTiL%2FzAvln2erFBS2QEZCd6kxzpLGi52TpepSD%2B3CXJ3iiipaubenwJjXjvWGiyxD1E1upMUsJMY4wMLglw1JC17KTjLsQ0fQZtoRQj%2BNBkcLuXANtSNSCgUrO8xd6wmaC4tDMDpCMT%2BnSai9Rh8q7q5Q2zO1aQkYQzTXDRC%2FdPWOlKtSd6oFie%2B%2FHvtvWjtM4718t3wEWiHbBDDxOawrXR7d43RdgGdfIKDAQ1GdmgNKk1kEm6bUY%2BVqzr4FipzIpc8XK07Gr5wInoqmoUYBG7j5HQDqoaTXCtM6J3si50uXLAzmmNMDCOqbrNBjqkAQOX3GAhRMvI15OEPaYQqjEPlpWkpRD9TUpQ4Y%2BLd%2B7oM86Yp7THBY3raHO0aoTs7n4UBZEiaNHXjPsMCyusejKCpihTLN3OSlCPrA5SKqNAYn9bxEXQTH%2BF1zi52GjpoEgWXKWRSiD3sB%2FXSoQgwMI4QTtL0R247EJ9%2BHXUQcug%2BuUGBusvYXRlqMngxjWDOjXgz%2B29xnY6zMu8z60DFPaowEtu&amp;X-Amz-Signature=ca34575e93877220e630f09b07f6dec754a585279640beff73e6d2b129feb7ed&amp;X-Amz-SignedHeaders=host&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject" alt="" />
+
+</figure>
+<br/>
+<p style="text-align:center;">마지막으로 제가 10년 습관 고치는데</p>
+<p style="text-align:center;">찐으로 도움받은 제품 공유할게요</p>
+<p style="text-align:center;">처음에 후기가 너무 좋길래 혹시 조작일까 의심하다가</p>
+<p style="text-align:center;">다른 제품에는 없는 특허나 임상 같은 결과가 있길래 사봤는데</p>
+<p style="text-align:center;">이건 진짜 다르긴 하더라구요.</p>
+<p style="text-align:center;">페이스 제품쪽에 자주 보이는 리포좀 기술 아시죠?</p>
+<p style="text-align:center;">그걸 네일 제품으로는 처음으로 적용했다고 하던데</p>
+<p style="text-align:center;">그래서 그런지 다른거랑 달리 효과가 찐으로 느껴졌던..</p>
+<p style="text-align:center;">제 구세주같은 제품이에요 이제 없으면 못살아요🥹</p>
+<br/>
+<figure>
+  <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/2e730524-c938-49ae-8845-e1733e642af9/8833084d-c9c2-455d-b689-81e35947303c/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=ASIAZI2LB466UQAK77JS%2F20260309%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20260309T103314Z&amp;X-Amz-Expires=3600&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGIaCXVzLXdlc3QtMiJIMEYCIQDvFIy0w027dFneqz7CKvIkUdZ%2FhBQJcU4WR%2FeqYefVygIhAJueyXRol84O28Hbbx1ocD%2Fu48BRoYs3MhI%2FVf74zFiwKv8DCCsQABoMNjM3NDIzMTgzODA1IgxJMt04CeDIKPbO4gYq3AO1jjVV4cybUUmT8eUgMLxJosK3te5nEMqPAQiiRRAzkrXK%2BR4Pp5mQiMJaI1ngSY5vAizTsrUgJ7%2BasXzOHfDC1m7HR%2FdEG1jA7k3sM9vx8WVqRGj7N9%2FAH%2FTyGuqxEjSu%2FOurIZO%2BGmAQxkauyVoFRGqAmxF%2ButIYgwIOZ%2B1HJhQcj413fLBo3azuZu2ob%2Brrs4iCPt3AwAi1z9A%2F%2F9ZYgft7I2G01PV%2B2CnBVLi%2FYPuUreMGKsIE0%2Fm3wtO2d%2ByCn%2FWgkA4sXobpeOOc9kHOiiC2idS3yd6RapKNvZUbXFLAy6BSMx1ToVQHzOUxSDOsBo7zUZTiL%2FzAvln2erFBS2QEZCd6kxzpLGi52TpepSD%2B3CXJ3iiipaubenwJjXjvWGiyxD1E1upMUsJMY4wMLglw1JC17KTjLsQ0fQZtoRQj%2BNBkcLuXANtSNSCgUrO8xd6wmaC4tDMDpCMT%2BnSai9Rh8q7q5Q2zO1aQkYQzTXDRC%2FdPWOlKtSd6oFie%2B%2FHvtvWjtM4718t3wEWiHbBDDxOawrXR7d43RdgGdfIKDAQ1GdmgNKk1kEm6bUY%2BVqzr4FipzIpc8XK07Gr5wInoqmoUYBG7j5HQDqoaTXCtM6J3si50uXLAzmmNMDCOqbrNBjqkAQOX3GAhRMvI15OEPaYQqjEPlpWkpRD9TUpQ4Y%2BLd%2B7oM86Yp7THBY3raHO0aoTs7n4UBZEiaNHXjPsMCyusejKCpihTLN3OSlCPrA5SKqNAYn9bxEXQTH%2BF1zi52GjpoEgWXKWRSiD3sB%2FXSoQgwMI4QTtL0R247EJ9%2BHXUQcug%2BuUGBusvYXRlqMngxjWDOjXgz%2B29xnY6zMu8z60DFPaowEtu&amp;X-Amz-Signature=2458610e5df83415d910533181214d1182c9d29fa63dd52e9f1e48965e303dad&amp;X-Amz-SignedHeaders=host&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject" alt="" />
+
+</figure>
+<br/>
+<p style="text-align:center;">이게 좋은게 영양코팅이 진짜 얇아서 답답함이 1도 없구 </p>
+<p style="text-align:center;">생활할 때 바른 걸 까먹을 정도에요</p>
+<p style="text-align:center;">그리고 제가 써본 것중에 제일 냄새가 없었어요</p>
+<p style="text-align:center;">회사 책상에서 발라도 되는 정도!</p>
+<p style="text-align:center;">바르자마자 표면이 정리되고 윤기가 은은하게 돌면서</p>
+<p style="text-align:center;">손톱이 훨씬 건강해보여요</p>
+<p style="text-align:center;">컬러 버전도 있는데 안에 든 영양성분은 동일하고</p>
+<p style="text-align:center;">혈색을 자연스럽게 올려주니까 손톱이 더 생기있고 예뻐보여요</p>
+<p style="text-align:center;">저는 개인적으로 혈색 제품 강추!!!</p>
+<br/>
+<figure>
+  <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/2e730524-c938-49ae-8845-e1733e642af9/02e6637d-940e-4179-8bd9-9a772f40a310/ezgif.com-crop_%282%29.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=ASIAZI2LB466UQAK77JS%2F20260309%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20260309T103314Z&amp;X-Amz-Expires=3600&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGIaCXVzLXdlc3QtMiJIMEYCIQDvFIy0w027dFneqz7CKvIkUdZ%2FhBQJcU4WR%2FeqYefVygIhAJueyXRol84O28Hbbx1ocD%2Fu48BRoYs3MhI%2FVf74zFiwKv8DCCsQABoMNjM3NDIzMTgzODA1IgxJMt04CeDIKPbO4gYq3AO1jjVV4cybUUmT8eUgMLxJosK3te5nEMqPAQiiRRAzkrXK%2BR4Pp5mQiMJaI1ngSY5vAizTsrUgJ7%2BasXzOHfDC1m7HR%2FdEG1jA7k3sM9vx8WVqRGj7N9%2FAH%2FTyGuqxEjSu%2FOurIZO%2BGmAQxkauyVoFRGqAmxF%2ButIYgwIOZ%2B1HJhQcj413fLBo3azuZu2ob%2Brrs4iCPt3AwAi1z9A%2F%2F9ZYgft7I2G01PV%2B2CnBVLi%2FYPuUreMGKsIE0%2Fm3wtO2d%2ByCn%2FWgkA4sXobpeOOc9kHOiiC2idS3yd6RapKNvZUbXFLAy6BSMx1ToVQHzOUxSDOsBo7zUZTiL%2FzAvln2erFBS2QEZCd6kxzpLGi52TpepSD%2B3CXJ3iiipaubenwJjXjvWGiyxD1E1upMUsJMY4wMLglw1JC17KTjLsQ0fQZtoRQj%2BNBkcLuXANtSNSCgUrO8xd6wmaC4tDMDpCMT%2BnSai9Rh8q7q5Q2zO1aQkYQzTXDRC%2FdPWOlKtSd6oFie%2B%2FHvtvWjtM4718t3wEWiHbBDDxOawrXR7d43RdgGdfIKDAQ1GdmgNKk1kEm6bUY%2BVqzr4FipzIpc8XK07Gr5wInoqmoUYBG7j5HQDqoaTXCtM6J3si50uXLAzmmNMDCOqbrNBjqkAQOX3GAhRMvI15OEPaYQqjEPlpWkpRD9TUpQ4Y%2BLd%2B7oM86Yp7THBY3raHO0aoTs7n4UBZEiaNHXjPsMCyusejKCpihTLN3OSlCPrA5SKqNAYn9bxEXQTH%2BF1zi52GjpoEgWXKWRSiD3sB%2FXSoQgwMI4QTtL0R247EJ9%2BHXUQcug%2BuUGBusvYXRlqMngxjWDOjXgz%2B29xnY6zMu8z60DFPaowEtu&amp;X-Amz-Signature=7034659b7a5074e56d1cb01f7f936a04b303e1ebcb3216a9b2dd2380adfde63d&amp;X-Amz-SignedHeaders=host&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject" alt="" />
+
+</figure>
+<br/>
+<p style="text-align:center;">이미 현대백화점에도 들어가구 일본에서 1등하고 있다고는 하는데</p>
+<p style="text-align:center;">그래도 혹시 단종될까봐 불안한 마음에 </p>
+<p style="text-align:center;">널리 알리고파 이렇게 글 남깁니다</p>
+<p style="text-align:center;">가격도 엄청 합리적이라</p>
+<p style="text-align:center;">네일샵 케어 한번 받는 가격으로 거의 두세달은 쓸 수 있어요.</p>
+<br/>
+<p style="text-align:center;">저는 이제 손톱 안숨기고 당당하게 살아요</p>
+<p style="text-align:center;">오랜만에 친구 만났는데 그 친구가</p>
+<p style="text-align:center;">&quot;너 손톱 치료받은거야?&quot; 이러더라구요</p>
+<p style="text-align:center;">제가 예전에는 손톱이 거의 없는 수준이었거든요</p>
+<p style="text-align:center;">그 말 듣는데 그 동안 고생했던거 생각하며 눈물이 핑..😂</p>
+<br/>
+<figure>
+  <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/2e730524-c938-49ae-8845-e1733e642af9/a165a240-ec2c-4d4b-a234-4162a99878e1/output%EF%BC%BF1348766064.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=ASIAZI2LB466UQAK77JS%2F20260309%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20260309T103314Z&amp;X-Amz-Expires=3600&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGIaCXVzLXdlc3QtMiJIMEYCIQDvFIy0w027dFneqz7CKvIkUdZ%2FhBQJcU4WR%2FeqYefVygIhAJueyXRol84O28Hbbx1ocD%2Fu48BRoYs3MhI%2FVf74zFiwKv8DCCsQABoMNjM3NDIzMTgzODA1IgxJMt04CeDIKPbO4gYq3AO1jjVV4cybUUmT8eUgMLxJosK3te5nEMqPAQiiRRAzkrXK%2BR4Pp5mQiMJaI1ngSY5vAizTsrUgJ7%2BasXzOHfDC1m7HR%2FdEG1jA7k3sM9vx8WVqRGj7N9%2FAH%2FTyGuqxEjSu%2FOurIZO%2BGmAQxkauyVoFRGqAmxF%2ButIYgwIOZ%2B1HJhQcj413fLBo3azuZu2ob%2Brrs4iCPt3AwAi1z9A%2F%2F9ZYgft7I2G01PV%2B2CnBVLi%2FYPuUreMGKsIE0%2Fm3wtO2d%2ByCn%2FWgkA4sXobpeOOc9kHOiiC2idS3yd6RapKNvZUbXFLAy6BSMx1ToVQHzOUxSDOsBo7zUZTiL%2FzAvln2erFBS2QEZCd6kxzpLGi52TpepSD%2B3CXJ3iiipaubenwJjXjvWGiyxD1E1upMUsJMY4wMLglw1JC17KTjLsQ0fQZtoRQj%2BNBkcLuXANtSNSCgUrO8xd6wmaC4tDMDpCMT%2BnSai9Rh8q7q5Q2zO1aQkYQzTXDRC%2FdPWOlKtSd6oFie%2B%2FHvtvWjtM4718t3wEWiHbBDDxOawrXR7d43RdgGdfIKDAQ1GdmgNKk1kEm6bUY%2BVqzr4FipzIpc8XK07Gr5wInoqmoUYBG7j5HQDqoaTXCtM6J3si50uXLAzmmNMDCOqbrNBjqkAQOX3GAhRMvI15OEPaYQqjEPlpWkpRD9TUpQ4Y%2BLd%2B7oM86Yp7THBY3raHO0aoTs7n4UBZEiaNHXjPsMCyusejKCpihTLN3OSlCPrA5SKqNAYn9bxEXQTH%2BF1zi52GjpoEgWXKWRSiD3sB%2FXSoQgwMI4QTtL0R247EJ9%2BHXUQcug%2BuUGBusvYXRlqMngxjWDOjXgz%2B29xnY6zMu8z60DFPaowEtu&amp;X-Amz-Signature=c50267da179e6a250977c4905c04e236e1aa4e33be7738485761c500166c52c8&amp;X-Amz-SignedHeaders=host&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject" alt="" />
+
+</figure>
+<br/>
+<p style="text-align:center;">여러분이 저처럼 손톱 물어뜯는 지긋지긋한 버릇 끝내시고</p>
+<p style="text-align:center;">손끝에 광명 찾으셨으면 좋겠습니다.</p>
+<p style="text-align:center;">고민만 하면 절대 안 바뀝니다.</p>
+<ul>
+<li>손톱 물어뜯는 습관 때문에 스트레스인 분</li>
+<li>손톱이 짧고 울퉁불퉁해서 손 숨기는 분</li>
+<li>젤네일로만 버티고 있는 분</li>
+<li>영양제 사서 후회한 경험 있는 분</li>
+</ul>
+<p style="text-align:center;">제가 여러개 써보고 돈 날리며 발굴한</p>
+<p style="text-align:center;">이거 하나로 시작해보세요.</p>
+<br/>
+<br/>
+<p style="text-align:center;">더 궁금한 거 있으면 댓글 남겨주세요.</p>
+<p style="text-align:center;">확인하는대로 답글 남길게요!</p>
+<br/>
+`,
+    bestComments: [
+
+    ],
+  },
+
 ];
 
 /* ──────────────────────── Helper ──────────────────────── */
