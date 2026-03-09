@@ -183,12 +183,10 @@ async function blocksToHtml(
         continue; // i already advanced
       }
       case "numbered_list_item": {
-        let num = 1;
         while (i < blocks.length && blocks[i].type === "numbered_list_item") {
           const b = blocks[i] as BlockObjectResponse & { type: "numbered_list_item" };
-          html += `<p style="text-align:center;"><strong>${num}. ${richTextToHtml(b.numbered_list_item.rich_text)}</strong></p>\n`;
+          html += `<p style="text-align:center;"><strong>${richTextToHtml(b.numbered_list_item.rich_text)}</strong></p>\n`;
           i++;
-          num++;
         }
         continue; // i already advanced
       }
@@ -455,8 +453,8 @@ async function main() {
     const initialLikeCount =
       Number(getPropText(page, "좋아요 수", "Likes", "좋아요", "initialLikeCount")) || 0;
 
-    const commentCount =
-      Number(getPropText(page, "댓글 수", "Comments", "댓글수", "commentCount")) || 0;
+    const commentCount = (["댓글1", "댓글2", "댓글3"] as const)
+      .filter((key) => getPropText(page, key) !== "").length;
 
     // Build bestComments from 댓글1/2/3 Notion properties
     const bestComments = (["댓글1", "댓글2", "댓글3"] as const)
