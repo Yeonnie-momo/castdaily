@@ -136,19 +136,15 @@ async function blocksToHtml(
           : `<br/>\n`;
         break;
       }
-      case "heading_1": {
-        const inner = richTextToHtml(block.heading_1.rich_text);
-        html += `<h1>${inner}</h1>\n`;
-        break;
-      }
-      case "heading_2": {
-        const inner = richTextToHtml(block.heading_2.rich_text);
-        html += `<h2>${inner}</h2>\n`;
-        break;
-      }
+      case "heading_1":
+      case "heading_2":
       case "heading_3": {
-        const inner = richTextToHtml(block.heading_3.rich_text);
-        html += `<h3>${inner}</h3>\n`;
+        const richText =
+          block.type === "heading_1" ? block.heading_1.rich_text
+          : block.type === "heading_2" ? block.heading_2.rich_text
+          : block.heading_3.rich_text;
+        const inner = richTextToHtml(richText);
+        html += `<h2 style="text-align:center;">${inner}</h2>\n`;
         break;
       }
       case "bulleted_list_item": {
@@ -207,19 +203,36 @@ async function blocksToHtml(
         break;
       }
       case "bookmark": {
-        const url = block.bookmark.url;
-        const caption = block.bookmark.caption.length > 0
-          ? richTextToHtml(block.bookmark.caption)
-          : escapeHtml(url);
-        const hostname = new URL(url).hostname.replace(/^www\./, "");
+        const bmUrl = escapeHtml(block.bookmark.url);
+        const uid = `bm-${Math.random().toString(36).slice(2, 9)}`;
         html +=
           `<div style="margin:1.5em auto;max-width:70%;">\n` +
-          `  <a href="${escapeHtml(url)}" target="_blank" rel="noreferrer" style="display:flex;align-items:center;gap:16px;border:1px solid #e0e0e0;border-radius:12px;padding:12px 16px;text-decoration:none;color:inherit;cursor:pointer;background:#fafafa;">\n` +
-          `    <div>\n` +
-          `      <p style="margin:0 0 2px;font-size:0.75em;color:#999;">${escapeHtml(hostname)}</p>\n` +
-          `      <p style="margin:0 0 2px;font-weight:700;font-size:0.95em;color:#222;">${caption}</p>\n` +
+          `  <a id="${uid}" href="${bmUrl}" target="_blank" rel="noreferrer"\n` +
+          `     style="display:flex;align-items:center;justify-content:space-between;gap:16px;border:1px solid #e0e0e0;border-radius:12px;padding:12px 16px;text-decoration:none;color:inherit;cursor:pointer;background:#fafafa;transition:background 0.15s;"` +
+          ` onmouseover="this.style.background='#f0f0f0'" onmouseout="this.style.background='#fafafa'">\n` +
+          `    <div style="min-width:0;">\n` +
+          `      <p id="${uid}-host" style="margin:0 0 2px;font-size:0.75em;color:#999;">불러오는 중…</p>\n` +
+          `      <p id="${uid}-title" style="margin:0 0 4px;font-weight:700;font-size:0.95em;color:#222;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${bmUrl}</p>\n` +
+          `      <p id="${uid}-desc" style="margin:0;font-size:0.82em;color:#888;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;"></p>\n` +
           `    </div>\n` +
+          `    <img id="${uid}-img" src="" alt="" style="width:80px;height:80px;object-fit:cover;border-radius:8px;flex-shrink:0;display:none;" />\n` +
           `  </a>\n` +
+          `  <script>\n` +
+          `    (function(){\n` +
+          `      fetch('/api/og?url=${encodeURIComponent(block.bookmark.url)}')\n` +
+          `        .then(function(r){return r.json();})\n` +
+          `        .then(function(d){\n` +
+          `          var h=document.getElementById('${uid}-host');\n` +
+          `          var t=document.getElementById('${uid}-title');\n` +
+          `          var desc=document.getElementById('${uid}-desc');\n` +
+          `          var img=document.getElementById('${uid}-img');\n` +
+          `          if(h) h.textContent=d.hostname||'';\n` +
+          `          if(t) t.textContent=d.title||'';\n` +
+          `          if(desc) desc.textContent=d.description||'';\n` +
+          `          if(img&&d.image){img.src=d.image;img.style.display='block';}\n` +
+          `        }).catch(function(){});\n` +
+          `    })();\n` +
+          `  </script>\n` +
           `</div>\n`;
         break;
       }
