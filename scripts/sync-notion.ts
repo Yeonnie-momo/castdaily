@@ -137,50 +137,33 @@ async function blocksToHtml(
         break;
       }
       case "heading_1":
-      case "heading_2":
-      case "heading_3": {
+      case "heading_2": {
         const richText =
-          block.type === "heading_1" ? block.heading_1.rich_text
-          : block.type === "heading_2" ? block.heading_2.rich_text
-          : block.heading_3.rich_text;
-        const inner = richTextToHtml(richText);
-        html += `<h2 style="text-align:center;">${inner}</h2>\n`;
+          block.type === "heading_1" ? block.heading_1.rich_text : block.heading_2.rich_text;
+        html += `<h2 style="text-align:center;">${richTextToHtml(richText)}</h2>\n`;
+        break;
+      }
+      case "heading_3": {
+        html += `<h3 style="text-align:center;">${richTextToHtml(block.heading_3.rich_text)}</h3>\n`;
         break;
       }
       case "bulleted_list_item": {
-        // Collect consecutive bulleted items into a <ul>
-        const listItems: string[] = [];
-        while (
-          i < blocks.length &&
-          blocks[i].type === "bulleted_list_item"
-        ) {
-          const b = blocks[i] as BlockObjectResponse & {
-            type: "bulleted_list_item";
-          };
-          listItems.push(
-            `<li>${richTextToHtml(b.bulleted_list_item.rich_text)}</li>`
-          );
+        while (i < blocks.length && blocks[i].type === "bulleted_list_item") {
+          const b = blocks[i] as BlockObjectResponse & { type: "bulleted_list_item" };
+          html += `<p style="text-align:center;">• ${richTextToHtml(b.bulleted_list_item.rich_text)}</p>\n`;
           i++;
         }
-        html += `<ul>\n${listItems.join("\n")}\n</ul>\n`;
         continue; // i already advanced
       }
       case "numbered_list_item": {
-        const listItems: string[] = [];
-        while (
-          i < blocks.length &&
-          blocks[i].type === "numbered_list_item"
-        ) {
-          const b = blocks[i] as BlockObjectResponse & {
-            type: "numbered_list_item";
-          };
-          listItems.push(
-            `<li>${richTextToHtml(b.numbered_list_item.rich_text)}</li>`
-          );
+        let num = 1;
+        while (i < blocks.length && blocks[i].type === "numbered_list_item") {
+          const b = blocks[i] as BlockObjectResponse & { type: "numbered_list_item" };
+          html += `<p style="text-align:center;"><strong>${num}. ${richTextToHtml(b.numbered_list_item.rich_text)}</strong></p>\n`;
           i++;
+          num++;
         }
-        html += `<ol>\n${listItems.join("\n")}\n</ol>\n`;
-        continue;
+        continue; // i already advanced
       }
       case "image": {
         const img = block.image;
