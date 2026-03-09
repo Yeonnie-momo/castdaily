@@ -841,7 +841,7 @@ export const posts: Post[] = [
 <p style="text-align:center;">손톱을 물어뜯기 시작한지 어언 10년째..</p>
 <p style="text-align:center;">어느 날 문득 제 손을 봤는데 상태가 말이 아닌거에요.</p>
 <figure>
-  <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/2e730524-c938-49ae-8845-e1733e642af9/5f4a81c5-59cd-4bca-b474-73f1e14dea2c/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-03-08_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_11.05.56.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=ASIAZI2LB466USEDDMXB%2F20260309%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20260309T110534Z&amp;X-Amz-Expires=3600&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGMaCXVzLXdlc3QtMiJHMEUCIHEO8Vzjlm21ac8TGIpERZwgJWUavN5QdAk6ExTEjmoEAiEArNhzHc4QjOO%2F26aBXV8Ks%2BjWs15VeFpRH1uSYWHl3Lsq%2FwMILBAAGgw2Mzc0MjMxODM4MDUiDLLcMvn4v2SkJmxebyrcA92rUNtPl2uxcNKQPVi%2FXUgwjD%2FF%2B9zbOBBMAgTFsZIF9nKk46egZ9aLSamtYcOdvQXQHNR2OOmZIMb1LlbV78Wrvyjv6HVzgWtDMR2NgFxembb%2FuVLxOipbG3Y9wLkdJDB9rV3RMXWtewLNepdQ8fgWb%2FUK%2FzUJ4h4kfC5jh%2B5WF9UpPFmoi%2BaT8HZTihx%2FSy0fEyT%2BtJZTvSeHJdgG%2FnGyMz1o7B4pmysuy0KCdYhae6%2F4Iwt5UNeViPqtZQO5mA5hilvuo67Ysxg3F9b8gbZ4rqhz%2BHk8pl%2FmzGbn7TzdlNg8OLxvJfsJ0X0CkyGAnj2nr0JyQzue%2F9yxXPKGhg%2BDem4aNW%2Fma0uzt6BehBYH%2FEkUFmUeuMMxbxqkAENqxKBJN3fDEd4OB1AYTSAWX6sEjNnPkskrXa4atXUPBv%2F78Fx1L102B4aTmpt3h0YSI%2FI1xbga9qyCTAdiHFSCOLBfxN4aAhb%2B4RbCihr6UAw3ABl6FrhNvCKubPZuR5VglrSJTtdB9dArlHOmFazZB2%2BGN5Jlc8HvfEcySR%2B0ahFeNySxS0TEbUPQygu03yKBeNkJDDyf2FKoObKOQFdlKt2%2BqEmB6iHsIVgAHIGR73GeDPP6Nd0ABykqR%2BWOMJjOus0GOqUBcXvN1VB9o6DF%2BVJmgKCffbu2iCnonOI0VYmWgQRQbQ8We9iTshwtPDwLr%2F1F4Dbv8LqrjVcpMF8TTnhqwQHBDKnqMdXTVi4u5JYaQHijlTtPN3j8C6fVCPm0gFDms6WtIEdqOMwZW18HghOn8hbQe3zSvC2o7SH7l2dkgY3SNunFUgJrS6DaKUvLX2ZB1C0e0nnwML%2BPZtmWkRPY1U9M5j8hFcvq&amp;X-Amz-Signature=d6c3455a09b28e3fa3c40d07bf27dcdb8da393f3007f6bcbd4936359407ddc83&amp;X-Amz-SignedHeaders=host&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject" alt="" />
+  <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/2e730524-c938-49ae-8845-e1733e642af9/5f4a81c5-59cd-4bca-b474-73f1e14dea2c/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-03-08_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_11.05.56.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=ASIAZI2LB466QGZAHPXM%2F20260309%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20260309T110907Z&amp;X-Amz-Expires=3600&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGMaCXVzLXdlc3QtMiJHMEUCIQDWmLKsqATBAWlxYyZfv7w%2BZN3XWSgYyTFszBvdJaXblQIgFKC%2Bh%2BL%2Fri0gtMPBjAX%2F9xmtjDnNNdN7ZYA46TDVGj4q%2FwMILBAAGgw2Mzc0MjMxODM4MDUiDFcYtjbFRZiQ8Rt4OircA8jKBL8txgnQfGQL1%2B%2FHoL32TrbskzSvQJ2roCZRtbZH62FR8OKem7RNHmqxhR1ItCUfHl8aptytAi99Pu2yAf8xAi4VRwTxKtjUhUG0QiYIghlmqgw1XAH0%2F%2Fu74YhY77v%2B1KISaiyA4dBwbIRhZKDNt1P3eUE7gV3Lnc9KKJCSePPMBQpEaLHu2KqJNkyWHBhzLv3VmsBkAwT855%2BkRq6Hmcvjkvk0Nh4%2BZ%2FwYPO9sPFRLb6FdC%2Fa5aLvz0xrNAs5GGUSWCogF2uqhIUr7e42oL%2B9IYFGbAA5nPXb3wcgshCjjckmpcI5X2bjXopMg%2F0Y6di3zTL25JmhVc0x8pQrER94mVgjLLCa6F1w7tnFbrKp%2B5ebOIBNpogfIMCK9kpcy0RP1k0dlAie6QuygcEkatUVtp6qWfac2UnjYXD8%2FKhBxnMqNZaesYx%2BjOxD4cLCRBCNikD2vULGsZ6iNJtIi82mX8EIpH4jIDAaPbJX7GQbH1GEGZgh%2F5cfrRe8s9yBERlHnFQidoweG%2BH0PYXKwASdK%2FA6HFRHlQqyyGOqNg2znXFv1J4lvpbaC520T%2FIzvqOxESysApcI0P5AokXyhg3TVnGl1bZY7NbJ9aiCkACUF9IhIGzMTbnI9ML3Ous0GOqUBcZGW%2FwvITJcABscL5ToVpa3H51n%2FcX3MpJe%2BHA1xBptDS1rsQuD%2B7DiDKwuoCrgfoBBHJLFEE0fUsnIIjcXPBotn0NiRH7JhBCIrCbWm4DCUSzOFMDVwJvZUbjfAnPr%2Fbh7AREBXDricoS1cJW4jBqe8LE6XEvJNalcuGGpT7rDv8VcegigZNQW%2FimuP0LlYvlHLyJG0Apw2cnuc6ZYUivyUfI5q&amp;X-Amz-Signature=aa047b8dc993b09d743f2ae8fc72eab8b65314786ad86c3c880ab9caa39e1901&amp;X-Amz-SignedHeaders=host&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject" alt="" />
 
 </figure>
 <p style="text-align:center;">짧다 못해 살까지 파먹은 손톱,</p>
@@ -855,7 +855,7 @@ export const posts: Post[] = [
 <p style="text-align:center;">일상생활 할 때 괜히 자신감이 떨어지는 느낌…</p>
 <br/>
 <figure>
-  <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/2e730524-c938-49ae-8845-e1733e642af9/4adea1cf-444a-4002-8cd0-95adfdb507a5/%E3%84%B4_1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=ASIAZI2LB466USEDDMXB%2F20260309%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20260309T110534Z&amp;X-Amz-Expires=3600&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGMaCXVzLXdlc3QtMiJHMEUCIHEO8Vzjlm21ac8TGIpERZwgJWUavN5QdAk6ExTEjmoEAiEArNhzHc4QjOO%2F26aBXV8Ks%2BjWs15VeFpRH1uSYWHl3Lsq%2FwMILBAAGgw2Mzc0MjMxODM4MDUiDLLcMvn4v2SkJmxebyrcA92rUNtPl2uxcNKQPVi%2FXUgwjD%2FF%2B9zbOBBMAgTFsZIF9nKk46egZ9aLSamtYcOdvQXQHNR2OOmZIMb1LlbV78Wrvyjv6HVzgWtDMR2NgFxembb%2FuVLxOipbG3Y9wLkdJDB9rV3RMXWtewLNepdQ8fgWb%2FUK%2FzUJ4h4kfC5jh%2B5WF9UpPFmoi%2BaT8HZTihx%2FSy0fEyT%2BtJZTvSeHJdgG%2FnGyMz1o7B4pmysuy0KCdYhae6%2F4Iwt5UNeViPqtZQO5mA5hilvuo67Ysxg3F9b8gbZ4rqhz%2BHk8pl%2FmzGbn7TzdlNg8OLxvJfsJ0X0CkyGAnj2nr0JyQzue%2F9yxXPKGhg%2BDem4aNW%2Fma0uzt6BehBYH%2FEkUFmUeuMMxbxqkAENqxKBJN3fDEd4OB1AYTSAWX6sEjNnPkskrXa4atXUPBv%2F78Fx1L102B4aTmpt3h0YSI%2FI1xbga9qyCTAdiHFSCOLBfxN4aAhb%2B4RbCihr6UAw3ABl6FrhNvCKubPZuR5VglrSJTtdB9dArlHOmFazZB2%2BGN5Jlc8HvfEcySR%2B0ahFeNySxS0TEbUPQygu03yKBeNkJDDyf2FKoObKOQFdlKt2%2BqEmB6iHsIVgAHIGR73GeDPP6Nd0ABykqR%2BWOMJjOus0GOqUBcXvN1VB9o6DF%2BVJmgKCffbu2iCnonOI0VYmWgQRQbQ8We9iTshwtPDwLr%2F1F4Dbv8LqrjVcpMF8TTnhqwQHBDKnqMdXTVi4u5JYaQHijlTtPN3j8C6fVCPm0gFDms6WtIEdqOMwZW18HghOn8hbQe3zSvC2o7SH7l2dkgY3SNunFUgJrS6DaKUvLX2ZB1C0e0nnwML%2BPZtmWkRPY1U9M5j8hFcvq&amp;X-Amz-Signature=28aa910e4e1ccfc956315e99183d4805583ad09cf9665eff221ea7772834d936&amp;X-Amz-SignedHeaders=host&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject" alt="" />
+  <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/2e730524-c938-49ae-8845-e1733e642af9/4adea1cf-444a-4002-8cd0-95adfdb507a5/%E3%84%B4_1.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=ASIAZI2LB466QGZAHPXM%2F20260309%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20260309T110907Z&amp;X-Amz-Expires=3600&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGMaCXVzLXdlc3QtMiJHMEUCIQDWmLKsqATBAWlxYyZfv7w%2BZN3XWSgYyTFszBvdJaXblQIgFKC%2Bh%2BL%2Fri0gtMPBjAX%2F9xmtjDnNNdN7ZYA46TDVGj4q%2FwMILBAAGgw2Mzc0MjMxODM4MDUiDFcYtjbFRZiQ8Rt4OircA8jKBL8txgnQfGQL1%2B%2FHoL32TrbskzSvQJ2roCZRtbZH62FR8OKem7RNHmqxhR1ItCUfHl8aptytAi99Pu2yAf8xAi4VRwTxKtjUhUG0QiYIghlmqgw1XAH0%2F%2Fu74YhY77v%2B1KISaiyA4dBwbIRhZKDNt1P3eUE7gV3Lnc9KKJCSePPMBQpEaLHu2KqJNkyWHBhzLv3VmsBkAwT855%2BkRq6Hmcvjkvk0Nh4%2BZ%2FwYPO9sPFRLb6FdC%2Fa5aLvz0xrNAs5GGUSWCogF2uqhIUr7e42oL%2B9IYFGbAA5nPXb3wcgshCjjckmpcI5X2bjXopMg%2F0Y6di3zTL25JmhVc0x8pQrER94mVgjLLCa6F1w7tnFbrKp%2B5ebOIBNpogfIMCK9kpcy0RP1k0dlAie6QuygcEkatUVtp6qWfac2UnjYXD8%2FKhBxnMqNZaesYx%2BjOxD4cLCRBCNikD2vULGsZ6iNJtIi82mX8EIpH4jIDAaPbJX7GQbH1GEGZgh%2F5cfrRe8s9yBERlHnFQidoweG%2BH0PYXKwASdK%2FA6HFRHlQqyyGOqNg2znXFv1J4lvpbaC520T%2FIzvqOxESysApcI0P5AokXyhg3TVnGl1bZY7NbJ9aiCkACUF9IhIGzMTbnI9ML3Ous0GOqUBcZGW%2FwvITJcABscL5ToVpa3H51n%2FcX3MpJe%2BHA1xBptDS1rsQuD%2B7DiDKwuoCrgfoBBHJLFEE0fUsnIIjcXPBotn0NiRH7JhBCIrCbWm4DCUSzOFMDVwJvZUbjfAnPr%2Fbh7AREBXDricoS1cJW4jBqe8LE6XEvJNalcuGGpT7rDv8VcegigZNQW%2FimuP0LlYvlHLyJG0Apw2cnuc6ZYUivyUfI5q&amp;X-Amz-Signature=f7e371bdd9618f9fc452dcb641fc844e072d8ea99914d82cbd1d702fabd8af1d&amp;X-Amz-SignedHeaders=host&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject" alt="" />
 
 </figure>
 <br/>
@@ -868,7 +868,7 @@ export const posts: Post[] = [
 <p style="text-align:center;">별거 아닌데 손톱이 깔끔해 보인다는 것만으로</p>
 <p style="text-align:center;">사람 인상이 달라져요. 이건 진짜에요..</p>
 <figure>
-  <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/2e730524-c938-49ae-8845-e1733e642af9/7ffecac8-bce9-4f36-a903-f38ff0ac1831/SE-56B869C7-8530-4F47-A929-BFDB3A760BE9.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=ASIAZI2LB466USEDDMXB%2F20260309%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20260309T110534Z&amp;X-Amz-Expires=3600&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGMaCXVzLXdlc3QtMiJHMEUCIHEO8Vzjlm21ac8TGIpERZwgJWUavN5QdAk6ExTEjmoEAiEArNhzHc4QjOO%2F26aBXV8Ks%2BjWs15VeFpRH1uSYWHl3Lsq%2FwMILBAAGgw2Mzc0MjMxODM4MDUiDLLcMvn4v2SkJmxebyrcA92rUNtPl2uxcNKQPVi%2FXUgwjD%2FF%2B9zbOBBMAgTFsZIF9nKk46egZ9aLSamtYcOdvQXQHNR2OOmZIMb1LlbV78Wrvyjv6HVzgWtDMR2NgFxembb%2FuVLxOipbG3Y9wLkdJDB9rV3RMXWtewLNepdQ8fgWb%2FUK%2FzUJ4h4kfC5jh%2B5WF9UpPFmoi%2BaT8HZTihx%2FSy0fEyT%2BtJZTvSeHJdgG%2FnGyMz1o7B4pmysuy0KCdYhae6%2F4Iwt5UNeViPqtZQO5mA5hilvuo67Ysxg3F9b8gbZ4rqhz%2BHk8pl%2FmzGbn7TzdlNg8OLxvJfsJ0X0CkyGAnj2nr0JyQzue%2F9yxXPKGhg%2BDem4aNW%2Fma0uzt6BehBYH%2FEkUFmUeuMMxbxqkAENqxKBJN3fDEd4OB1AYTSAWX6sEjNnPkskrXa4atXUPBv%2F78Fx1L102B4aTmpt3h0YSI%2FI1xbga9qyCTAdiHFSCOLBfxN4aAhb%2B4RbCihr6UAw3ABl6FrhNvCKubPZuR5VglrSJTtdB9dArlHOmFazZB2%2BGN5Jlc8HvfEcySR%2B0ahFeNySxS0TEbUPQygu03yKBeNkJDDyf2FKoObKOQFdlKt2%2BqEmB6iHsIVgAHIGR73GeDPP6Nd0ABykqR%2BWOMJjOus0GOqUBcXvN1VB9o6DF%2BVJmgKCffbu2iCnonOI0VYmWgQRQbQ8We9iTshwtPDwLr%2F1F4Dbv8LqrjVcpMF8TTnhqwQHBDKnqMdXTVi4u5JYaQHijlTtPN3j8C6fVCPm0gFDms6WtIEdqOMwZW18HghOn8hbQe3zSvC2o7SH7l2dkgY3SNunFUgJrS6DaKUvLX2ZB1C0e0nnwML%2BPZtmWkRPY1U9M5j8hFcvq&amp;X-Amz-Signature=2c5a38083fa4d84485c2f560d5a130bf49eb2ae756bd6c7dfc8825ea05aaa8dc&amp;X-Amz-SignedHeaders=host&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject" alt="손톱 상태 광명 찾은 지금의 손" />
+  <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/2e730524-c938-49ae-8845-e1733e642af9/7ffecac8-bce9-4f36-a903-f38ff0ac1831/SE-56B869C7-8530-4F47-A929-BFDB3A760BE9.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=ASIAZI2LB466QGZAHPXM%2F20260309%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20260309T110907Z&amp;X-Amz-Expires=3600&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGMaCXVzLXdlc3QtMiJHMEUCIQDWmLKsqATBAWlxYyZfv7w%2BZN3XWSgYyTFszBvdJaXblQIgFKC%2Bh%2BL%2Fri0gtMPBjAX%2F9xmtjDnNNdN7ZYA46TDVGj4q%2FwMILBAAGgw2Mzc0MjMxODM4MDUiDFcYtjbFRZiQ8Rt4OircA8jKBL8txgnQfGQL1%2B%2FHoL32TrbskzSvQJ2roCZRtbZH62FR8OKem7RNHmqxhR1ItCUfHl8aptytAi99Pu2yAf8xAi4VRwTxKtjUhUG0QiYIghlmqgw1XAH0%2F%2Fu74YhY77v%2B1KISaiyA4dBwbIRhZKDNt1P3eUE7gV3Lnc9KKJCSePPMBQpEaLHu2KqJNkyWHBhzLv3VmsBkAwT855%2BkRq6Hmcvjkvk0Nh4%2BZ%2FwYPO9sPFRLb6FdC%2Fa5aLvz0xrNAs5GGUSWCogF2uqhIUr7e42oL%2B9IYFGbAA5nPXb3wcgshCjjckmpcI5X2bjXopMg%2F0Y6di3zTL25JmhVc0x8pQrER94mVgjLLCa6F1w7tnFbrKp%2B5ebOIBNpogfIMCK9kpcy0RP1k0dlAie6QuygcEkatUVtp6qWfac2UnjYXD8%2FKhBxnMqNZaesYx%2BjOxD4cLCRBCNikD2vULGsZ6iNJtIi82mX8EIpH4jIDAaPbJX7GQbH1GEGZgh%2F5cfrRe8s9yBERlHnFQidoweG%2BH0PYXKwASdK%2FA6HFRHlQqyyGOqNg2znXFv1J4lvpbaC520T%2FIzvqOxESysApcI0P5AokXyhg3TVnGl1bZY7NbJ9aiCkACUF9IhIGzMTbnI9ML3Ous0GOqUBcZGW%2FwvITJcABscL5ToVpa3H51n%2FcX3MpJe%2BHA1xBptDS1rsQuD%2B7DiDKwuoCrgfoBBHJLFEE0fUsnIIjcXPBotn0NiRH7JhBCIrCbWm4DCUSzOFMDVwJvZUbjfAnPr%2Fbh7AREBXDricoS1cJW4jBqe8LE6XEvJNalcuGGpT7rDv8VcegigZNQW%2FimuP0LlYvlHLyJG0Apw2cnuc6ZYUivyUfI5q&amp;X-Amz-Signature=b7a1979cacb63a8eada8ffa99ef7b541dc9db710c87dc723202f92181408d953&amp;X-Amz-SignedHeaders=host&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject" alt="손톱 상태 광명 찾은 지금의 손" />
 <figcaption>손톱 상태 광명 찾은 지금의 손</figcaption>
 </figure>
 <br/>
@@ -883,7 +883,7 @@ export const posts: Post[] = [
 <p style="text-align:center;">한번이라도 물어뜯은 경험 있다면 공감하실 거에요</p>
 <p style="text-align:center;">악순환의 굴레죠.. </p>
 <figure>
-  <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/2e730524-c938-49ae-8845-e1733e642af9/5b966aea-c9b3-417f-9303-08940dec35f1/%E1%84%83%E1%85%A2%E1%84%8C%E1%85%B5_1tinted.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=ASIAZI2LB466USEDDMXB%2F20260309%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20260309T110535Z&amp;X-Amz-Expires=3600&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGMaCXVzLXdlc3QtMiJHMEUCIHEO8Vzjlm21ac8TGIpERZwgJWUavN5QdAk6ExTEjmoEAiEArNhzHc4QjOO%2F26aBXV8Ks%2BjWs15VeFpRH1uSYWHl3Lsq%2FwMILBAAGgw2Mzc0MjMxODM4MDUiDLLcMvn4v2SkJmxebyrcA92rUNtPl2uxcNKQPVi%2FXUgwjD%2FF%2B9zbOBBMAgTFsZIF9nKk46egZ9aLSamtYcOdvQXQHNR2OOmZIMb1LlbV78Wrvyjv6HVzgWtDMR2NgFxembb%2FuVLxOipbG3Y9wLkdJDB9rV3RMXWtewLNepdQ8fgWb%2FUK%2FzUJ4h4kfC5jh%2B5WF9UpPFmoi%2BaT8HZTihx%2FSy0fEyT%2BtJZTvSeHJdgG%2FnGyMz1o7B4pmysuy0KCdYhae6%2F4Iwt5UNeViPqtZQO5mA5hilvuo67Ysxg3F9b8gbZ4rqhz%2BHk8pl%2FmzGbn7TzdlNg8OLxvJfsJ0X0CkyGAnj2nr0JyQzue%2F9yxXPKGhg%2BDem4aNW%2Fma0uzt6BehBYH%2FEkUFmUeuMMxbxqkAENqxKBJN3fDEd4OB1AYTSAWX6sEjNnPkskrXa4atXUPBv%2F78Fx1L102B4aTmpt3h0YSI%2FI1xbga9qyCTAdiHFSCOLBfxN4aAhb%2B4RbCihr6UAw3ABl6FrhNvCKubPZuR5VglrSJTtdB9dArlHOmFazZB2%2BGN5Jlc8HvfEcySR%2B0ahFeNySxS0TEbUPQygu03yKBeNkJDDyf2FKoObKOQFdlKt2%2BqEmB6iHsIVgAHIGR73GeDPP6Nd0ABykqR%2BWOMJjOus0GOqUBcXvN1VB9o6DF%2BVJmgKCffbu2iCnonOI0VYmWgQRQbQ8We9iTshwtPDwLr%2F1F4Dbv8LqrjVcpMF8TTnhqwQHBDKnqMdXTVi4u5JYaQHijlTtPN3j8C6fVCPm0gFDms6WtIEdqOMwZW18HghOn8hbQe3zSvC2o7SH7l2dkgY3SNunFUgJrS6DaKUvLX2ZB1C0e0nnwML%2BPZtmWkRPY1U9M5j8hFcvq&amp;X-Amz-Signature=35e41f68ddc00bf1c53f7470e819893bfbb6015d0a1a2e4ce769825e6f5a28cf&amp;X-Amz-SignedHeaders=host&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject" alt="" />
+  <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/2e730524-c938-49ae-8845-e1733e642af9/5b966aea-c9b3-417f-9303-08940dec35f1/%E1%84%83%E1%85%A2%E1%84%8C%E1%85%B5_1tinted.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=ASIAZI2LB466QGZAHPXM%2F20260309%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20260309T110908Z&amp;X-Amz-Expires=3600&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGMaCXVzLXdlc3QtMiJHMEUCIQDWmLKsqATBAWlxYyZfv7w%2BZN3XWSgYyTFszBvdJaXblQIgFKC%2Bh%2BL%2Fri0gtMPBjAX%2F9xmtjDnNNdN7ZYA46TDVGj4q%2FwMILBAAGgw2Mzc0MjMxODM4MDUiDFcYtjbFRZiQ8Rt4OircA8jKBL8txgnQfGQL1%2B%2FHoL32TrbskzSvQJ2roCZRtbZH62FR8OKem7RNHmqxhR1ItCUfHl8aptytAi99Pu2yAf8xAi4VRwTxKtjUhUG0QiYIghlmqgw1XAH0%2F%2Fu74YhY77v%2B1KISaiyA4dBwbIRhZKDNt1P3eUE7gV3Lnc9KKJCSePPMBQpEaLHu2KqJNkyWHBhzLv3VmsBkAwT855%2BkRq6Hmcvjkvk0Nh4%2BZ%2FwYPO9sPFRLb6FdC%2Fa5aLvz0xrNAs5GGUSWCogF2uqhIUr7e42oL%2B9IYFGbAA5nPXb3wcgshCjjckmpcI5X2bjXopMg%2F0Y6di3zTL25JmhVc0x8pQrER94mVgjLLCa6F1w7tnFbrKp%2B5ebOIBNpogfIMCK9kpcy0RP1k0dlAie6QuygcEkatUVtp6qWfac2UnjYXD8%2FKhBxnMqNZaesYx%2BjOxD4cLCRBCNikD2vULGsZ6iNJtIi82mX8EIpH4jIDAaPbJX7GQbH1GEGZgh%2F5cfrRe8s9yBERlHnFQidoweG%2BH0PYXKwASdK%2FA6HFRHlQqyyGOqNg2znXFv1J4lvpbaC520T%2FIzvqOxESysApcI0P5AokXyhg3TVnGl1bZY7NbJ9aiCkACUF9IhIGzMTbnI9ML3Ous0GOqUBcZGW%2FwvITJcABscL5ToVpa3H51n%2FcX3MpJe%2BHA1xBptDS1rsQuD%2B7DiDKwuoCrgfoBBHJLFEE0fUsnIIjcXPBotn0NiRH7JhBCIrCbWm4DCUSzOFMDVwJvZUbjfAnPr%2Fbh7AREBXDricoS1cJW4jBqe8LE6XEvJNalcuGGpT7rDv8VcegigZNQW%2FimuP0LlYvlHLyJG0Apw2cnuc6ZYUivyUfI5q&amp;X-Amz-Signature=3f8597e28704b30464aeffa15b61edea00a22f0a6530a5829fd1ce5f1811bf31&amp;X-Amz-SignedHeaders=host&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject" alt="" />
 
 </figure>
 <br/>
@@ -892,18 +892,16 @@ export const posts: Post[] = [
 <p style="text-align:center;"><strong>손톱 모양이 아예 변해요</strong></p>
 <p style="text-align:center;"><strong>한번 짧아지고 뭉툭한 바디는 되돌릴 수가 없어요..</strong></p>
 <figure>
-  <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/2e730524-c938-49ae-8845-e1733e642af9/5d9070e2-d1ec-44c9-9aee-942daf5e3d96/79044c27c35e061ed5cb27ad812460bf.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=ASIAZI2LB466USEDDMXB%2F20260309%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20260309T110535Z&amp;X-Amz-Expires=3600&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGMaCXVzLXdlc3QtMiJHMEUCIHEO8Vzjlm21ac8TGIpERZwgJWUavN5QdAk6ExTEjmoEAiEArNhzHc4QjOO%2F26aBXV8Ks%2BjWs15VeFpRH1uSYWHl3Lsq%2FwMILBAAGgw2Mzc0MjMxODM4MDUiDLLcMvn4v2SkJmxebyrcA92rUNtPl2uxcNKQPVi%2FXUgwjD%2FF%2B9zbOBBMAgTFsZIF9nKk46egZ9aLSamtYcOdvQXQHNR2OOmZIMb1LlbV78Wrvyjv6HVzgWtDMR2NgFxembb%2FuVLxOipbG3Y9wLkdJDB9rV3RMXWtewLNepdQ8fgWb%2FUK%2FzUJ4h4kfC5jh%2B5WF9UpPFmoi%2BaT8HZTihx%2FSy0fEyT%2BtJZTvSeHJdgG%2FnGyMz1o7B4pmysuy0KCdYhae6%2F4Iwt5UNeViPqtZQO5mA5hilvuo67Ysxg3F9b8gbZ4rqhz%2BHk8pl%2FmzGbn7TzdlNg8OLxvJfsJ0X0CkyGAnj2nr0JyQzue%2F9yxXPKGhg%2BDem4aNW%2Fma0uzt6BehBYH%2FEkUFmUeuMMxbxqkAENqxKBJN3fDEd4OB1AYTSAWX6sEjNnPkskrXa4atXUPBv%2F78Fx1L102B4aTmpt3h0YSI%2FI1xbga9qyCTAdiHFSCOLBfxN4aAhb%2B4RbCihr6UAw3ABl6FrhNvCKubPZuR5VglrSJTtdB9dArlHOmFazZB2%2BGN5Jlc8HvfEcySR%2B0ahFeNySxS0TEbUPQygu03yKBeNkJDDyf2FKoObKOQFdlKt2%2BqEmB6iHsIVgAHIGR73GeDPP6Nd0ABykqR%2BWOMJjOus0GOqUBcXvN1VB9o6DF%2BVJmgKCffbu2iCnonOI0VYmWgQRQbQ8We9iTshwtPDwLr%2F1F4Dbv8LqrjVcpMF8TTnhqwQHBDKnqMdXTVi4u5JYaQHijlTtPN3j8C6fVCPm0gFDms6WtIEdqOMwZW18HghOn8hbQe3zSvC2o7SH7l2dkgY3SNunFUgJrS6DaKUvLX2ZB1C0e0nnwML%2BPZtmWkRPY1U9M5j8hFcvq&amp;X-Amz-Signature=8f03c6af4197ae0e2012a4c03caa0d41dc3bf8b8aa6766ebec4ae1a3812b9f3b&amp;X-Amz-SignedHeaders=host&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject" alt="" />
+  <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/2e730524-c938-49ae-8845-e1733e642af9/5d9070e2-d1ec-44c9-9aee-942daf5e3d96/79044c27c35e061ed5cb27ad812460bf.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=ASIAZI2LB466QGZAHPXM%2F20260309%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20260309T110908Z&amp;X-Amz-Expires=3600&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGMaCXVzLXdlc3QtMiJHMEUCIQDWmLKsqATBAWlxYyZfv7w%2BZN3XWSgYyTFszBvdJaXblQIgFKC%2Bh%2BL%2Fri0gtMPBjAX%2F9xmtjDnNNdN7ZYA46TDVGj4q%2FwMILBAAGgw2Mzc0MjMxODM4MDUiDFcYtjbFRZiQ8Rt4OircA8jKBL8txgnQfGQL1%2B%2FHoL32TrbskzSvQJ2roCZRtbZH62FR8OKem7RNHmqxhR1ItCUfHl8aptytAi99Pu2yAf8xAi4VRwTxKtjUhUG0QiYIghlmqgw1XAH0%2F%2Fu74YhY77v%2B1KISaiyA4dBwbIRhZKDNt1P3eUE7gV3Lnc9KKJCSePPMBQpEaLHu2KqJNkyWHBhzLv3VmsBkAwT855%2BkRq6Hmcvjkvk0Nh4%2BZ%2FwYPO9sPFRLb6FdC%2Fa5aLvz0xrNAs5GGUSWCogF2uqhIUr7e42oL%2B9IYFGbAA5nPXb3wcgshCjjckmpcI5X2bjXopMg%2F0Y6di3zTL25JmhVc0x8pQrER94mVgjLLCa6F1w7tnFbrKp%2B5ebOIBNpogfIMCK9kpcy0RP1k0dlAie6QuygcEkatUVtp6qWfac2UnjYXD8%2FKhBxnMqNZaesYx%2BjOxD4cLCRBCNikD2vULGsZ6iNJtIi82mX8EIpH4jIDAaPbJX7GQbH1GEGZgh%2F5cfrRe8s9yBERlHnFQidoweG%2BH0PYXKwASdK%2FA6HFRHlQqyyGOqNg2znXFv1J4lvpbaC520T%2FIzvqOxESysApcI0P5AokXyhg3TVnGl1bZY7NbJ9aiCkACUF9IhIGzMTbnI9ML3Ous0GOqUBcZGW%2FwvITJcABscL5ToVpa3H51n%2FcX3MpJe%2BHA1xBptDS1rsQuD%2B7DiDKwuoCrgfoBBHJLFEE0fUsnIIjcXPBotn0NiRH7JhBCIrCbWm4DCUSzOFMDVwJvZUbjfAnPr%2Fbh7AREBXDricoS1cJW4jBqe8LE6XEvJNalcuGGpT7rDv8VcegigZNQW%2FimuP0LlYvlHLyJG0Apw2cnuc6ZYUivyUfI5q&amp;X-Amz-Signature=3d285cd72284a383aa50e13ce4bae50b04c5084042cd64af7de3fb4ba9f0eb02&amp;X-Amz-SignedHeaders=host&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject" alt="" />
 
 </figure>
 <br/>
 <p style="text-align:center;">손톱 물어뜯는 사람들 해보는거 저도 다 해봤습니다.</p>
-<ul>
-<li>손톱깎이로 최대한 짧게 자르기</li>
-<li>네일샵 가서 젤네일로 덮기</li>
-<li>쓴 맛 나는 매니큐어 발라서 못 뜯게 하기</li>
-</ul>
+<p style="text-align:center;">• 손톱깎이로 최대한 짧게 자르기</p>
+<p style="text-align:center;">• 네일샵 가서 젤네일로 덮기</p>
+<p style="text-align:center;">• 쓴 맛 나는 매니큐어 발라서 못 뜯게 하기</p>
 <figure>
-  <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/2e730524-c938-49ae-8845-e1733e642af9/a3cdf817-37e7-4e4f-a709-f72cddbaecc5/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-03-08_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_10.46.41.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=ASIAZI2LB466USEDDMXB%2F20260309%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20260309T110535Z&amp;X-Amz-Expires=3600&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGMaCXVzLXdlc3QtMiJHMEUCIHEO8Vzjlm21ac8TGIpERZwgJWUavN5QdAk6ExTEjmoEAiEArNhzHc4QjOO%2F26aBXV8Ks%2BjWs15VeFpRH1uSYWHl3Lsq%2FwMILBAAGgw2Mzc0MjMxODM4MDUiDLLcMvn4v2SkJmxebyrcA92rUNtPl2uxcNKQPVi%2FXUgwjD%2FF%2B9zbOBBMAgTFsZIF9nKk46egZ9aLSamtYcOdvQXQHNR2OOmZIMb1LlbV78Wrvyjv6HVzgWtDMR2NgFxembb%2FuVLxOipbG3Y9wLkdJDB9rV3RMXWtewLNepdQ8fgWb%2FUK%2FzUJ4h4kfC5jh%2B5WF9UpPFmoi%2BaT8HZTihx%2FSy0fEyT%2BtJZTvSeHJdgG%2FnGyMz1o7B4pmysuy0KCdYhae6%2F4Iwt5UNeViPqtZQO5mA5hilvuo67Ysxg3F9b8gbZ4rqhz%2BHk8pl%2FmzGbn7TzdlNg8OLxvJfsJ0X0CkyGAnj2nr0JyQzue%2F9yxXPKGhg%2BDem4aNW%2Fma0uzt6BehBYH%2FEkUFmUeuMMxbxqkAENqxKBJN3fDEd4OB1AYTSAWX6sEjNnPkskrXa4atXUPBv%2F78Fx1L102B4aTmpt3h0YSI%2FI1xbga9qyCTAdiHFSCOLBfxN4aAhb%2B4RbCihr6UAw3ABl6FrhNvCKubPZuR5VglrSJTtdB9dArlHOmFazZB2%2BGN5Jlc8HvfEcySR%2B0ahFeNySxS0TEbUPQygu03yKBeNkJDDyf2FKoObKOQFdlKt2%2BqEmB6iHsIVgAHIGR73GeDPP6Nd0ABykqR%2BWOMJjOus0GOqUBcXvN1VB9o6DF%2BVJmgKCffbu2iCnonOI0VYmWgQRQbQ8We9iTshwtPDwLr%2F1F4Dbv8LqrjVcpMF8TTnhqwQHBDKnqMdXTVi4u5JYaQHijlTtPN3j8C6fVCPm0gFDms6WtIEdqOMwZW18HghOn8hbQe3zSvC2o7SH7l2dkgY3SNunFUgJrS6DaKUvLX2ZB1C0e0nnwML%2BPZtmWkRPY1U9M5j8hFcvq&amp;X-Amz-Signature=971270be1a9c92f7e3758e6b9d981f202fd6ef859f8f9d9c3e771f13fb575db2&amp;X-Amz-SignedHeaders=host&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject" alt="종잇장 손톱의 원인이 된,, 젤네일로 무작정 덮던 시절 " />
+  <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/2e730524-c938-49ae-8845-e1733e642af9/a3cdf817-37e7-4e4f-a709-f72cddbaecc5/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-03-08_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_10.46.41.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=ASIAZI2LB466QGZAHPXM%2F20260309%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20260309T110908Z&amp;X-Amz-Expires=3600&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGMaCXVzLXdlc3QtMiJHMEUCIQDWmLKsqATBAWlxYyZfv7w%2BZN3XWSgYyTFszBvdJaXblQIgFKC%2Bh%2BL%2Fri0gtMPBjAX%2F9xmtjDnNNdN7ZYA46TDVGj4q%2FwMILBAAGgw2Mzc0MjMxODM4MDUiDFcYtjbFRZiQ8Rt4OircA8jKBL8txgnQfGQL1%2B%2FHoL32TrbskzSvQJ2roCZRtbZH62FR8OKem7RNHmqxhR1ItCUfHl8aptytAi99Pu2yAf8xAi4VRwTxKtjUhUG0QiYIghlmqgw1XAH0%2F%2Fu74YhY77v%2B1KISaiyA4dBwbIRhZKDNt1P3eUE7gV3Lnc9KKJCSePPMBQpEaLHu2KqJNkyWHBhzLv3VmsBkAwT855%2BkRq6Hmcvjkvk0Nh4%2BZ%2FwYPO9sPFRLb6FdC%2Fa5aLvz0xrNAs5GGUSWCogF2uqhIUr7e42oL%2B9IYFGbAA5nPXb3wcgshCjjckmpcI5X2bjXopMg%2F0Y6di3zTL25JmhVc0x8pQrER94mVgjLLCa6F1w7tnFbrKp%2B5ebOIBNpogfIMCK9kpcy0RP1k0dlAie6QuygcEkatUVtp6qWfac2UnjYXD8%2FKhBxnMqNZaesYx%2BjOxD4cLCRBCNikD2vULGsZ6iNJtIi82mX8EIpH4jIDAaPbJX7GQbH1GEGZgh%2F5cfrRe8s9yBERlHnFQidoweG%2BH0PYXKwASdK%2FA6HFRHlQqyyGOqNg2znXFv1J4lvpbaC520T%2FIzvqOxESysApcI0P5AokXyhg3TVnGl1bZY7NbJ9aiCkACUF9IhIGzMTbnI9ML3Ous0GOqUBcZGW%2FwvITJcABscL5ToVpa3H51n%2FcX3MpJe%2BHA1xBptDS1rsQuD%2B7DiDKwuoCrgfoBBHJLFEE0fUsnIIjcXPBotn0NiRH7JhBCIrCbWm4DCUSzOFMDVwJvZUbjfAnPr%2Fbh7AREBXDricoS1cJW4jBqe8LE6XEvJNalcuGGpT7rDv8VcegigZNQW%2FimuP0LlYvlHLyJG0Apw2cnuc6ZYUivyUfI5q&amp;X-Amz-Signature=c2ba2908b4433ab823ffe4d3f82341480c398df20e41e11d3b34e9c899ba3903&amp;X-Amz-SignedHeaders=host&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject" alt="종잇장 손톱의 원인이 된,, 젤네일로 무작정 덮던 시절 " />
 <figcaption>종잇장 손톱의 원인이 된,, 젤네일로 무작정 덮던 시절 </figcaption>
 </figure>
 <p style="text-align:center;">근데요,</p>
@@ -921,7 +919,7 @@ export const posts: Post[] = [
 <p style="text-align:center;">이게 제가 물어뜯는 습관 고치기 전후 손톱 비교에요</p>
 <br/>
 <figure>
-  <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/2e730524-c938-49ae-8845-e1733e642af9/7d2405d1-c08a-4824-a872-aed9c6c77c34/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-03-08_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_11.03.32.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=ASIAZI2LB466USEDDMXB%2F20260309%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20260309T110535Z&amp;X-Amz-Expires=3600&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGMaCXVzLXdlc3QtMiJHMEUCIHEO8Vzjlm21ac8TGIpERZwgJWUavN5QdAk6ExTEjmoEAiEArNhzHc4QjOO%2F26aBXV8Ks%2BjWs15VeFpRH1uSYWHl3Lsq%2FwMILBAAGgw2Mzc0MjMxODM4MDUiDLLcMvn4v2SkJmxebyrcA92rUNtPl2uxcNKQPVi%2FXUgwjD%2FF%2B9zbOBBMAgTFsZIF9nKk46egZ9aLSamtYcOdvQXQHNR2OOmZIMb1LlbV78Wrvyjv6HVzgWtDMR2NgFxembb%2FuVLxOipbG3Y9wLkdJDB9rV3RMXWtewLNepdQ8fgWb%2FUK%2FzUJ4h4kfC5jh%2B5WF9UpPFmoi%2BaT8HZTihx%2FSy0fEyT%2BtJZTvSeHJdgG%2FnGyMz1o7B4pmysuy0KCdYhae6%2F4Iwt5UNeViPqtZQO5mA5hilvuo67Ysxg3F9b8gbZ4rqhz%2BHk8pl%2FmzGbn7TzdlNg8OLxvJfsJ0X0CkyGAnj2nr0JyQzue%2F9yxXPKGhg%2BDem4aNW%2Fma0uzt6BehBYH%2FEkUFmUeuMMxbxqkAENqxKBJN3fDEd4OB1AYTSAWX6sEjNnPkskrXa4atXUPBv%2F78Fx1L102B4aTmpt3h0YSI%2FI1xbga9qyCTAdiHFSCOLBfxN4aAhb%2B4RbCihr6UAw3ABl6FrhNvCKubPZuR5VglrSJTtdB9dArlHOmFazZB2%2BGN5Jlc8HvfEcySR%2B0ahFeNySxS0TEbUPQygu03yKBeNkJDDyf2FKoObKOQFdlKt2%2BqEmB6iHsIVgAHIGR73GeDPP6Nd0ABykqR%2BWOMJjOus0GOqUBcXvN1VB9o6DF%2BVJmgKCffbu2iCnonOI0VYmWgQRQbQ8We9iTshwtPDwLr%2F1F4Dbv8LqrjVcpMF8TTnhqwQHBDKnqMdXTVi4u5JYaQHijlTtPN3j8C6fVCPm0gFDms6WtIEdqOMwZW18HghOn8hbQe3zSvC2o7SH7l2dkgY3SNunFUgJrS6DaKUvLX2ZB1C0e0nnwML%2BPZtmWkRPY1U9M5j8hFcvq&amp;X-Amz-Signature=680e95b92d362b5ac8dfd0285275e86802fed111e22a145849446fbc4ccc0f00&amp;X-Amz-SignedHeaders=host&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject" alt="" />
+  <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/2e730524-c938-49ae-8845-e1733e642af9/7d2405d1-c08a-4824-a872-aed9c6c77c34/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-03-08_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_11.03.32.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=ASIAZI2LB466QGZAHPXM%2F20260309%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20260309T110908Z&amp;X-Amz-Expires=3600&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGMaCXVzLXdlc3QtMiJHMEUCIQDWmLKsqATBAWlxYyZfv7w%2BZN3XWSgYyTFszBvdJaXblQIgFKC%2Bh%2BL%2Fri0gtMPBjAX%2F9xmtjDnNNdN7ZYA46TDVGj4q%2FwMILBAAGgw2Mzc0MjMxODM4MDUiDFcYtjbFRZiQ8Rt4OircA8jKBL8txgnQfGQL1%2B%2FHoL32TrbskzSvQJ2roCZRtbZH62FR8OKem7RNHmqxhR1ItCUfHl8aptytAi99Pu2yAf8xAi4VRwTxKtjUhUG0QiYIghlmqgw1XAH0%2F%2Fu74YhY77v%2B1KISaiyA4dBwbIRhZKDNt1P3eUE7gV3Lnc9KKJCSePPMBQpEaLHu2KqJNkyWHBhzLv3VmsBkAwT855%2BkRq6Hmcvjkvk0Nh4%2BZ%2FwYPO9sPFRLb6FdC%2Fa5aLvz0xrNAs5GGUSWCogF2uqhIUr7e42oL%2B9IYFGbAA5nPXb3wcgshCjjckmpcI5X2bjXopMg%2F0Y6di3zTL25JmhVc0x8pQrER94mVgjLLCa6F1w7tnFbrKp%2B5ebOIBNpogfIMCK9kpcy0RP1k0dlAie6QuygcEkatUVtp6qWfac2UnjYXD8%2FKhBxnMqNZaesYx%2BjOxD4cLCRBCNikD2vULGsZ6iNJtIi82mX8EIpH4jIDAaPbJX7GQbH1GEGZgh%2F5cfrRe8s9yBERlHnFQidoweG%2BH0PYXKwASdK%2FA6HFRHlQqyyGOqNg2znXFv1J4lvpbaC520T%2FIzvqOxESysApcI0P5AokXyhg3TVnGl1bZY7NbJ9aiCkACUF9IhIGzMTbnI9ML3Ous0GOqUBcZGW%2FwvITJcABscL5ToVpa3H51n%2FcX3MpJe%2BHA1xBptDS1rsQuD%2B7DiDKwuoCrgfoBBHJLFEE0fUsnIIjcXPBotn0NiRH7JhBCIrCbWm4DCUSzOFMDVwJvZUbjfAnPr%2Fbh7AREBXDricoS1cJW4jBqe8LE6XEvJNalcuGGpT7rDv8VcegigZNQW%2FimuP0LlYvlHLyJG0Apw2cnuc6ZYUivyUfI5q&amp;X-Amz-Signature=b92eb48d2a982f77c5f5d32fd8dce8e350b38ca89e16edfafdb9e1f43540b2f0&amp;X-Amz-SignedHeaders=host&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject" alt="" />
 
 </figure>
 <br/>
@@ -937,41 +935,33 @@ export const posts: Post[] = [
 <p style="text-align:center;">제가 여러개 써보고 돈 날리면서 얻은 팁,</p>
 <p style="text-align:center;">손톱영양제, 강화제 잘 고르는 기준 먼저 알려드릴게요</p>
 <br/>
-<ol>
-<li><strong>코팅형 제품이 좋아요</strong></li>
-</ol>
+<p style="text-align:center;"><strong>1. <strong>코팅형 제품이 좋아요</strong></strong></p>
 <p style="text-align:center;">에센스나 크림 타입은 생활하면서 금방 씻겨나가니까</p>
 <p style="text-align:center;">그냥 핸드크림 바르는거랑 별반 다를게 없더라구요</p>
 <p style="text-align:center;">손톱에 코팅이 단단하게 씌워지면 확실히 덜 물어뜯게 되고</p>
 <p style="text-align:center;">영양 유지력도 올라가는 거 같아요</p>
 <br/>
-<ol>
-<li><strong>답답하면 바로 탈락</strong></li>
-</ol>
+<p style="text-align:center;"><strong>1. <strong>답답하면 바로 탈락</strong></strong></p>
 <p style="text-align:center;">손톱 위에 코팅막이 두껍게 올라가면</p>
 <p style="text-align:center;">결국 신경쓰여서 또 뜯게 됩니다.</p>
 <p style="text-align:center;">얇고 가볍게 발려야 손톱 위에 뭐가 있는걸 까먹어서</p>
 <p style="text-align:center;">손톱에 신경이 덜 쓰이게 되어요</p>
 <br/>
-<ol>
-<li><strong>냄새랑 발림성도 은근 중요해요</strong></li>
-</ol>
+<p style="text-align:center;"><strong>1. <strong>냄새랑 발림성도 은근 중요해요</strong></strong></p>
 <p style="text-align:center;">올리브영에서 1등한다는 반디꺼 제품도 써봤는데 </p>
 <p style="text-align:center;">냄새가 엄청 독하고 떡지고 효과도 잘 모르겠고 </p>
 <p style="text-align:center;">이게 영양제가 맞는지 의심되는 수준이었어요</p>
 <p style="text-align:center;">손톱은 꾸준히 관리해야되는 영역이라</p>
 <p style="text-align:center;">사용감도 꼭 챙겨야 합니다!</p>
 <br/>
-<ol>
-<li><strong>발랐을 때 손톱이 예뻐보여야 합니다</strong></li>
-</ol>
+<p style="text-align:center;"><strong>1. <strong>발랐을 때 손톱이 예뻐보여야 합니다</strong></strong></p>
 <p style="text-align:center;">손톱이 예뻐보이면 이상하게 덜 뜯어요</p>
 <p style="text-align:center;">이거 진짜입니다.</p>
 <p style="text-align:center;">손톱이 망가져 있을 때는 계속 뜯고 싶었는데</p>
 <p style="text-align:center;">손톱이 윤기나고 괜찮아 보이니까 괜히 건드리기 싫더라고요.</p>
 <br/>
 <figure>
-  <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/2e730524-c938-49ae-8845-e1733e642af9/21bec522-75e6-4d41-8e81-c39a896e2c6d/IMG_4900.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=ASIAZI2LB466SPFO3XZG%2F20260309%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20260309T110536Z&amp;X-Amz-Expires=3600&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGMaCXVzLXdlc3QtMiJIMEYCIQDnX3GMqeagxcFFZIsfngJqAClJcQBXtw80adiATHiDsQIhAM7DLrYWbOqyIsX%2FVLlHsDGJ25nZCtYfL3iY7ucxHqjPKv8DCCwQABoMNjM3NDIzMTgzODA1IgxD72is5FDDKtNxq0gq3AMgtjz58kck3jpcsobB%2BTWSRcFzVwZZRgmzHmT4Esi0o5ZsJwNAJHrAB8S1kq593hiFrpcx%2FiHRORlFFwFo%2F3PPmCcZMMc4eFhklQZ7j9tDxRbZFl0dKxe8PyOGLAcgUpeprWscxS9h0fDOZ7FdciraIykW462wZiOpv1wjWfRBiUa6OSPaT0KeAwWw0CA3GA%2B804g%2Bbtz9HJKXjnCMKHHoIwDRjbgTAUDLPvoVGkDGJZf7t47GzrH8WU5qcgJq72mrdiasuuKK5miX07Q2wUspg%2FsZMCALZamIZCzStj0U6xj%2FPM7f3tq5AREgoCDRwuomDyWaf%2FOLzCMBuw80T9faL9TZo%2B4LoaaSyvqn3JpYvbSMAsT06d2L2Z1nBGI7y6SsGIMrqp0WyT%2Fcyoj63Bk8MP1KhMPHWhEVvZQvf%2B4KnqQgL1RJfD1LhN1dMc%2BrIfTYzAq98OFdo%2FLoyZnRm6M%2BKaNqjlGeXsRcmw9AW%2FnEB2BYYTFb08QUua0jf8c7valcMtYKVA3MLb5L3f6bnIAjgd1pqm80pZO0gqTUDijEUkB8Rbql1lssu%2FN6LpA8pa0Ze0CHK73jc1UxlSoIPGF3oitY1EwA5%2FV8dZZO4JKLVg3QfGlkr55OPSxM3zDFz7rNBjqkAQ4LTVbZLnWkdVoF8v71oXeYdyk7PiccRAhDGFZMPGIp1d%2BYwj2OJT%2Boq1MnX8odY1FcBojisqgzxWY3ZjC6PxTnI8dG1vaT%2BmxW9Z0Zia%2F%2B%2BThdFX5g3h2amgOjXxjtOBqOSA7SSlIlUmXab073mZerAQtCAV19XiBQGYZRstumOAroEw1DeDjmjDj0dyB5uDlFQ7oFkNU4tiRMH%2FVkUToQzuBe&amp;X-Amz-Signature=2011784a4994d684ca12ffbb521d503747c1a59181a77df0febf2b975cebd662&amp;X-Amz-SignedHeaders=host&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject" alt="" />
+  <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/2e730524-c938-49ae-8845-e1733e642af9/21bec522-75e6-4d41-8e81-c39a896e2c6d/IMG_4900.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=ASIAZI2LB466VTH2QEF7%2F20260309%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20260309T110909Z&amp;X-Amz-Expires=3600&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGMaCXVzLXdlc3QtMiJHMEUCIQDjskt0LRUhWY76uJg30Rs29IbWL9vTfK5wDuHOkQwFMgIgc6EgpEp3SUk8%2Fwyy4rX8RsBX73fxz8vcu5EQPoqSBW4q%2FwMILBAAGgw2Mzc0MjMxODM4MDUiDO1ulACHI4eSPhIbcircAwghxfd4rAZp5%2BRTN5u5HpRMz2BSRlJXKDGKWBH6ROxVukev5wHSf%2FKlSQOQERfa8WGxO9ur9lscORq3B%2B3BaTbV9IcX81bsgz7DdFATMpuGZvQz4dCqCs%2B3uR21O7AlADIbVEfb79cwVC7BFx313j%2BMGDXalEZP83HcYlmA7FNwpMLqzrfkBZQXell95SDwhJFr6%2Bn5VgizpHBH04HaHeFEqnIO%2FP0I%2F5tseCJoTammVYzFQIOsvWf3PJu6LcDqkbm8xnK48WcWl1wM175a3vNTIrqFL9AoyaUgxv9WweCKm3LDmfSkNzLHGr4h47PDVBlttMYMtCwYMHwknSe1gwaaWTEHi79Qaqt5RzctqG%2Ffbcht%2BzasVk6QoEEe9S7kjeP4MA888qCrT8BAH0xB%2BFGrHI9w5uJgE74sI9UJ1L5OhRMS%2BDqThsqxqx6TVP5AmLq%2BM0G7h%2FJZnjWFbGMZTiLLNvL8f9eqOCsIB%2BdV83tPdFvTW0RKro04l0yPVyXGYMeU9dSBlLJ01Ih3mrTnAep8T3JX%2BWRvqN4pYrjpECjJzOIS257AkVEAPmscQ2uCTxo8H8CyrZdEDmCAN8kSS0XK%2B9yiL9KB0A5uOnwP3iy5%2BL8bLRybVJYOdxxGMOPNus0GOqUBGmeEwYF%2BrX5q%2FYoLKdcI68ZXjLIG00QdR0jNjcwYlCXDq%2BhXtWBsQ%2FkN9Id07s4Mpoe9moEVNXkIN6QpC2%2B2PQOlZO0cf3BCvnWH8AVpyLaHfx9YMbToGQaFLnV1fu87HuYDuyhMCC7sB4KtKmwuDWQd3SW1Vu8v2GAJkMi6R7gERVrweED8krchndAtKyc7L00RlydKNjYyg%2BxIg%2B597BP5YeMX&amp;X-Amz-Signature=22027b441ae430087d75829edf906dbc382ac4c92bbfc57c7092c93eaf67ad01&amp;X-Amz-SignedHeaders=host&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject" alt="" />
 
 </figure>
 <br/>
@@ -986,7 +976,7 @@ export const posts: Post[] = [
 <p style="text-align:center;">제 구세주같은 제품이에요 이제 없으면 못살아요🥹</p>
 <br/>
 <figure>
-  <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/2e730524-c938-49ae-8845-e1733e642af9/8833084d-c9c2-455d-b689-81e35947303c/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=ASIAZI2LB466SPFO3XZG%2F20260309%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20260309T110536Z&amp;X-Amz-Expires=3600&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGMaCXVzLXdlc3QtMiJIMEYCIQDnX3GMqeagxcFFZIsfngJqAClJcQBXtw80adiATHiDsQIhAM7DLrYWbOqyIsX%2FVLlHsDGJ25nZCtYfL3iY7ucxHqjPKv8DCCwQABoMNjM3NDIzMTgzODA1IgxD72is5FDDKtNxq0gq3AMgtjz58kck3jpcsobB%2BTWSRcFzVwZZRgmzHmT4Esi0o5ZsJwNAJHrAB8S1kq593hiFrpcx%2FiHRORlFFwFo%2F3PPmCcZMMc4eFhklQZ7j9tDxRbZFl0dKxe8PyOGLAcgUpeprWscxS9h0fDOZ7FdciraIykW462wZiOpv1wjWfRBiUa6OSPaT0KeAwWw0CA3GA%2B804g%2Bbtz9HJKXjnCMKHHoIwDRjbgTAUDLPvoVGkDGJZf7t47GzrH8WU5qcgJq72mrdiasuuKK5miX07Q2wUspg%2FsZMCALZamIZCzStj0U6xj%2FPM7f3tq5AREgoCDRwuomDyWaf%2FOLzCMBuw80T9faL9TZo%2B4LoaaSyvqn3JpYvbSMAsT06d2L2Z1nBGI7y6SsGIMrqp0WyT%2Fcyoj63Bk8MP1KhMPHWhEVvZQvf%2B4KnqQgL1RJfD1LhN1dMc%2BrIfTYzAq98OFdo%2FLoyZnRm6M%2BKaNqjlGeXsRcmw9AW%2FnEB2BYYTFb08QUua0jf8c7valcMtYKVA3MLb5L3f6bnIAjgd1pqm80pZO0gqTUDijEUkB8Rbql1lssu%2FN6LpA8pa0Ze0CHK73jc1UxlSoIPGF3oitY1EwA5%2FV8dZZO4JKLVg3QfGlkr55OPSxM3zDFz7rNBjqkAQ4LTVbZLnWkdVoF8v71oXeYdyk7PiccRAhDGFZMPGIp1d%2BYwj2OJT%2Boq1MnX8odY1FcBojisqgzxWY3ZjC6PxTnI8dG1vaT%2BmxW9Z0Zia%2F%2B%2BThdFX5g3h2amgOjXxjtOBqOSA7SSlIlUmXab073mZerAQtCAV19XiBQGYZRstumOAroEw1DeDjmjDj0dyB5uDlFQ7oFkNU4tiRMH%2FVkUToQzuBe&amp;X-Amz-Signature=96b0feb991b57f2f181a602a95572d3171e0d1f75cdf3a1a7d15aa675d44ba17&amp;X-Amz-SignedHeaders=host&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject" alt="" />
+  <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/2e730524-c938-49ae-8845-e1733e642af9/8833084d-c9c2-455d-b689-81e35947303c/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=ASIAZI2LB466VTH2QEF7%2F20260309%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20260309T110909Z&amp;X-Amz-Expires=3600&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGMaCXVzLXdlc3QtMiJHMEUCIQDjskt0LRUhWY76uJg30Rs29IbWL9vTfK5wDuHOkQwFMgIgc6EgpEp3SUk8%2Fwyy4rX8RsBX73fxz8vcu5EQPoqSBW4q%2FwMILBAAGgw2Mzc0MjMxODM4MDUiDO1ulACHI4eSPhIbcircAwghxfd4rAZp5%2BRTN5u5HpRMz2BSRlJXKDGKWBH6ROxVukev5wHSf%2FKlSQOQERfa8WGxO9ur9lscORq3B%2B3BaTbV9IcX81bsgz7DdFATMpuGZvQz4dCqCs%2B3uR21O7AlADIbVEfb79cwVC7BFx313j%2BMGDXalEZP83HcYlmA7FNwpMLqzrfkBZQXell95SDwhJFr6%2Bn5VgizpHBH04HaHeFEqnIO%2FP0I%2F5tseCJoTammVYzFQIOsvWf3PJu6LcDqkbm8xnK48WcWl1wM175a3vNTIrqFL9AoyaUgxv9WweCKm3LDmfSkNzLHGr4h47PDVBlttMYMtCwYMHwknSe1gwaaWTEHi79Qaqt5RzctqG%2Ffbcht%2BzasVk6QoEEe9S7kjeP4MA888qCrT8BAH0xB%2BFGrHI9w5uJgE74sI9UJ1L5OhRMS%2BDqThsqxqx6TVP5AmLq%2BM0G7h%2FJZnjWFbGMZTiLLNvL8f9eqOCsIB%2BdV83tPdFvTW0RKro04l0yPVyXGYMeU9dSBlLJ01Ih3mrTnAep8T3JX%2BWRvqN4pYrjpECjJzOIS257AkVEAPmscQ2uCTxo8H8CyrZdEDmCAN8kSS0XK%2B9yiL9KB0A5uOnwP3iy5%2BL8bLRybVJYOdxxGMOPNus0GOqUBGmeEwYF%2BrX5q%2FYoLKdcI68ZXjLIG00QdR0jNjcwYlCXDq%2BhXtWBsQ%2FkN9Id07s4Mpoe9moEVNXkIN6QpC2%2B2PQOlZO0cf3BCvnWH8AVpyLaHfx9YMbToGQaFLnV1fu87HuYDuyhMCC7sB4KtKmwuDWQd3SW1Vu8v2GAJkMi6R7gERVrweED8krchndAtKyc7L00RlydKNjYyg%2BxIg%2B597BP5YeMX&amp;X-Amz-Signature=7e23fcaf5c1c2edd4e5bfea3d59237ee601f7ddf429721913ad0a3da9548f9a5&amp;X-Amz-SignedHeaders=host&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject" alt="" />
 
 </figure>
 <br/>
@@ -1001,7 +991,7 @@ export const posts: Post[] = [
 <p style="text-align:center;">저는 개인적으로 혈색 제품 강추!!!</p>
 <br/>
 <figure>
-  <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/2e730524-c938-49ae-8845-e1733e642af9/02e6637d-940e-4179-8bd9-9a772f40a310/ezgif.com-crop_%282%29.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=ASIAZI2LB466SPFO3XZG%2F20260309%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20260309T110536Z&amp;X-Amz-Expires=3600&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGMaCXVzLXdlc3QtMiJIMEYCIQDnX3GMqeagxcFFZIsfngJqAClJcQBXtw80adiATHiDsQIhAM7DLrYWbOqyIsX%2FVLlHsDGJ25nZCtYfL3iY7ucxHqjPKv8DCCwQABoMNjM3NDIzMTgzODA1IgxD72is5FDDKtNxq0gq3AMgtjz58kck3jpcsobB%2BTWSRcFzVwZZRgmzHmT4Esi0o5ZsJwNAJHrAB8S1kq593hiFrpcx%2FiHRORlFFwFo%2F3PPmCcZMMc4eFhklQZ7j9tDxRbZFl0dKxe8PyOGLAcgUpeprWscxS9h0fDOZ7FdciraIykW462wZiOpv1wjWfRBiUa6OSPaT0KeAwWw0CA3GA%2B804g%2Bbtz9HJKXjnCMKHHoIwDRjbgTAUDLPvoVGkDGJZf7t47GzrH8WU5qcgJq72mrdiasuuKK5miX07Q2wUspg%2FsZMCALZamIZCzStj0U6xj%2FPM7f3tq5AREgoCDRwuomDyWaf%2FOLzCMBuw80T9faL9TZo%2B4LoaaSyvqn3JpYvbSMAsT06d2L2Z1nBGI7y6SsGIMrqp0WyT%2Fcyoj63Bk8MP1KhMPHWhEVvZQvf%2B4KnqQgL1RJfD1LhN1dMc%2BrIfTYzAq98OFdo%2FLoyZnRm6M%2BKaNqjlGeXsRcmw9AW%2FnEB2BYYTFb08QUua0jf8c7valcMtYKVA3MLb5L3f6bnIAjgd1pqm80pZO0gqTUDijEUkB8Rbql1lssu%2FN6LpA8pa0Ze0CHK73jc1UxlSoIPGF3oitY1EwA5%2FV8dZZO4JKLVg3QfGlkr55OPSxM3zDFz7rNBjqkAQ4LTVbZLnWkdVoF8v71oXeYdyk7PiccRAhDGFZMPGIp1d%2BYwj2OJT%2Boq1MnX8odY1FcBojisqgzxWY3ZjC6PxTnI8dG1vaT%2BmxW9Z0Zia%2F%2B%2BThdFX5g3h2amgOjXxjtOBqOSA7SSlIlUmXab073mZerAQtCAV19XiBQGYZRstumOAroEw1DeDjmjDj0dyB5uDlFQ7oFkNU4tiRMH%2FVkUToQzuBe&amp;X-Amz-Signature=67206abce90607523235dc320a2868d38201125e0e6d18c8524507b19e404165&amp;X-Amz-SignedHeaders=host&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject" alt="" />
+  <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/2e730524-c938-49ae-8845-e1733e642af9/02e6637d-940e-4179-8bd9-9a772f40a310/ezgif.com-crop_%282%29.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=ASIAZI2LB466VTH2QEF7%2F20260309%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20260309T110909Z&amp;X-Amz-Expires=3600&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGMaCXVzLXdlc3QtMiJHMEUCIQDjskt0LRUhWY76uJg30Rs29IbWL9vTfK5wDuHOkQwFMgIgc6EgpEp3SUk8%2Fwyy4rX8RsBX73fxz8vcu5EQPoqSBW4q%2FwMILBAAGgw2Mzc0MjMxODM4MDUiDO1ulACHI4eSPhIbcircAwghxfd4rAZp5%2BRTN5u5HpRMz2BSRlJXKDGKWBH6ROxVukev5wHSf%2FKlSQOQERfa8WGxO9ur9lscORq3B%2B3BaTbV9IcX81bsgz7DdFATMpuGZvQz4dCqCs%2B3uR21O7AlADIbVEfb79cwVC7BFx313j%2BMGDXalEZP83HcYlmA7FNwpMLqzrfkBZQXell95SDwhJFr6%2Bn5VgizpHBH04HaHeFEqnIO%2FP0I%2F5tseCJoTammVYzFQIOsvWf3PJu6LcDqkbm8xnK48WcWl1wM175a3vNTIrqFL9AoyaUgxv9WweCKm3LDmfSkNzLHGr4h47PDVBlttMYMtCwYMHwknSe1gwaaWTEHi79Qaqt5RzctqG%2Ffbcht%2BzasVk6QoEEe9S7kjeP4MA888qCrT8BAH0xB%2BFGrHI9w5uJgE74sI9UJ1L5OhRMS%2BDqThsqxqx6TVP5AmLq%2BM0G7h%2FJZnjWFbGMZTiLLNvL8f9eqOCsIB%2BdV83tPdFvTW0RKro04l0yPVyXGYMeU9dSBlLJ01Ih3mrTnAep8T3JX%2BWRvqN4pYrjpECjJzOIS257AkVEAPmscQ2uCTxo8H8CyrZdEDmCAN8kSS0XK%2B9yiL9KB0A5uOnwP3iy5%2BL8bLRybVJYOdxxGMOPNus0GOqUBGmeEwYF%2BrX5q%2FYoLKdcI68ZXjLIG00QdR0jNjcwYlCXDq%2BhXtWBsQ%2FkN9Id07s4Mpoe9moEVNXkIN6QpC2%2B2PQOlZO0cf3BCvnWH8AVpyLaHfx9YMbToGQaFLnV1fu87HuYDuyhMCC7sB4KtKmwuDWQd3SW1Vu8v2GAJkMi6R7gERVrweED8krchndAtKyc7L00RlydKNjYyg%2BxIg%2B597BP5YeMX&amp;X-Amz-Signature=9cea037712e3247c7bf79dadb3529b2c2eba358175c54056c802971a0bafd71d&amp;X-Amz-SignedHeaders=host&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject" alt="" />
 
 </figure>
 <br/>
@@ -1018,103 +1008,71 @@ export const posts: Post[] = [
 <p style="text-align:center;">그 말 듣는데 그 동안 고생했던거 생각하며 눈물이 핑..😂</p>
 <br/>
 <figure>
-  <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/2e730524-c938-49ae-8845-e1733e642af9/a165a240-ec2c-4d4b-a234-4162a99878e1/output%EF%BC%BF1348766064.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=ASIAZI2LB466SPFO3XZG%2F20260309%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20260309T110536Z&amp;X-Amz-Expires=3600&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGMaCXVzLXdlc3QtMiJIMEYCIQDnX3GMqeagxcFFZIsfngJqAClJcQBXtw80adiATHiDsQIhAM7DLrYWbOqyIsX%2FVLlHsDGJ25nZCtYfL3iY7ucxHqjPKv8DCCwQABoMNjM3NDIzMTgzODA1IgxD72is5FDDKtNxq0gq3AMgtjz58kck3jpcsobB%2BTWSRcFzVwZZRgmzHmT4Esi0o5ZsJwNAJHrAB8S1kq593hiFrpcx%2FiHRORlFFwFo%2F3PPmCcZMMc4eFhklQZ7j9tDxRbZFl0dKxe8PyOGLAcgUpeprWscxS9h0fDOZ7FdciraIykW462wZiOpv1wjWfRBiUa6OSPaT0KeAwWw0CA3GA%2B804g%2Bbtz9HJKXjnCMKHHoIwDRjbgTAUDLPvoVGkDGJZf7t47GzrH8WU5qcgJq72mrdiasuuKK5miX07Q2wUspg%2FsZMCALZamIZCzStj0U6xj%2FPM7f3tq5AREgoCDRwuomDyWaf%2FOLzCMBuw80T9faL9TZo%2B4LoaaSyvqn3JpYvbSMAsT06d2L2Z1nBGI7y6SsGIMrqp0WyT%2Fcyoj63Bk8MP1KhMPHWhEVvZQvf%2B4KnqQgL1RJfD1LhN1dMc%2BrIfTYzAq98OFdo%2FLoyZnRm6M%2BKaNqjlGeXsRcmw9AW%2FnEB2BYYTFb08QUua0jf8c7valcMtYKVA3MLb5L3f6bnIAjgd1pqm80pZO0gqTUDijEUkB8Rbql1lssu%2FN6LpA8pa0Ze0CHK73jc1UxlSoIPGF3oitY1EwA5%2FV8dZZO4JKLVg3QfGlkr55OPSxM3zDFz7rNBjqkAQ4LTVbZLnWkdVoF8v71oXeYdyk7PiccRAhDGFZMPGIp1d%2BYwj2OJT%2Boq1MnX8odY1FcBojisqgzxWY3ZjC6PxTnI8dG1vaT%2BmxW9Z0Zia%2F%2B%2BThdFX5g3h2amgOjXxjtOBqOSA7SSlIlUmXab073mZerAQtCAV19XiBQGYZRstumOAroEw1DeDjmjDj0dyB5uDlFQ7oFkNU4tiRMH%2FVkUToQzuBe&amp;X-Amz-Signature=ddd93212c432fe8db6418c949ca3c1f8d05df7ab5570943b4cf927662db80037&amp;X-Amz-SignedHeaders=host&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject" alt="" />
+  <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/2e730524-c938-49ae-8845-e1733e642af9/a165a240-ec2c-4d4b-a234-4162a99878e1/output%EF%BC%BF1348766064.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=ASIAZI2LB466VTH2QEF7%2F20260309%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20260309T110909Z&amp;X-Amz-Expires=3600&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEGMaCXVzLXdlc3QtMiJHMEUCIQDjskt0LRUhWY76uJg30Rs29IbWL9vTfK5wDuHOkQwFMgIgc6EgpEp3SUk8%2Fwyy4rX8RsBX73fxz8vcu5EQPoqSBW4q%2FwMILBAAGgw2Mzc0MjMxODM4MDUiDO1ulACHI4eSPhIbcircAwghxfd4rAZp5%2BRTN5u5HpRMz2BSRlJXKDGKWBH6ROxVukev5wHSf%2FKlSQOQERfa8WGxO9ur9lscORq3B%2B3BaTbV9IcX81bsgz7DdFATMpuGZvQz4dCqCs%2B3uR21O7AlADIbVEfb79cwVC7BFx313j%2BMGDXalEZP83HcYlmA7FNwpMLqzrfkBZQXell95SDwhJFr6%2Bn5VgizpHBH04HaHeFEqnIO%2FP0I%2F5tseCJoTammVYzFQIOsvWf3PJu6LcDqkbm8xnK48WcWl1wM175a3vNTIrqFL9AoyaUgxv9WweCKm3LDmfSkNzLHGr4h47PDVBlttMYMtCwYMHwknSe1gwaaWTEHi79Qaqt5RzctqG%2Ffbcht%2BzasVk6QoEEe9S7kjeP4MA888qCrT8BAH0xB%2BFGrHI9w5uJgE74sI9UJ1L5OhRMS%2BDqThsqxqx6TVP5AmLq%2BM0G7h%2FJZnjWFbGMZTiLLNvL8f9eqOCsIB%2BdV83tPdFvTW0RKro04l0yPVyXGYMeU9dSBlLJ01Ih3mrTnAep8T3JX%2BWRvqN4pYrjpECjJzOIS257AkVEAPmscQ2uCTxo8H8CyrZdEDmCAN8kSS0XK%2B9yiL9KB0A5uOnwP3iy5%2BL8bLRybVJYOdxxGMOPNus0GOqUBGmeEwYF%2BrX5q%2FYoLKdcI68ZXjLIG00QdR0jNjcwYlCXDq%2BhXtWBsQ%2FkN9Id07s4Mpoe9moEVNXkIN6QpC2%2B2PQOlZO0cf3BCvnWH8AVpyLaHfx9YMbToGQaFLnV1fu87HuYDuyhMCC7sB4KtKmwuDWQd3SW1Vu8v2GAJkMi6R7gERVrweED8krchndAtKyc7L00RlydKNjYyg%2BxIg%2B597BP5YeMX&amp;X-Amz-Signature=99fa395021143ff8f36361070fcdbcaa94caea779bc8ad1b5f7bfaf7cbb9f4e2&amp;X-Amz-SignedHeaders=host&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject" alt="" />
 
 </figure>
 <br/>
 <p style="text-align:center;">여러분이 저처럼 손톱 물어뜯는 지긋지긋한 버릇 끝내시고</p>
 <p style="text-align:center;">손끝에 광명 찾으셨으면 좋겠습니다.</p>
 <p style="text-align:center;">고민만 하면 절대 안 바뀝니다.</p>
-<ul>
-<li>손톱 물어뜯는 습관 때문에 스트레스인 분</li>
-<li>손톱이 짧고 울퉁불퉁해서 손 숨기는 분</li>
-<li>젤네일로만 버티고 있는 분</li>
-<li>영양제 사서 후회한 경험 있는 분</li>
-</ul>
+<p style="text-align:center;">• 손톱 물어뜯는 습관 때문에 스트레스인 분</p>
+<p style="text-align:center;">• 손톱이 짧고 울퉁불퉁해서 손 숨기는 분</p>
+<p style="text-align:center;">• 젤네일로만 버티고 있는 분</p>
+<p style="text-align:center;">• 영양제 사서 후회한 경험 있는 분</p>
 <p style="text-align:center;">제가 여러개 써보고 돈 날리며 발굴한</p>
 <p style="text-align:center;">이거 하나로 시작해보세요.</p>
 <br/>
 <div style="margin:1.5em auto;max-width:70%;">
-  <a id="bm-rkdfawi" href="https://foind.co.kr/surl/p/14" target="_blank" rel="noreferrer"
-     style="display:flex;align-items:center;justify-content:space-between;gap:16px;border:1px solid #e0e0e0;border-radius:12px;padding:12px 16px;text-decoration:none;color:inherit;cursor:pointer;background:#fafafa;transition:background 0.15s;" onmouseover="this.style.background='#f0f0f0'" onmouseout="this.style.background='#fafafa'">
+  <a href="https://foind.co.kr/surl/p/14" target="_blank" rel="noreferrer"
+     style="display:flex;align-items:center;justify-content:space-between;gap:16px;border:1px solid #e0e0e0;border-radius:12px;padding:12px 16px;text-decoration:none;color:inherit;cursor:pointer;background:#fafafa;transition:background 0.15s;"
+     onmouseover="this.style.background='#f0f0f0'" onmouseout="this.style.background='#fafafa'">
     <div style="min-width:0;">
-      <p id="bm-rkdfawi-host" style="margin:0 0 2px;font-size:0.75em;color:#999;">불러오는 중…</p>
-      <p id="bm-rkdfawi-title" style="margin:0 0 4px;font-weight:700;font-size:0.95em;color:#222;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">https://foind.co.kr/surl/p/14</p>
-      <p id="bm-rkdfawi-desc" style="margin:0;font-size:0.82em;color:#888;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;"></p>
+      <p style="margin:0 0 2px;font-size:0.75em;color:#999;">foind.co.kr</p>
+      <p style="margin:0 0 4px;font-weight:700;font-size:0.95em;color:#222;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">포인드 손톱영양제</p>
+      <p style="margin:0;font-size:0.82em;color:#888;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;">리포좀 기술로 유효성분 흡수력을 높인 비건 손톱영양제, 2주 만에 속부터 차오르는 윤광</p>
     </div>
-    <img id="bm-rkdfawi-img" src="" alt="" style="width:80px;height:80px;object-fit:cover;border-radius:8px;flex-shrink:0;display:none;" />
+    <img src="https://foind.co.kr/web/product/big/202512/acc074544abea1b36428116f5a25cd1a.jpg" alt="" style="width:80px;height:80px;object-fit:cover;border-radius:8px;flex-shrink:0;" />
   </a>
-  <script>
-    (function(){
-      fetch('/api/og?url=https%3A%2F%2Ffoind.co.kr%2Fsurl%2Fp%2F14')
-        .then(function(r){return r.json();})
-        .then(function(d){
-          var h=document.getElementById('bm-rkdfawi-host');
-          var t=document.getElementById('bm-rkdfawi-title');
-          var desc=document.getElementById('bm-rkdfawi-desc');
-          var img=document.getElementById('bm-rkdfawi-img');
-          if(h) h.textContent=d.hostname||'';
-          if(t) t.textContent=d.title||'';
-          if(desc) desc.textContent=d.description||'';
-          if(img&&d.image){img.src=d.image;img.style.display='block';}
-        }).catch(function(){});
-    })();
-  </script>
 </div>
 <br/>
 <p style="text-align:center;">더 궁금한 거 있으면 댓글 남겨주세요.</p>
 <p style="text-align:center;">확인하는대로 답글 남길게요!</p>
 <br/>
 <div style="margin:1.5em auto;max-width:70%;">
-  <a id="bm-0z82aw3" href="https://foind.co.kr/surl/p/14" target="_blank" rel="noreferrer"
-     style="display:flex;align-items:center;justify-content:space-between;gap:16px;border:1px solid #e0e0e0;border-radius:12px;padding:12px 16px;text-decoration:none;color:inherit;cursor:pointer;background:#fafafa;transition:background 0.15s;" onmouseover="this.style.background='#f0f0f0'" onmouseout="this.style.background='#fafafa'">
+  <a href="https://foind.co.kr/surl/p/14" target="_blank" rel="noreferrer"
+     style="display:flex;align-items:center;justify-content:space-between;gap:16px;border:1px solid #e0e0e0;border-radius:12px;padding:12px 16px;text-decoration:none;color:inherit;cursor:pointer;background:#fafafa;transition:background 0.15s;"
+     onmouseover="this.style.background='#f0f0f0'" onmouseout="this.style.background='#fafafa'">
     <div style="min-width:0;">
-      <p id="bm-0z82aw3-host" style="margin:0 0 2px;font-size:0.75em;color:#999;">불러오는 중…</p>
-      <p id="bm-0z82aw3-title" style="margin:0 0 4px;font-weight:700;font-size:0.95em;color:#222;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">https://foind.co.kr/surl/p/14</p>
-      <p id="bm-0z82aw3-desc" style="margin:0;font-size:0.82em;color:#888;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;"></p>
+      <p style="margin:0 0 2px;font-size:0.75em;color:#999;">foind.co.kr</p>
+      <p style="margin:0 0 4px;font-weight:700;font-size:0.95em;color:#222;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">포인드 손톱영양제</p>
+      <p style="margin:0;font-size:0.82em;color:#888;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;">리포좀 기술로 유효성분 흡수력을 높인 비건 손톱영양제, 2주 만에 속부터 차오르는 윤광</p>
     </div>
-    <img id="bm-0z82aw3-img" src="" alt="" style="width:80px;height:80px;object-fit:cover;border-radius:8px;flex-shrink:0;display:none;" />
+    <img src="https://foind.co.kr/web/product/big/202512/acc074544abea1b36428116f5a25cd1a.jpg" alt="" style="width:80px;height:80px;object-fit:cover;border-radius:8px;flex-shrink:0;" />
   </a>
-  <script>
-    (function(){
-      fetch('/api/og?url=https%3A%2F%2Ffoind.co.kr%2Fsurl%2Fp%2F14')
-        .then(function(r){return r.json();})
-        .then(function(d){
-          var h=document.getElementById('bm-0z82aw3-host');
-          var t=document.getElementById('bm-0z82aw3-title');
-          var desc=document.getElementById('bm-0z82aw3-desc');
-          var img=document.getElementById('bm-0z82aw3-img');
-          if(h) h.textContent=d.hostname||'';
-          if(t) t.textContent=d.title||'';
-          if(desc) desc.textContent=d.description||'';
-          if(img&&d.image){img.src=d.image;img.style.display='block';}
-        }).catch(function(){});
-    })();
-  </script>
 </div>
 <br/>
 `,
     bestComments: [
       {
         id: 1,
-        author: "뷰티고수",
+        author: "코덕언니",
         date: "2026.03.09",
         text: "어머 이거 진짜 좋은 듯요",
-        likes: 302,
+        likes: 418,
       },
       {
         id: 2,
-        author: "자기계발러",
+        author: "건강한손톱",
         date: "2026.03.09",
         text: "믿고 구매해볼게요. 저도 고칠 수 있으면 좋겠어요. ㅠㅠ",
-        likes: 340,
+        likes: 279,
       },
       {
         id: 3,
-        author: "겨울손톱",
+        author: "네일러버",
         date: "2026.03.09",
         text: "저희 딸이 중학생인데, 아직도 물어뜯더라구요. 도움 주셔서 감사해요!",
-        likes: 426,
+        likes: 247,
       }
     ],
   },
