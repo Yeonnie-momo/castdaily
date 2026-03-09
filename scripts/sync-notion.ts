@@ -99,6 +99,33 @@ function escapeHtml(text: string): string {
     .replace(/"/g, "&quot;");
 }
 
+/** Fetch OG metadata from a URL at sync time */
+async function fetchOg(url: string): Promise<{ title: string; image: string | null; description: string | null; hostname: string }> {
+  const hostname = (() => { try { return new URL(url).hostname.replace(/^www\./, ""); } catch { return url; } })();
+  try {
+    const res = await fetch(url, {
+      headers: { "User-Agent": "Mozilla/5.0 (compatible; CastdailyBot/1.0)" },
+      signal: AbortSignal.timeout(6000),
+    });
+    const html = await res.text();
+    const meta = (prop: string) => {
+      const m =
+        html.match(new RegExp(`<meta[^>]+property=["']${prop}["'][^>]+content=["']([^"']+)["']`, "i")) ??
+        html.match(new RegExp(`<meta[^>]+content=["']([^"']+)["'][^>]+property=["']${prop}["']`, "i"));
+      return m ? m[1] : null;
+    };
+    const titleTag = html.match(/<title[^>]*>([^<]+)<\/title>/i)?.[1]?.trim() ?? null;
+    return {
+      title: meta("og:title") ?? titleTag ?? hostname,
+      image: meta("og:image"),
+      description: meta("og:description"),
+      hostname,
+    };
+  } catch {
+    return { title: hostname, image: null, description: null, hostname };
+  }
+}
+
 /** Convert an array of RichText items to HTML spans */
 function richTextToHtml(richTexts: RichTextItemResponse[]): string {
   return richTexts
@@ -186,36 +213,22 @@ async function blocksToHtml(
         break;
       }
       case "bookmark": {
-        const bmUrl = escapeHtml(block.bookmark.url);
-        const uid = `bm-${Math.random().toString(36).slice(2, 9)}`;
+        const rawUrl = block.bookmark.url;
+        const og = await fetchOg(rawUrl);
+        const imgHtml = og.image
+          ? `\n    <img src="${escapeHtml(og.image)}" alt="" style="width:80px;height:80px;object-fit:cover;border-radius:8px;flex-shrink:0;" />`
+          : "";
         html +=
           `<div style="margin:1.5em auto;max-width:70%;">\n` +
-          `  <a id="${uid}" href="${bmUrl}" target="_blank" rel="noreferrer"\n` +
-          `     style="display:flex;align-items:center;justify-content:space-between;gap:16px;border:1px solid #e0e0e0;border-radius:12px;padding:12px 16px;text-decoration:none;color:inherit;cursor:pointer;background:#fafafa;transition:background 0.15s;"` +
-          ` onmouseover="this.style.background='#f0f0f0'" onmouseout="this.style.background='#fafafa'">\n` +
+          `  <a href="${escapeHtml(rawUrl)}" target="_blank" rel="noreferrer"\n` +
+          `     style="display:flex;align-items:center;justify-content:space-between;gap:16px;border:1px solid #e0e0e0;border-radius:12px;padding:12px 16px;text-decoration:none;color:inherit;cursor:pointer;background:#fafafa;transition:background 0.15s;"\n` +
+          `     onmouseover="this.style.background='#f0f0f0'" onmouseout="this.style.background='#fafafa'">\n` +
           `    <div style="min-width:0;">\n` +
-          `      <p id="${uid}-host" style="margin:0 0 2px;font-size:0.75em;color:#999;">불러오는 중…</p>\n` +
-          `      <p id="${uid}-title" style="margin:0 0 4px;font-weight:700;font-size:0.95em;color:#222;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${bmUrl}</p>\n` +
-          `      <p id="${uid}-desc" style="margin:0;font-size:0.82em;color:#888;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;"></p>\n` +
-          `    </div>\n` +
-          `    <img id="${uid}-img" src="" alt="" style="width:80px;height:80px;object-fit:cover;border-radius:8px;flex-shrink:0;display:none;" />\n` +
+          `      <p style="margin:0 0 2px;font-size:0.75em;color:#999;">${escapeHtml(og.hostname)}</p>\n` +
+          `      <p style="margin:0 0 4px;font-weight:700;font-size:0.95em;color:#222;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${escapeHtml(og.title)}</p>\n` +
+          (og.description ? `      <p style="margin:0;font-size:0.82em;color:#888;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;">${escapeHtml(og.description)}</p>\n` : "") +
+          `    </div>${imgHtml}\n` +
           `  </a>\n` +
-          `  <script>\n` +
-          `    (function(){\n` +
-          `      fetch('/api/og?url=${encodeURIComponent(block.bookmark.url)}')\n` +
-          `        .then(function(r){return r.json();})\n` +
-          `        .then(function(d){\n` +
-          `          var h=document.getElementById('${uid}-host');\n` +
-          `          var t=document.getElementById('${uid}-title');\n` +
-          `          var desc=document.getElementById('${uid}-desc');\n` +
-          `          var img=document.getElementById('${uid}-img');\n` +
-          `          if(h) h.textContent=d.hostname||'';\n` +
-          `          if(t) t.textContent=d.title||'';\n` +
-          `          if(desc) desc.textContent=d.description||'';\n` +
-          `          if(img&&d.image){img.src=d.image;img.style.display='block';}\n` +
-          `        }).catch(function(){});\n` +
-          `    })();\n` +
-          `  </script>\n` +
           `</div>\n`;
         break;
       }
