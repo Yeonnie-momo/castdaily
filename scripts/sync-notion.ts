@@ -126,6 +126,16 @@ async function fetchOg(url: string): Promise<{ title: string; image: string | nu
   }
 }
 
+const NOTION_COLORS: Record<string, string> = {
+  gray: "#787774", brown: "#9F6B53", orange: "#D9730D", yellow: "#CB912F",
+  green: "#448361", blue: "#337EA9", purple: "#9065B0", pink: "#C14C8A", red: "#D44C47",
+};
+const NOTION_BG_COLORS: Record<string, string> = {
+  gray_background: "#F1F1EF", brown_background: "#F4EEEE", orange_background: "#FBECDD",
+  yellow_background: "#FBF3DB", green_background: "#EDF3EC", blue_background: "#E7F3F8",
+  purple_background: "#F4F0F9", pink_background: "#FAF1F5", red_background: "#FDEBEC",
+};
+
 /** Convert an array of RichText items to HTML spans */
 function richTextToHtml(richTexts: RichTextItemResponse[]): string {
   return richTexts
@@ -136,6 +146,13 @@ function richTextToHtml(richTexts: RichTextItemResponse[]): string {
       if (rt.annotations.italic) text = `<em>${text}</em>`;
       if (rt.annotations.strikethrough) text = `<s>${text}</s>`;
       if (rt.annotations.underline) text = `<u>${text}</u>`;
+      const color = rt.annotations.color;
+      if (color && color !== "default") {
+        const fg = NOTION_COLORS[color];
+        const bg = NOTION_BG_COLORS[color];
+        if (fg) text = `<span style="color:${fg};">${text}</span>`;
+        else if (bg) text = `<span style="background-color:${bg};">${text}</span>`;
+      }
       if (rt.type === "text" && rt.text.link) {
         text = `<a href="${escapeHtml(rt.text.link.url)}" target="_blank" rel="noreferrer">${text}</a>`;
       }
@@ -159,7 +176,7 @@ async function blocksToHtml(
       case "paragraph": {
         const inner = richTextToHtml(block.paragraph.rich_text);
         html += inner
-          ? `<p style="text-align:center;">${inner}</p>\n`
+          ? `<p>${inner}</p>\n`
           : `<br/>\n`;
         break;
       }
@@ -167,17 +184,17 @@ async function blocksToHtml(
       case "heading_2": {
         const richText =
           block.type === "heading_1" ? block.heading_1.rich_text : block.heading_2.rich_text;
-        html += `<h2 style="text-align:center;">${richTextToHtml(richText)}</h2>\n`;
+        html += `<h2>${richTextToHtml(richText)}</h2>\n`;
         break;
       }
       case "heading_3": {
-        html += `<h3 style="text-align:center;">${richTextToHtml(block.heading_3.rich_text)}</h3>\n`;
+        html += `<h3>${richTextToHtml(block.heading_3.rich_text)}</h3>\n`;
         break;
       }
       case "bulleted_list_item": {
         while (i < blocks.length && blocks[i].type === "bulleted_list_item") {
           const b = blocks[i] as BlockObjectResponse & { type: "bulleted_list_item" };
-          html += `<p style="text-align:center;">• ${richTextToHtml(b.bulleted_list_item.rich_text)}</p>\n`;
+          html += `<p>• ${richTextToHtml(b.bulleted_list_item.rich_text)}</p>\n`;
           i++;
         }
         continue; // i already advanced
@@ -185,7 +202,7 @@ async function blocksToHtml(
       case "numbered_list_item": {
         while (i < blocks.length && blocks[i].type === "numbered_list_item") {
           const b = blocks[i] as BlockObjectResponse & { type: "numbered_list_item" };
-          html += `<p style="text-align:center;"><strong>${richTextToHtml(b.numbered_list_item.rich_text)}</strong></p>\n`;
+          html += `<p><strong>${richTextToHtml(b.numbered_list_item.rich_text)}</strong></p>\n`;
           i++;
         }
         continue; // i already advanced
