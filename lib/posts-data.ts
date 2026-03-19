@@ -1073,6 +1073,224 @@ export const posts: Post[] = [
     ],
   },
 
+
+  /* Notion sync */
+  {
+    id: 185082211,
+    title: "젤네일 계속하면 손톱이 종잇장 된다는 거, 저도 직접 겪고 나서야 알았어요",
+    authorName: "예쁜건다내꺼",
+    dateText: "2026.03.20",
+    viewsText: "3,270 읽음",
+    authorAvatarUrl: "/images/blog/profile-nww.jpg",
+    initialLikeCount: 63,
+    commentCount: 3,
+    articleHTML: `
+<figure>
+  <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/2e730524-c938-49ae-8845-e1733e642af9/e0136f37-6ad6-4800-8215-19d3ce6dc378/nail_before_after.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=ASIAZI2LB4666NL7BW26%2F20260319%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20260319T102038Z&amp;X-Amz-Expires=3600&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEE8aCXVzLXdlc3QtMiJIMEYCIQCJZAltePmGH3V7IOdHeccUVh3Dko6JByn7R5a5b4%2FeVQIhAMSvOTqkHdlwnG%2B%2BXlmTLciYCMTJT224fSuF9obAviUXKv8DCBgQABoMNjM3NDIzMTgzODA1Igz2JWyPU%2FvYH8fUhpkq3AO960sqEUuIMsCcujdCbJK8cfWZM08d95RgLC%2FIi1r2J6h02WwVOlw4limHIIvxBhDBbDSG702wzlYcvTePKuDPDphB6TdQ3eVEjVK%2FhABfgmqnZGGgX0PcMFhXk6ppRQVQhXXWf5lWbkKQmZAWYnLjro7hO6elQ%2FvEsIUUjUBcYBlcs8mieA6cNikaoHichbJwNAPfj0ZmKuIlkSBN%2BUJ35Fc6s5fa6Th%2FvcYJJnGpau6%2FkOO2kVy%2BGyODJlqtUuGL7hPPtYBRDpvdFklskX2dxwVR0PpSYIZpCxjQlUImAImdmz4gMCpC%2Fa%2FvfmbkuHivk64XzRVP7eMdI9p1k1veAVWyzf1c5OL0jxqXUgrOPCy7ePyIkVE4eBm7XaJhOgs4ZHFzTzWqgEO1OZ4eOcK2cZ4kpq77XQnebNbX6tXRwBjvlLlnPHIsgJmSuIwp4chCXEDFIkU6rqz9chuNfBq1EVT9nkITTIbrcbeup0CgsgaEc12BpFTRpW8lVk9j21SeluO8S3oTwuiWUeMbUyqbImXm4Y9eXNefqGPOx6kedi9KO56qGoT4so%2FiW4zOfvhkuYfJFOL6LdjI5K50Q2wu3H5whpiRAxlExj0eTdnQQ2DcedLAwyCTiw8R%2FTDjvu7NBjqkAXYn11wnX1AGHgxfiWH%2F5%2B%2FTWlYIearQKcAtjDwSHW1GLSa9FItBa9piqvb9Gv5V3CR7oKMRmCWjRcmp8eExuLH3JHH6ffaPc3iVsuHAtvELuXUcMVyo9ng1SjC3iwI1C8v%2FmFXwUx7O5jat551r9NxNhCmmK%2BlXAhAYErDJoNDieIxOWpz19rkx8tz4RRLDgji9Zs%2FZbwwKIFp%2BCCKQuGVwKTb9&amp;X-Amz-Signature=ebb0b47b8f93af90498ce99528b42657b33ad6a7c0c762f7c5a1d93eae1866f6&amp;X-Amz-SignedHeaders=host&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject" alt="" />
+
+</figure>
+<p style="text-align:center;">젤네일을 시작한 건 3년 전이었어요.</p>
+<p style="text-align:center;">처음엔 2주마다 샵에 가는 게 너무 즐거웠는데,
+어느 순간부터 리무버로 손톱을 지울 때마다 손톱이 얇아지는 게 느껴지기 시작했어요.</p>
+<p style="text-align:center;">그냥 원래 내 손톱이 약한 거겠지, 하고 넘겼죠.</p>
+<p style="text-align:center;">그러다 어느 날 젤을 떼고 나서 봤더니
+<strong>손톱이 반으로 휘어질 정도로 얇아져 있었어요.</strong></p>
+<p style="text-align:center;">네일리스트 원장님이 한마디 하셨어요.
+<strong>&quot;이 상태로 계속 하시면 나중에 못 붙여요.&quot;</strong></p>
+<p style="text-align:center;"><em>📷 이미지 삽입 (얇아져서 반쯤 휘는 손톱 클로즈업 사진 — 손톱이 극단적으로 얇아진 상태를 잘 보여주는 이미지)</em></p>
+<p style="text-align:center;">─────────────────────────────────</p>
+<blockquote>이 글은 젤네일을 사랑하지만 손톱이 점점 망가지는 것 같아 불안한 분들을 위해
+제가 3개월간 직접 시도해 본 손톱 복구 방법을 공유하는
+<strong>&quot;정보성 글입니다&quot;</strong></blockquote>
+<p style="text-align:center;">5분이면 읽을 수 있게 핵심만 정리했어요.</p>
+<p style="text-align:center;">그동안 네일 케어에 돈 쏟아부었는데 효과를 못 느꼈던 분이라면,
+이 글이 다소 억울하게 느껴질 수도 있어요.</p>
+<p style="text-align:center;"><strong>하지만</strong></p>
+<p style="text-align:center;"><em>1. 젤네일 후 손톱이 확실히 얇아진 것 같은 분
+2. 쉬고 싶은데 맨손톱이 너무 부끄러워 못 쉬는 분
+3. 진짜 손톱 복구 루틴을 찾고 있는 분</em></p>
+<p style="text-align:center;">이라면 반드시 끝까지 읽어보세요.</p>
+<p style="text-align:center;">─────────────────────────────────</p>
+<h3 style="text-align:center;"><strong>저에 대해 먼저 얘기할게요</strong></h3>
+<p style="text-align:center;">저는 네일 아트를 정말 좋아하는 평범한 직장인이에요.</p>
+<p style="text-align:center;">3년간 젤네일을 한 번도 쉰 적 없이 이어붙였고,
+그 결과 손톱이 완전히 망가졌습니다.</p>
+<figure>
+  <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/2e730524-c938-49ae-8845-e1733e642af9/33a70b31-8e6b-46af-acbe-e7a6b4e598cd/%E1%84%80%E1%85%B5%E1%86%AF%E1%84%8B%E1%85%A5%E1%86%BB%E1%84%83%E1%85%A5%E1%86%AB_%E1%84%8B%E1%85%A5%E1%86%B7%E1%84%8C%E1%85%B5_%E1%84%89%E1%85%A9%E1%86%AB%E1%84%90%E1%85%A9%E1%86%B8.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=ASIAZI2LB4666NL7BW26%2F20260319%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20260319T102038Z&amp;X-Amz-Expires=3600&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEE8aCXVzLXdlc3QtMiJIMEYCIQCJZAltePmGH3V7IOdHeccUVh3Dko6JByn7R5a5b4%2FeVQIhAMSvOTqkHdlwnG%2B%2BXlmTLciYCMTJT224fSuF9obAviUXKv8DCBgQABoMNjM3NDIzMTgzODA1Igz2JWyPU%2FvYH8fUhpkq3AO960sqEUuIMsCcujdCbJK8cfWZM08d95RgLC%2FIi1r2J6h02WwVOlw4limHIIvxBhDBbDSG702wzlYcvTePKuDPDphB6TdQ3eVEjVK%2FhABfgmqnZGGgX0PcMFhXk6ppRQVQhXXWf5lWbkKQmZAWYnLjro7hO6elQ%2FvEsIUUjUBcYBlcs8mieA6cNikaoHichbJwNAPfj0ZmKuIlkSBN%2BUJ35Fc6s5fa6Th%2FvcYJJnGpau6%2FkOO2kVy%2BGyODJlqtUuGL7hPPtYBRDpvdFklskX2dxwVR0PpSYIZpCxjQlUImAImdmz4gMCpC%2Fa%2FvfmbkuHivk64XzRVP7eMdI9p1k1veAVWyzf1c5OL0jxqXUgrOPCy7ePyIkVE4eBm7XaJhOgs4ZHFzTzWqgEO1OZ4eOcK2cZ4kpq77XQnebNbX6tXRwBjvlLlnPHIsgJmSuIwp4chCXEDFIkU6rqz9chuNfBq1EVT9nkITTIbrcbeup0CgsgaEc12BpFTRpW8lVk9j21SeluO8S3oTwuiWUeMbUyqbImXm4Y9eXNefqGPOx6kedi9KO56qGoT4so%2FiW4zOfvhkuYfJFOL6LdjI5K50Q2wu3H5whpiRAxlExj0eTdnQQ2DcedLAwyCTiw8R%2FTDjvu7NBjqkAXYn11wnX1AGHgxfiWH%2F5%2B%2FTWlYIearQKcAtjDwSHW1GLSa9FItBa9piqvb9Gv5V3CR7oKMRmCWjRcmp8eExuLH3JHH6ffaPc3iVsuHAtvELuXUcMVyo9ng1SjC3iwI1C8v%2FmFXwUx7O5jat551r9NxNhCmmK%2BlXAhAYErDJoNDieIxOWpz19rkx8tz4RRLDgji9Zs%2FZbwwKIFp%2BCCKQuGVwKTb9&amp;X-Amz-Signature=df80f8cb7efbd5a3d1e6cee95e54f15ad48ad26b63c50e13deb323e2e591bcd8&amp;X-Amz-SignedHeaders=host&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject" alt="(손톱이 엉망이어서 사진은 작게…)" />
+<figcaption>(손톱이 엉망이어서 사진은 작게…)</figcaption>
+</figure>
+<p style="text-align:center;">처음엔 당연히 젤네일 탓인지 몰랐어요.</p>
+<p style="text-align:center;">그냥 피부가 건조한 타입이라 손톱도 약한 거겠지 했고,
+오히려 젤네일을 하면 손톱이 보호된다고 생각했어요.</p>
+<p style="text-align:center;"><strong>&quot;네일을 붙이면 손톱이 더 튼튼해지는 거 아닌가요?&quot;</strong></p>
+<p style="text-align:center;">그렇게 알고 있는 분들이 정말 많더라고요. 저도 그랬으니까요.</p>
+<figure>
+  <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/2e730524-c938-49ae-8845-e1733e642af9/f27c0c91-0f4a-4d7b-a567-5add0951a6bd/%E1%84%8C%E1%85%A6%E1%86%AF%E1%84%82%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AF_%E1%84%89%E1%85%B5%E1%84%8C%E1%85%A5%E1%86%AF_%E1%84%89%E1%85%A9%E1%86%AB%E1%84%90%E1%85%A9%E1%86%B8.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=ASIAZI2LB4666NL7BW26%2F20260319%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20260319T102038Z&amp;X-Amz-Expires=3600&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEE8aCXVzLXdlc3QtMiJIMEYCIQCJZAltePmGH3V7IOdHeccUVh3Dko6JByn7R5a5b4%2FeVQIhAMSvOTqkHdlwnG%2B%2BXlmTLciYCMTJT224fSuF9obAviUXKv8DCBgQABoMNjM3NDIzMTgzODA1Igz2JWyPU%2FvYH8fUhpkq3AO960sqEUuIMsCcujdCbJK8cfWZM08d95RgLC%2FIi1r2J6h02WwVOlw4limHIIvxBhDBbDSG702wzlYcvTePKuDPDphB6TdQ3eVEjVK%2FhABfgmqnZGGgX0PcMFhXk6ppRQVQhXXWf5lWbkKQmZAWYnLjro7hO6elQ%2FvEsIUUjUBcYBlcs8mieA6cNikaoHichbJwNAPfj0ZmKuIlkSBN%2BUJ35Fc6s5fa6Th%2FvcYJJnGpau6%2FkOO2kVy%2BGyODJlqtUuGL7hPPtYBRDpvdFklskX2dxwVR0PpSYIZpCxjQlUImAImdmz4gMCpC%2Fa%2FvfmbkuHivk64XzRVP7eMdI9p1k1veAVWyzf1c5OL0jxqXUgrOPCy7ePyIkVE4eBm7XaJhOgs4ZHFzTzWqgEO1OZ4eOcK2cZ4kpq77XQnebNbX6tXRwBjvlLlnPHIsgJmSuIwp4chCXEDFIkU6rqz9chuNfBq1EVT9nkITTIbrcbeup0CgsgaEc12BpFTRpW8lVk9j21SeluO8S3oTwuiWUeMbUyqbImXm4Y9eXNefqGPOx6kedi9KO56qGoT4so%2FiW4zOfvhkuYfJFOL6LdjI5K50Q2wu3H5whpiRAxlExj0eTdnQQ2DcedLAwyCTiw8R%2FTDjvu7NBjqkAXYn11wnX1AGHgxfiWH%2F5%2B%2FTWlYIearQKcAtjDwSHW1GLSa9FItBa9piqvb9Gv5V3CR7oKMRmCWjRcmp8eExuLH3JHH6ffaPc3iVsuHAtvELuXUcMVyo9ng1SjC3iwI1C8v%2FmFXwUx7O5jat551r9NxNhCmmK%2BlXAhAYErDJoNDieIxOWpz19rkx8tz4RRLDgji9Zs%2FZbwwKIFp%2BCCKQuGVwKTb9&amp;X-Amz-Signature=764898e5f6595378cae47a24dadcee697e53626025120bac8f7704148f821b61&amp;X-Amz-SignedHeaders=host&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject" alt="" />
+
+</figure>
+<p style="text-align:center;">─────────────────────────────────</p>
+<h3 style="text-align:center;"><strong>&quot;지금 당장 쉬지 않으면 손톱 회복 안 됩니다&quot;</strong></h3>
+<p style="text-align:center;">담당 네일리스트가 제 젤네일을 제거해주시다가 멈추더니 이렇게 말했어요.</p>
+<p style="text-align:center;">그 말을 부정하고 싶었어요.</p>
+<p style="text-align:center;">맨손톱으로 한 달을 어떻게 버티냐고,
+직장도 다니는데 이 손 보여주기가 너무 창피하다고 했더니</p>
+<figure>
+  <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/2e730524-c938-49ae-8845-e1733e642af9/b771be0c-2848-4580-801b-249754fe6d7c/%E1%84%89%E1%85%A6%E1%84%80%E1%85%B2%E1%86%AB_%E1%84%8E%E1%85%B5%E1%86%B7%E1%84%90%E1%85%AE.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=ASIAZI2LB4666NL7BW26%2F20260319%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20260319T102039Z&amp;X-Amz-Expires=3600&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEE8aCXVzLXdlc3QtMiJIMEYCIQCJZAltePmGH3V7IOdHeccUVh3Dko6JByn7R5a5b4%2FeVQIhAMSvOTqkHdlwnG%2B%2BXlmTLciYCMTJT224fSuF9obAviUXKv8DCBgQABoMNjM3NDIzMTgzODA1Igz2JWyPU%2FvYH8fUhpkq3AO960sqEUuIMsCcujdCbJK8cfWZM08d95RgLC%2FIi1r2J6h02WwVOlw4limHIIvxBhDBbDSG702wzlYcvTePKuDPDphB6TdQ3eVEjVK%2FhABfgmqnZGGgX0PcMFhXk6ppRQVQhXXWf5lWbkKQmZAWYnLjro7hO6elQ%2FvEsIUUjUBcYBlcs8mieA6cNikaoHichbJwNAPfj0ZmKuIlkSBN%2BUJ35Fc6s5fa6Th%2FvcYJJnGpau6%2FkOO2kVy%2BGyODJlqtUuGL7hPPtYBRDpvdFklskX2dxwVR0PpSYIZpCxjQlUImAImdmz4gMCpC%2Fa%2FvfmbkuHivk64XzRVP7eMdI9p1k1veAVWyzf1c5OL0jxqXUgrOPCy7ePyIkVE4eBm7XaJhOgs4ZHFzTzWqgEO1OZ4eOcK2cZ4kpq77XQnebNbX6tXRwBjvlLlnPHIsgJmSuIwp4chCXEDFIkU6rqz9chuNfBq1EVT9nkITTIbrcbeup0CgsgaEc12BpFTRpW8lVk9j21SeluO8S3oTwuiWUeMbUyqbImXm4Y9eXNefqGPOx6kedi9KO56qGoT4so%2FiW4zOfvhkuYfJFOL6LdjI5K50Q2wu3H5whpiRAxlExj0eTdnQQ2DcedLAwyCTiw8R%2FTDjvu7NBjqkAXYn11wnX1AGHgxfiWH%2F5%2B%2FTWlYIearQKcAtjDwSHW1GLSa9FItBa9piqvb9Gv5V3CR7oKMRmCWjRcmp8eExuLH3JHH6ffaPc3iVsuHAtvELuXUcMVyo9ng1SjC3iwI1C8v%2FmFXwUx7O5jat551r9NxNhCmmK%2BlXAhAYErDJoNDieIxOWpz19rkx8tz4RRLDgji9Zs%2FZbwwKIFp%2BCCKQuGVwKTb9&amp;X-Amz-Signature=f20e7aef460936418b1e9a16482b8651f20f53eb5a2f78148491c2fbb4c2cb28&amp;X-Amz-SignedHeaders=host&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject" alt="" />
+
+</figure>
+<p style="text-align:center;">그때 처음으로 알았어요.
+<strong>휴식기가 진짜 회복이 되려면, 아무것도 안 하면 안 된다는 걸.</strong></p>
+<p style="text-align:center;">─────────────────────────────────</p>
+<h2 style="text-align:center;"><strong>[1] 왜 젤네일을 하면 손톱이 얇아질까?</strong></h2>
+<p style="text-align:center;">많은 분들이 &quot;젤네일이 손톱을 보호한다&quot;고 알고 계시는데,
+실제로는 반대에 가까워요.</p>
+<h3 style="text-align:center;"><strong>젤네일이 손톱을 손상시키는 3가지 과정</strong></h3>
+<figure>
+  <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/2e730524-c938-49ae-8845-e1733e642af9/78c1057e-4720-44e7-8f18-805825ba9839/%E1%84%8C%E1%85%A6%E1%86%AF%E1%84%82%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AF_%E1%84%89%E1%85%B5%E1%84%89%E1%85%AE%E1%86%AF.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=ASIAZI2LB4666NL7BW26%2F20260319%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20260319T102039Z&amp;X-Amz-Expires=3600&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEE8aCXVzLXdlc3QtMiJIMEYCIQCJZAltePmGH3V7IOdHeccUVh3Dko6JByn7R5a5b4%2FeVQIhAMSvOTqkHdlwnG%2B%2BXlmTLciYCMTJT224fSuF9obAviUXKv8DCBgQABoMNjM3NDIzMTgzODA1Igz2JWyPU%2FvYH8fUhpkq3AO960sqEUuIMsCcujdCbJK8cfWZM08d95RgLC%2FIi1r2J6h02WwVOlw4limHIIvxBhDBbDSG702wzlYcvTePKuDPDphB6TdQ3eVEjVK%2FhABfgmqnZGGgX0PcMFhXk6ppRQVQhXXWf5lWbkKQmZAWYnLjro7hO6elQ%2FvEsIUUjUBcYBlcs8mieA6cNikaoHichbJwNAPfj0ZmKuIlkSBN%2BUJ35Fc6s5fa6Th%2FvcYJJnGpau6%2FkOO2kVy%2BGyODJlqtUuGL7hPPtYBRDpvdFklskX2dxwVR0PpSYIZpCxjQlUImAImdmz4gMCpC%2Fa%2FvfmbkuHivk64XzRVP7eMdI9p1k1veAVWyzf1c5OL0jxqXUgrOPCy7ePyIkVE4eBm7XaJhOgs4ZHFzTzWqgEO1OZ4eOcK2cZ4kpq77XQnebNbX6tXRwBjvlLlnPHIsgJmSuIwp4chCXEDFIkU6rqz9chuNfBq1EVT9nkITTIbrcbeup0CgsgaEc12BpFTRpW8lVk9j21SeluO8S3oTwuiWUeMbUyqbImXm4Y9eXNefqGPOx6kedi9KO56qGoT4so%2FiW4zOfvhkuYfJFOL6LdjI5K50Q2wu3H5whpiRAxlExj0eTdnQQ2DcedLAwyCTiw8R%2FTDjvu7NBjqkAXYn11wnX1AGHgxfiWH%2F5%2B%2FTWlYIearQKcAtjDwSHW1GLSa9FItBa9piqvb9Gv5V3CR7oKMRmCWjRcmp8eExuLH3JHH6ffaPc3iVsuHAtvELuXUcMVyo9ng1SjC3iwI1C8v%2FmFXwUx7O5jat551r9NxNhCmmK%2BlXAhAYErDJoNDieIxOWpz19rkx8tz4RRLDgji9Zs%2FZbwwKIFp%2BCCKQuGVwKTb9&amp;X-Amz-Signature=13212ae34bc4084166a1295886d7a022c37a6e690030120143bc5e467567447b&amp;X-Amz-SignedHeaders=host&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject" alt="" />
+
+</figure>
+<p style="text-align:center;"><strong>① 파일링으로 표면층이 깎인다</strong></p>
+<p style="text-align:center;">젤이 잘 붙도록 손톱 표면을 샌딩하는데, 이때 손톱 최외각 보호층이 깎여요.</p>
+<p style="text-align:center;"><strong>② 아세톤이 수분과 오일을 빼앗는다</strong></p>
+<p style="text-align:center;">젤 제거 시 쓰는 아세톤은 손톱의 천연 오일과 수분을 함께 증발시켜요.
+이게 반복되면 손톱이 건조해지면서 탄력을 잃고 얇아집니다.</p>
+<p style="text-align:center;"><strong>③ 새 손톱이 자라기 전에 또 젤이 올라온다</strong></p>
+<p style="text-align:center;">손톱이 완전히 재생되려면 약 6개월이 필요해요.
+하지만 2~3주마다 교체하면, 손톱이 회복할 여유 없이 계속 손상만 쌓입니다.</p>
+<p style="text-align:center;">─────────────────────────────────</p>
+<h2 style="text-align:center;"><strong>[2] 그동안 내가 잘못 알고 있던 것들</strong></h2>
+<p style="text-align:center;">손톱 복구를 찾아보면서 정말 많은 광고와 정보를 접했는데,
+업계의 상식처럼 퍼져 있는 게 사실 틀린 경우가 많았어요.</p>
+<p style="text-align:center;"><strong>오해 1. &quot;큐티클 오일만 잘 바르면 된다&quot;</strong></p>
+<p style="text-align:center;">큐티클 오일은 큐티클 보호에 좋지만, 얇아진 손톱판 자체를 강화하지는 못해요.</p>
+<p style="text-align:center;"><strong>오해 2. &quot;영양제 먹으면 손톱이 빨리 자란다&quot;</strong></p>
+<p style="text-align:center;">비오틴은 손톱 성장을 도울 수 있지만, 손상된 손톱판의 탄력을 되돌리지는 않아요.</p>
+<p style="text-align:center;"><strong>오해 3. &quot;그냥 쉬기만 하면 된다&quot;</strong></p>
+<p style="text-align:center;">아무것도 안 바르고 방치하면 수분이 계속 빠져나가 오히려 더 부서지기 쉬워져요.</p>
+<figure>
+  <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/2e730524-c938-49ae-8845-e1733e642af9/0a7487bf-634f-46fb-bb50-de3894c5121e/%E1%84%8F%E1%85%B2%E1%84%90%E1%85%B5%E1%84%8F%E1%85%B3%E1%86%AF%E1%84%8B%E1%85%B3%E1%86%AB_%E1%84%8B%E1%85%A5%E1%86%B9%E1%84%82%E1%85%B3%E1%86%AB_%E1%84%8B%E1%85%A3%E1%86%A8%E1%84%92%E1%85%A1%E1%86%AB_%E1%84%89%E1%85%A9%E1%86%AB%E1%84%90%E1%85%A9%E1%86%B8.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=ASIAZI2LB4666NL7BW26%2F20260319%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20260319T102039Z&amp;X-Amz-Expires=3600&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEE8aCXVzLXdlc3QtMiJIMEYCIQCJZAltePmGH3V7IOdHeccUVh3Dko6JByn7R5a5b4%2FeVQIhAMSvOTqkHdlwnG%2B%2BXlmTLciYCMTJT224fSuF9obAviUXKv8DCBgQABoMNjM3NDIzMTgzODA1Igz2JWyPU%2FvYH8fUhpkq3AO960sqEUuIMsCcujdCbJK8cfWZM08d95RgLC%2FIi1r2J6h02WwVOlw4limHIIvxBhDBbDSG702wzlYcvTePKuDPDphB6TdQ3eVEjVK%2FhABfgmqnZGGgX0PcMFhXk6ppRQVQhXXWf5lWbkKQmZAWYnLjro7hO6elQ%2FvEsIUUjUBcYBlcs8mieA6cNikaoHichbJwNAPfj0ZmKuIlkSBN%2BUJ35Fc6s5fa6Th%2FvcYJJnGpau6%2FkOO2kVy%2BGyODJlqtUuGL7hPPtYBRDpvdFklskX2dxwVR0PpSYIZpCxjQlUImAImdmz4gMCpC%2Fa%2FvfmbkuHivk64XzRVP7eMdI9p1k1veAVWyzf1c5OL0jxqXUgrOPCy7ePyIkVE4eBm7XaJhOgs4ZHFzTzWqgEO1OZ4eOcK2cZ4kpq77XQnebNbX6tXRwBjvlLlnPHIsgJmSuIwp4chCXEDFIkU6rqz9chuNfBq1EVT9nkITTIbrcbeup0CgsgaEc12BpFTRpW8lVk9j21SeluO8S3oTwuiWUeMbUyqbImXm4Y9eXNefqGPOx6kedi9KO56qGoT4so%2FiW4zOfvhkuYfJFOL6LdjI5K50Q2wu3H5whpiRAxlExj0eTdnQQ2DcedLAwyCTiw8R%2FTDjvu7NBjqkAXYn11wnX1AGHgxfiWH%2F5%2B%2FTWlYIearQKcAtjDwSHW1GLSa9FItBa9piqvb9Gv5V3CR7oKMRmCWjRcmp8eExuLH3JHH6ffaPc3iVsuHAtvELuXUcMVyo9ng1SjC3iwI1C8v%2FmFXwUx7O5jat551r9NxNhCmmK%2BlXAhAYErDJoNDieIxOWpz19rkx8tz4RRLDgji9Zs%2FZbwwKIFp%2BCCKQuGVwKTb9&amp;X-Amz-Signature=778baadc4901fc14bdb4d9e27692bf4130ab7c7c3aaab1ad7c80d8cb438884e6&amp;X-Amz-SignedHeaders=host&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject" alt="전형적인 큐티클 관리는 잘 했는데, 손톱은 약한 모습" />
+<figcaption>전형적인 큐티클 관리는 잘 했는데, 손톱은 약한 모습</figcaption>
+</figure>
+<p style="text-align:center;">─────────────────────────────────</p>
+<h2 style="text-align:center;"><strong>[3] 제대로 찾아보고 나서야 알게 된 복구 원리</strong></h2>
+<p style="text-align:center;">그때부터 손톱 케어에 대해 진짜 공부하기 시작했어요.</p>
+<p style="text-align:center;">단순히 &quot;뭐 바르면 낫겠지&quot;가 아니라,
+왜 젤네일 후 손톱이 망가지는지, 어떤 원리로 회복이 되는지를요.</p>
+<p style="text-align:center;">찾아보면서 알게 된 게 있어요.</p>
+<p style="text-align:center;">시중에 있는 손톱 영양제 대부분이
+<strong>겉면에 코팅막을 씌우는 방식</strong>이라는 거예요.</p>
+<p style="text-align:center;">코팅이 올라가 있는 동안은 괜찮아 보이는데,
+지우고 나면 제자리.
+심지어 두껍게 쌓이면서 손톱 자체가 숨을 못 쉬어요.</p>
+<h3 style="text-align:center;"><strong>진짜 회복은 영양 성분이 손톱 안으로 흡수될 때 일어난다는 게 핵심이었어요.</strong></h3>
+<p style="text-align:center;">그런데 손톱은 피부보다 흡수가 훨씬 어려워요.
+표면이 단단한 케라틴 층으로 막혀 있어서,
+그냥 바른다고 영양이 들어가지 않거든요.</p>
+<p style="text-align:center;">그래서 주목하게 된 기술이 <strong>'리포좀'</strong> 이에요.</p>
+<p style="text-align:center;">리포좀은 유효 성분을 아주 작은 입자로 감싸서
+피부 세포막과 유사한 구조로 만드는 기술이에요.
+이 입자가 <strong>0.01mm 수준으로 초미세화</strong>되면
+손톱 표면을 통과해서 내부까지 침투할 수 있어요.</p>
+<p style="text-align:center;">겉을 덮는 게 아니라 <strong>속부터 채우는 방식</strong>이죠.</p>
+<p style="text-align:center;">거기다 손톱이 제대로 회복되려면 성분 하나만으로는 부족해요.
+손톱판의 주성분인 <strong>케라틴</strong>으로 강도를 잡고,
+<strong>판테놀</strong>로 수분을 붙잡고,
+<strong>레티놀</strong>로 세포 재생을 돕고,
+<strong>비오틴</strong>으로 성장을 지원하고,
+<strong>식물성 단백질 콤플렉스</strong>로 구조를 보완해야
+비로소 얇아진 손톱이 두께와 탄력을 되찾을 수 있어요.</p>
+<p style="text-align:center;">실제로 이 흡수 방식으로 설계된 제품을 2주 쓴 임상 결과에서
+<strong>손톱 표면 거칠기가 11.43% 감소</strong>했다는 게 전문 장비로 측정됐어요.
+주관적인 느낌이 아니라 수치로 확인된 거예요.</p>
+<p style="text-align:center;">─────────────────────────────────</p>
+<h3 style="text-align:center;"><strong>[4] 실제로 제가 3개월간 한 루틴</strong></h3>
+<p style="text-align:center;">네일쌤이 알려준 대로, 전문 네일케어 제품을 찾아서 써봤어요.
+루틴은 정말 단순해요.</p>
+<p style="text-align:center;"><strong>아침 — 1분</strong></p>
+<p style="text-align:center;">세안 후 손 씻고 물기 닦은 뒤, 손톱 전용 케어 제품 한 번 바르기</p>
+<p style="text-align:center;"><strong>저녁 — 2분</strong></p>
+<p style="text-align:center;">샤워 후 손톱에 케어 제품 + 큐티클 오일 마무리</p>
+<p style="text-align:center;"><strong>주 2회 — 5분</strong></p>
+<p style="text-align:center;">투명 손톱영양제 겸 강화제 코팅 한 층 덧바르기</p>
+<p style="text-align:center;">처음 1주는 솔직히 큰 차이를 못 느꼈어요.
+그런데 2주차부터 손톱이 덜 부서지기 시작했고,
+<strong>한 달이 지나자 새로 자라나는 손톱의 색이 달라졌어요.</strong></p>
+<p style="text-align:center;"><strong>3개월 후, 네일쌤이 이렇게 말해줬어요.</strong></p>
+<figure>
+  <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/2e730524-c938-49ae-8845-e1733e642af9/f1420344-c102-42e3-ab0f-9d0b66a1ce2b/3%E1%84%8C%E1%85%AE_%E1%84%92%E1%85%AE_%E1%84%89%E1%85%A9%E1%86%AB%E1%84%90%E1%85%A9%E1%86%B8.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=ASIAZI2LB4666NL7BW26%2F20260319%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20260319T102039Z&amp;X-Amz-Expires=3600&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEE8aCXVzLXdlc3QtMiJIMEYCIQCJZAltePmGH3V7IOdHeccUVh3Dko6JByn7R5a5b4%2FeVQIhAMSvOTqkHdlwnG%2B%2BXlmTLciYCMTJT224fSuF9obAviUXKv8DCBgQABoMNjM3NDIzMTgzODA1Igz2JWyPU%2FvYH8fUhpkq3AO960sqEUuIMsCcujdCbJK8cfWZM08d95RgLC%2FIi1r2J6h02WwVOlw4limHIIvxBhDBbDSG702wzlYcvTePKuDPDphB6TdQ3eVEjVK%2FhABfgmqnZGGgX0PcMFhXk6ppRQVQhXXWf5lWbkKQmZAWYnLjro7hO6elQ%2FvEsIUUjUBcYBlcs8mieA6cNikaoHichbJwNAPfj0ZmKuIlkSBN%2BUJ35Fc6s5fa6Th%2FvcYJJnGpau6%2FkOO2kVy%2BGyODJlqtUuGL7hPPtYBRDpvdFklskX2dxwVR0PpSYIZpCxjQlUImAImdmz4gMCpC%2Fa%2FvfmbkuHivk64XzRVP7eMdI9p1k1veAVWyzf1c5OL0jxqXUgrOPCy7ePyIkVE4eBm7XaJhOgs4ZHFzTzWqgEO1OZ4eOcK2cZ4kpq77XQnebNbX6tXRwBjvlLlnPHIsgJmSuIwp4chCXEDFIkU6rqz9chuNfBq1EVT9nkITTIbrcbeup0CgsgaEc12BpFTRpW8lVk9j21SeluO8S3oTwuiWUeMbUyqbImXm4Y9eXNefqGPOx6kedi9KO56qGoT4so%2FiW4zOfvhkuYfJFOL6LdjI5K50Q2wu3H5whpiRAxlExj0eTdnQQ2DcedLAwyCTiw8R%2FTDjvu7NBjqkAXYn11wnX1AGHgxfiWH%2F5%2B%2FTWlYIearQKcAtjDwSHW1GLSa9FItBa9piqvb9Gv5V3CR7oKMRmCWjRcmp8eExuLH3JHH6ffaPc3iVsuHAtvELuXUcMVyo9ng1SjC3iwI1C8v%2FmFXwUx7O5jat551r9NxNhCmmK%2BlXAhAYErDJoNDieIxOWpz19rkx8tz4RRLDgji9Zs%2FZbwwKIFp%2BCCKQuGVwKTb9&amp;X-Amz-Signature=28341884c68e3b56f0eb5b43f93fe499ccea00f234b1e07beaa34d7676ac635d&amp;X-Amz-SignedHeaders=host&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject" alt="" />
+
+</figure>
+<p style="text-align:center;">─────────────────────────────────</p>
+<p style="text-align:center;"><strong>혹시 저만 효과 본 게 아닐까 싶어서
+</strong>주변 젤네일 하는 친구들한테도 얘기해줬어요.</p>
+<figure>
+  <img src="https://prod-files-secure.s3.us-west-2.amazonaws.com/2e730524-c938-49ae-8845-e1733e642af9/10b3a6f9-9c4c-4db0-97ef-fa2f86c74d6a/KakaoTalk_Snapshot.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&amp;X-Amz-Credential=ASIAZI2LB4666NL7BW26%2F20260319%2Fus-west-2%2Fs3%2Faws4_request&amp;X-Amz-Date=20260319T102039Z&amp;X-Amz-Expires=3600&amp;X-Amz-Security-Token=IQoJb3JpZ2luX2VjEE8aCXVzLXdlc3QtMiJIMEYCIQCJZAltePmGH3V7IOdHeccUVh3Dko6JByn7R5a5b4%2FeVQIhAMSvOTqkHdlwnG%2B%2BXlmTLciYCMTJT224fSuF9obAviUXKv8DCBgQABoMNjM3NDIzMTgzODA1Igz2JWyPU%2FvYH8fUhpkq3AO960sqEUuIMsCcujdCbJK8cfWZM08d95RgLC%2FIi1r2J6h02WwVOlw4limHIIvxBhDBbDSG702wzlYcvTePKuDPDphB6TdQ3eVEjVK%2FhABfgmqnZGGgX0PcMFhXk6ppRQVQhXXWf5lWbkKQmZAWYnLjro7hO6elQ%2FvEsIUUjUBcYBlcs8mieA6cNikaoHichbJwNAPfj0ZmKuIlkSBN%2BUJ35Fc6s5fa6Th%2FvcYJJnGpau6%2FkOO2kVy%2BGyODJlqtUuGL7hPPtYBRDpvdFklskX2dxwVR0PpSYIZpCxjQlUImAImdmz4gMCpC%2Fa%2FvfmbkuHivk64XzRVP7eMdI9p1k1veAVWyzf1c5OL0jxqXUgrOPCy7ePyIkVE4eBm7XaJhOgs4ZHFzTzWqgEO1OZ4eOcK2cZ4kpq77XQnebNbX6tXRwBjvlLlnPHIsgJmSuIwp4chCXEDFIkU6rqz9chuNfBq1EVT9nkITTIbrcbeup0CgsgaEc12BpFTRpW8lVk9j21SeluO8S3oTwuiWUeMbUyqbImXm4Y9eXNefqGPOx6kedi9KO56qGoT4so%2FiW4zOfvhkuYfJFOL6LdjI5K50Q2wu3H5whpiRAxlExj0eTdnQQ2DcedLAwyCTiw8R%2FTDjvu7NBjqkAXYn11wnX1AGHgxfiWH%2F5%2B%2FTWlYIearQKcAtjDwSHW1GLSa9FItBa9piqvb9Gv5V3CR7oKMRmCWjRcmp8eExuLH3JHH6ffaPc3iVsuHAtvELuXUcMVyo9ng1SjC3iwI1C8v%2FmFXwUx7O5jat551r9NxNhCmmK%2BlXAhAYErDJoNDieIxOWpz19rkx8tz4RRLDgji9Zs%2FZbwwKIFp%2BCCKQuGVwKTb9&amp;X-Amz-Signature=0c9b24c26b7b0645d7085907694b21b3bc8be48e79daa66719615952329f6906&amp;X-Amz-SignedHeaders=host&amp;x-amz-checksum-mode=ENABLED&amp;x-id=GetObject" alt="" />
+
+</figure>
+<p style="text-align:center;"><strong>&quot;처음엔 별 기대 안 했는데 3주 만에 확실히 덜 들뜨더라&quot;</strong></p>
+<p style="text-align:center;"><strong>&quot;맨손톱이 부끄러워서 쉬지도 못했는데, 이제 자신 있어졌어&quot;</strong></p>
+<p style="text-align:center;"><strong>&quot;세로줄이 거의 없어졌어. 진짜야?&quot;</strong></p>
+<p style="text-align:center;">다들 비슷한 반응이었어요.</p>
+<p style="text-align:center;">그래서 이게 저만 특이한 게 아니라 젤네일 하는 사람이라면
+공통적으로 겪는 문제이고, 공통적으로 해결되는 거라는 확신이 생겼어요.</p>
+<p style="text-align:center;">─────────────────────────────────</p>
+<h3 style="text-align:center;"><strong>결론 — 딱 한 가지만 기억하세요</strong></h3>
+<p style="text-align:center;">젤네일 자체가 나쁜 게 아니에요.
+문제는 손톱이 회복할 시간을 주지 않는 것, 그리고 쉬는 동안 아무것도 안 하는 것.</p>
+<p style="text-align:center;"><strong>&quot;젤네일 휴식기에 제대로 케어하면, 손톱은 반드시 돌아와요.&quot;</strong></p>
+<p style="text-align:center;">정보 요청이 많을 것 같아서 미리 링크 남겨둘게요.
+맨손톱 전문으로 만든 브랜드라 일반 뷰티 제품이랑 확실히 달랐어요.</p>
+<div style="margin:1.5em auto;max-width:70%;">
+  <a href="https://foind.co.kr/product/%ED%8F%AC%EC%9D%B8%EB%93%9C-001-%EB%B9%84%EA%B1%B4-%EC%BB%B4%ED%8F%AC%ED%8A%B8-%EB%84%A4%EC%9D%BC-%ED%95%98%EB%93%9C%EB%84%88/14/category/42/display/1/" target="_blank" rel="noreferrer"
+     style="display:flex;align-items:center;justify-content:space-between;gap:16px;border:1px solid #e0e0e0;border-radius:12px;padding:12px 16px;text-decoration:none;color:inherit;cursor:pointer;background:#fafafa;transition:background 0.15s;"
+     onmouseover="this.style.background='#f0f0f0'" onmouseout="this.style.background='#fafafa'">
+    <div style="min-width:0;">
+      <p style="margin:0 0 2px;font-size:0.75em;color:#999;">foind.co.kr</p>
+      <p style="margin:0 0 4px;font-weight:700;font-size:0.95em;color:#222;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">포인드 손톱영양제</p>
+      <p style="margin:0;font-size:0.82em;color:#888;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;">리포좀 기술로 유효성분 흡수력을 높인 비건 손톱영양제, 2주 만에 속부터 차오르는 윤광</p>
+    </div>
+    <img src="https://foind.co.kr/web/product/big/202512/acc074544abea1b36428116f5a25cd1a.jpg" alt="" style="width:80px;height:80px;object-fit:cover;border-radius:8px;flex-shrink:0;" />
+  </a>
+</div>
+<p style="text-align:center;">링크 남겨달라는 문의가 많아서 아래 공유드려요.</p>
+<div style="margin:1.5em auto;max-width:70%;">
+  <a href="https://foind.co.kr/product/%ED%8F%AC%EC%9D%B8%EB%93%9C-001-%EB%B9%84%EA%B1%B4-%EC%BB%B4%ED%8F%AC%ED%8A%B8-%EB%84%A4%EC%9D%BC-%ED%95%98%EB%93%9C%EB%84%88/14/category/42/display/1/" target="_blank" rel="noreferrer"
+     style="display:flex;align-items:center;justify-content:space-between;gap:16px;border:1px solid #e0e0e0;border-radius:12px;padding:12px 16px;text-decoration:none;color:inherit;cursor:pointer;background:#fafafa;transition:background 0.15s;"
+     onmouseover="this.style.background='#f0f0f0'" onmouseout="this.style.background='#fafafa'">
+    <div style="min-width:0;">
+      <p style="margin:0 0 2px;font-size:0.75em;color:#999;">foind.co.kr</p>
+      <p style="margin:0 0 4px;font-weight:700;font-size:0.95em;color:#222;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">포인드 손톱영양제</p>
+      <p style="margin:0;font-size:0.82em;color:#888;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;">리포좀 기술로 유효성분 흡수력을 높인 비건 손톱영양제, 2주 만에 속부터 차오르는 윤광</p>
+    </div>
+    <img src="https://foind.co.kr/web/product/big/202512/acc074544abea1b36428116f5a25cd1a.jpg" alt="" style="width:80px;height:80px;object-fit:cover;border-radius:8px;flex-shrink:0;" />
+  </a>
+</div>
+`,
+    bestComments: [
+      {
+        id: 1,
+        author: "네일케어초보",
+        date: "2026.03.20",
+        text: "저도 .. 알려주시면 안될까요?",
+        likes: 437,
+      },
+      {
+        id: 2,
+        author: "향기덕후",
+        date: "2026.03.20",
+        text: "헐 저보다 손톱이 심하게 망가지셨네요.. ㅠ 에궁",
+        likes: 217,
+      },
+      {
+        id: 3,
+        author: "겨울손톱",
+        date: "2026.03.20",
+        text: "감사합니다. 저도 써볼게요~!",
+        likes: 333,
+      }
+    ],
+  },
+
 ];
 
 /* ──────────────────────── Helper ──────────────────────── */
