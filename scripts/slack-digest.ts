@@ -27,7 +27,7 @@ async function getRows() {
   const sheets = google.sheets({ version: "v4", auth });
   const res = await sheets.spreadsheets.values.get({
     spreadsheetId: SHEET_ID,
-    range: "Sheet1!A:J",
+    range: "시트1!A:J",
   });
   return res.data.values || [];
 }
