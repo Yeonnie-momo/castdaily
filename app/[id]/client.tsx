@@ -27,7 +27,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
-import { posts, getPostById, type Post } from "@/lib/posts-data";
+import { posts, getPostById, type Post, PRODUCT_DETAIL_URL } from "@/lib/posts-data";
 
 /* ═══════════════════════════════════════════════════════════════ */
 /*                     CLIENT COMPONENT                            */
@@ -46,6 +46,10 @@ export default function PostPageClient() {
   const [likeAnimating, setLikeAnimating] = useState(false);
   const [loginDialogOpen, setLoginDialogOpen] = useState(false);
   const [readProgress, setReadProgress] = useState(0);
+  const [promoPopup, setPromoPopup] = useState<1 | 2 | null>(null);
+  const [promoCloseVisible, setPromoCloseVisible] = useState(false);
+  const promoShown1 = useRef(false);
+  const promoShown2 = useRef(false);
 
   const commentRef = useRef<HTMLDivElement>(null);
 
@@ -85,19 +89,118 @@ export default function PostPageClient() {
     return () => el.removeEventListener('click', handler);
   }, [post]);
 
-  /* ── reading progress bar ── */
+  /* ── reading progress bar + scroll tracking ── */
+  const scrollTrackSent = useRef(false);
+  const maxScrollPercent = useRef(0);
+  const reachedSections = useRef<Set<string>>(new Set());
+
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
       const docHeight =
         document.documentElement.scrollHeight - window.innerHeight;
-      if (docHeight > 0) {
-        setReadProgress(Math.min((scrollTop / docHeight) * 100, 100));
+      if (docHeight <= 0) return;
+
+      const percent = Math.min(Math.round((scrollTop / docHeight) * 100), 100);
+      setReadProgress(percent);
+
+      // track max scroll depth
+      if (percent > maxScrollPercent.current) {
+        maxScrollPercent.current = percent;
+      }
+
+      // track which headings have been scrolled past
+      if (articleRef.current) {
+        const headings = articleRef.current.querySelectorAll("h2, h3");
+        headings.forEach((el) => {
+          const rect = el.getBoundingClientRect();
+          if (rect.top < window.innerHeight * 0.8) {
+            reachedSections.current.add(el.textContent?.trim() || "");
+          }
+        });
       }
     };
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  /* ── promo popup #1: 5초 후 자동 노출 ── */
+  useEffect(() => {
+    if (!post) return;
+    const timer = setTimeout(() => {
+      if (!promoShown1.current) {
+        promoShown1.current = true;
+        setPromoPopup(1);
+        setPromoCloseVisible(false);
+        setTimeout(() => setPromoCloseVisible(true), 2000);
+      }
+    }, 5000);
+    return () => clearTimeout(timer);
+  }, [post]);
+
+  /* ── promo popup #2: 40% 스크롤 시 노출 ── */
+  useEffect(() => {
+    if (!post) return;
+    const check = () => {
+      const scrollTop = window.scrollY;
+      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      if (docHeight <= 0) return;
+      const percent = (scrollTop / docHeight) * 100;
+      if (percent >= 40 && !promoShown2.current && promoPopup === null) {
+        promoShown2.current = true;
+        setPromoPopup(2);
+        setPromoCloseVisible(false);
+        setTimeout(() => setPromoCloseVisible(true), 2000);
+      }
+    };
+    window.addEventListener("scroll", check, { passive: true });
+    return () => window.removeEventListener("scroll", check);
+  }, [post, promoPopup]);
+
+  const handlePromoClick = useCallback(() => {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    (window as any).fbq?.("track", "Lead");
+    window.open(PRODUCT_DETAIL_URL, "_blank");
+    setPromoPopup(null);
+  }, []);
+
+  // send scroll data to Slack when user leaves page
+  useEffect(() => {
+    if (!post) return;
+
+    const sendScrollData = () => {
+      if (scrollTrackSent.current) return;
+      if (maxScrollPercent.current < 5) return; // ignore bounces
+      scrollTrackSent.current = true;
+
+      const payload = {
+        postId: post.id,
+        postTitle: post.title,
+        maxPercent: maxScrollPercent.current,
+        sectionsReached: Array.from(reachedSections.current),
+        timestamp: Date.now(),
+        userAgent: navigator.userAgent,
+        referrer: document.referrer || null,
+      };
+
+      // Use sendBeacon for reliability on page unload
+      navigator.sendBeacon(
+        "/api/scroll-track",
+        new Blob([JSON.stringify(payload)], { type: "application/json" })
+      );
+    };
+
+    // fire on page hide (covers tab close, navigate away, mobile switch)
+    document.addEventListener("visibilitychange", () => {
+      if (document.visibilityState === "hidden") sendScrollData();
+    });
+    window.addEventListener("pagehide", sendScrollData);
+
+    return () => {
+      sendScrollData();
+      window.removeEventListener("pagehide", sendScrollData);
+    };
+  }, [post]);
 
   /* ── handlers ── */
   const handleLike = useCallback(() => {
@@ -477,6 +580,221 @@ export default function PostPageClient() {
           </div>
         </DialogContent>
       </Dialog>
+
+      {/* ══════════ PROMO POPUP (촌스러운 광고 모달) ══════════ */}
+      {promoPopup !== null && (
+        <div
+          className="fixed inset-0 z-[9999] flex items-center justify-center"
+          style={{ backgroundColor: "rgba(0,0,0,0.75)" }}
+        >
+          <div
+            style={{
+              position: "relative",
+              width: "min(92vw, 420px)",
+              borderRadius: "16px",
+              overflow: "hidden",
+              boxShadow: "0 0 40px rgba(0,220,220,0.4), 0 0 80px rgba(255,100,200,0.2)",
+              animation: "promoPopIn 0.3s ease-out",
+            }}
+          >
+            {/* 닫기 버튼 — 2초 후 노출 */}
+            {promoCloseVisible && (
+              <button
+                onClick={() => setPromoPopup(null)}
+                style={{
+                  position: "absolute",
+                  top: "6px",
+                  right: "8px",
+                  zIndex: 10,
+                  background: "rgba(0,0,0,0.3)",
+                  border: "none",
+                  borderRadius: "50%",
+                  width: "22px",
+                  height: "22px",
+                  color: "#999",
+                  fontSize: "12px",
+                  cursor: "pointer",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  lineHeight: 1,
+                }}
+              >
+                ✕
+              </button>
+            )}
+
+            {/* 상단 영역 — 시안 그라데이션 */}
+            <div
+              style={{
+                background: "linear-gradient(135deg, #00cfcf 0%, #00e5a0 50%, #7fefef 100%)",
+                padding: "28px 20px 18px",
+                textAlign: "center",
+              }}
+            >
+              <p
+                style={{
+                  margin: 0,
+                  fontSize: "14px",
+                  fontWeight: 700,
+                  color: "#005f5f",
+                  marginBottom: "6px",
+                }}
+              >
+                ⏰ 이 페이지에서만 할인 가능 ⏰
+              </p>
+              <p
+                style={{
+                  margin: 0,
+                  fontSize: "22px",
+                  fontWeight: 900,
+                  color: "#d6006e",
+                  lineHeight: 1.3,
+                  textShadow: "1px 1px 0 #fff",
+                }}
+              >
+                {promoPopup === 1
+                  ? "10년간 묵어뒀던 손톱,\n한번에 드디어 고쳤어요"
+                  : "마지막 기회!\n지금 안 보면 후회합니다"}
+              </p>
+              <p
+                style={{
+                  margin: "8px 0 0",
+                  fontSize: "12px",
+                  color: "#007a7a",
+                  fontWeight: 600,
+                }}
+              >
+                ★★★★★ 이미 14,302명이 선택했습니다
+              </p>
+            </div>
+
+            {/* Before / After 이미지 영역 */}
+            <div
+              style={{
+                background: "#fff",
+                padding: "16px 20px",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: "12px",
+              }}
+            >
+              <div style={{ textAlign: "center" }}>
+                <span
+                  style={{
+                    display: "inline-block",
+                    background: "#ff4d6a",
+                    color: "#fff",
+                    fontSize: "11px",
+                    fontWeight: 800,
+                    padding: "2px 10px",
+                    borderRadius: "4px",
+                    marginBottom: "6px",
+                  }}
+                >
+                  BEFORE
+                </span>
+                <div
+                  style={{
+                    width: "100px",
+                    height: "80px",
+                    borderRadius: "8px",
+                    background: "#f0e6d6",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    fontSize: "28px",
+                  }}
+                >
+                  😢
+                </div>
+              </div>
+              <span style={{ fontSize: "24px", color: "#00cfcf", fontWeight: 900 }}>→</span>
+              <div style={{ textAlign: "center" }}>
+                <span
+                  style={{
+                    display: "inline-block",
+                    background: "#00c896",
+                    color: "#fff",
+                    fontSize: "11px",
+                    fontWeight: 800,
+                    padding: "2px 10px",
+                    borderRadius: "4px",
+                    marginBottom: "6px",
+                  }}
+                >
+                  AFTER
+                </span>
+                <div
+                  style={{
+                    width: "100px",
+                    height: "80px",
+                    borderRadius: "8px",
+                    background: "#e6f9f0",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    fontSize: "28px",
+                  }}
+                >
+                  ✨
+                </div>
+              </div>
+            </div>
+
+            {/* CTA 버튼 영역 */}
+            <div
+              style={{
+                background: "linear-gradient(to right, #ff4d6a, #ff7eb3)",
+                padding: "16px 20px 20px",
+                textAlign: "center",
+              }}
+            >
+              <button
+                onClick={handlePromoClick}
+                style={{
+                  background: "#ffe600",
+                  color: "#d6006e",
+                  border: "3px solid #d6006e",
+                  borderRadius: "12px",
+                  padding: "14px 32px",
+                  fontSize: "18px",
+                  fontWeight: 900,
+                  cursor: "pointer",
+                  width: "100%",
+                  boxShadow: "0 4px 16px rgba(214,0,110,0.3)",
+                  animation: "promoPulse 1.5s ease-in-out infinite",
+                }}
+              >
+                🔥 지금 바로 제품 확인하기 🔥
+              </button>
+              <p
+                style={{
+                  margin: "8px 0 0",
+                  fontSize: "11px",
+                  color: "rgba(255,255,255,0.9)",
+                  fontWeight: 600,
+                }}
+              >
+                ※ 본 페이지를 통한 구매 시에만 할인 적용
+              </p>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* promo popup animations */}
+      <style jsx global>{`
+        @keyframes promoPopIn {
+          from { transform: scale(0.7) translateY(30px); opacity: 0; }
+          to { transform: scale(1) translateY(0); opacity: 1; }
+        }
+        @keyframes promoPulse {
+          0%, 100% { transform: scale(1); }
+          50% { transform: scale(1.04); }
+        }
+      `}</style>
     </div>
   );
 }
