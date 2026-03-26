@@ -695,74 +695,17 @@ export default function PostPageClient() {
             <div
               style={{
                 background: "#fff",
-                padding: "16px 20px",
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                gap: "12px",
+                padding: "0",
               }}
             >
-              <div style={{ textAlign: "center" }}>
-                <span
-                  style={{
-                    display: "inline-block",
-                    background: "#ff4d6a",
-                    color: "#fff",
-                    fontSize: "11px",
-                    fontWeight: 800,
-                    padding: "2px 10px",
-                    borderRadius: "4px",
-                    marginBottom: "6px",
-                  }}
-                >
-                  BEFORE
-                </span>
-                <div
-                  style={{
-                    width: "100px",
-                    height: "80px",
-                    borderRadius: "8px",
-                    background: "#f0e6d6",
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    fontSize: "28px",
-                  }}
-                >
-                  😢
-                </div>
-              </div>
-              <span style={{ fontSize: "24px", color: "#00cfcf", fontWeight: 900 }}>→</span>
-              <div style={{ textAlign: "center" }}>
-                <span
-                  style={{
-                    display: "inline-block",
-                    background: "#00c896",
-                    color: "#fff",
-                    fontSize: "11px",
-                    fontWeight: 800,
-                    padding: "2px 10px",
-                    borderRadius: "4px",
-                    marginBottom: "6px",
-                  }}
-                >
-                  AFTER
-                </span>
-                <div
-                  style={{
-                    width: "100px",
-                    height: "80px",
-                    borderRadius: "8px",
-                    background: "#e6f9f0",
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    fontSize: "28px",
-                  }}
-                >
-                  ✨
-                </div>
-              </div>
+              <img
+                src="/images/blog/nail-before-after.png"
+                alt="Before and After"
+                style={{
+                  width: "100%",
+                  display: "block",
+                }}
+              />
             </div>
 
             {/* CTA 버튼 영역 */}
