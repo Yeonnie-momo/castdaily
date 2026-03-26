@@ -1,0 +1,54 @@
+name: Slack Digest
+
+on:
+  schedule:
+    # 오전 9시 KST (UTC 0시)
+    - cron: '0 0 * * *'
+    # 오후 2시 KST (UTC 5시)
+    - cron: '0 5 * * *'
+    # 오후 7시 KST (UTC 10시)
+    - cron: '0 10 * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Report mode (morning/afternoon/evening)'
+        required: false
+        default: 'morning'
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm ci --legacy-peer-deps
+
+      - name: Determine mode
+        id: mode
+        run: |
+          if [ -n "${{ github.event.inputs.mode }}" ]; then
+            echo "mode=${{ github.event.inputs.mode }}" >> "$GITHUB_OUTPUT"
+          else
+            HOUR=$(TZ=Asia/Seoul date +%H)
+            if [ "$HOUR" -lt 12 ]; then
+              echo "mode=morning" >> "$GITHUB_OUTPUT"
+            elif [ "$HOUR" -lt 16 ]; then
+              echo "mode=afternoon" >> "$GITHUB_OUTPUT"
+            else
+              echo "mode=evening" >> "$GITHUB_OUTPUT"
+            fi
+          fi
+
+      - name: Send Slack digest
+        env:
+          GOOGLE_SERVICE_ACCOUNT_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
+          GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: npx tsx scripts/slack-digest.ts ${{ steps.mode.outputs.mode }}

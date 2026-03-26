@@ -73,21 +73,44 @@ export default function PostPageClient() {
     }
   }, [rawId, numericId, router]);
 
-  /* ── CTA click → Meta Pixel Lead event ── */
+  /* ── CTA click → Meta Pixel Lead event + Sheets 기록 ── */
   const articleRef = useRef<HTMLDivElement>(null);
+  const sendCtaClick = useCallback(
+    (ctaType: string) => {
+      if (!post) return;
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      (window as any).fbq?.("track", "Lead");
+      navigator.sendBeacon(
+        "/api/scroll-track",
+        new Blob(
+          [
+            JSON.stringify({
+              postId: post.id,
+              postTitle: post.title,
+              eventType: "cta_click",
+              ctaType,
+              timestamp: Date.now(),
+              userAgent: navigator.userAgent,
+              referrer: document.referrer || null,
+            }),
+          ],
+          { type: "application/json" }
+        )
+      );
+    },
+    [post]
+  );
+
   useEffect(() => {
     const el = articleRef.current;
     if (!el) return;
     const handler = (e: MouseEvent) => {
       const anchor = (e.target as HTMLElement).closest?.('a[href*="foind.co.kr"]');
-      if (anchor) {
-        // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        (window as any).fbq?.('track', 'Lead');
-      }
+      if (anchor) sendCtaClick("content_link");
     };
-    el.addEventListener('click', handler);
-    return () => el.removeEventListener('click', handler);
-  }, [post]);
+    el.addEventListener("click", handler);
+    return () => el.removeEventListener("click", handler);
+  }, [post, sendCtaClick]);
 
   /* ── reading progress bar + scroll tracking ── */
   const scrollTrackSent = useRef(false);
@@ -158,11 +181,10 @@ export default function PostPageClient() {
   }, [post, promoPopup]);
 
   const handlePromoClick = useCallback(() => {
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    (window as any).fbq?.("track", "Lead");
+    sendCtaClick(promoPopup === 1 ? "popup_1" : "popup_2");
     window.open(PRODUCT_DETAIL_URL, "_blank");
     setPromoPopup(null);
-  }, []);
+  }, [promoPopup, sendCtaClick]);
 
   // send scroll data to Slack when user leaves page
   useEffect(() => {

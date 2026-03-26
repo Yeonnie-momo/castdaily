@@ -1,73 +1,42 @@
 import { NextRequest, NextResponse } from "next/server";
+import { appendRow } from "@/lib/google-sheets";
 
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
-    const { postId, postTitle, maxPercent, sectionsReached, timestamp, userAgent, referrer } = body;
-
-    const webhookUrl = process.env.SLACK_WEBHOOK_URL;
-    if (!webhookUrl) {
-      console.warn("SLACK_WEBHOOK_URL not set");
-      return NextResponse.json({ ok: true });
-    }
+    const {
+      postId,
+      postTitle,
+      eventType = "scroll", // scroll | cta_click
+      maxPercent,
+      sectionsReached,
+      ctaType, // popup_1 | popup_2 | content_link
+      timestamp,
+      userAgent,
+      referrer,
+    } = body;
 
     const now = new Date(timestamp || Date.now());
+    const kstDate = now
+      .toLocaleDateString("ko-KR", { timeZone: "Asia/Seoul", year: "numeric", month: "2-digit", day: "2-digit" })
+      .replace(/\. /g, "-")
+      .replace(".", "");
     const kstTime = now.toLocaleString("ko-KR", { timeZone: "Asia/Seoul" });
 
-    const sectionsText =
-      sectionsReached && sectionsReached.length > 0
-        ? sectionsReached.map((s: string) => `  - ${s}`).join("\n")
-        : "  (소제목 없음)";
-
-    const slackMessage = {
-      blocks: [
-        {
-          type: "header",
-          text: {
-            type: "plain_text",
-            text: `📊 스크롤 리포트`,
-            emoji: true,
-          },
-        },
-        {
-          type: "section",
-          fields: [
-            { type: "mrkdwn", text: `*게시글:*\n${postTitle}` },
-            { type: "mrkdwn", text: `*Post ID:*\n${postId}` },
-          ],
-        },
-        {
-          type: "section",
-          fields: [
-            { type: "mrkdwn", text: `*최대 스크롤:*\n${maxPercent}%` },
-            { type: "mrkdwn", text: `*시간:*\n${kstTime}` },
-          ],
-        },
-        {
-          type: "section",
-          text: {
-            type: "mrkdwn",
-            text: `*도달한 소제목:*\n${sectionsText}`,
-          },
-        },
-        ...(referrer
-          ? [
-              {
-                type: "context",
-                elements: [
-                  { type: "mrkdwn", text: `유입 경로: ${referrer}` },
-                ],
-              },
-            ]
-          : []),
-      ],
-    };
-
-    await fetch(webhookUrl, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(slackMessage),
-    });
+    // Google Sheets에 기록
+    // 컬럼: date | time | postId | postTitle | eventType | scrollPercent | sectionsReached | ctaType | userAgent | referrer
+    await appendRow([
+      kstDate,
+      kstTime,
+      String(postId),
+      postTitle || "",
+      eventType,
+      maxPercent != null ? String(maxPercent) : "",
+      Array.isArray(sectionsReached) ? sectionsReached.join(" → ") : "",
+      ctaType || "",
+      userAgent || "",
+      referrer || "",
+    ]);
 
     return NextResponse.json({ ok: true });
   } catch (e) {
