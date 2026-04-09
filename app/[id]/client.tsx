@@ -147,8 +147,12 @@ export default function PostPageClient() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  /* ── promo popup 기능 토글 (효율 저하로 임시 비활성화 — 나중에 true로 복구) ── */
+  const PROMO_POPUP_ENABLED = false;
+
   /* ── promo popup #1: 5초 후 자동 노출 ── */
   useEffect(() => {
+    if (!PROMO_POPUP_ENABLED) return;
     if (!post) return;
     const timer = setTimeout(() => {
       if (!promoShown1.current) {
@@ -163,6 +167,7 @@ export default function PostPageClient() {
 
   /* ── promo popup #2: 40% 스크롤 시 노출 ── */
   useEffect(() => {
+    if (!PROMO_POPUP_ENABLED) return;
     if (!post) return;
     const check = () => {
       const scrollTop = window.scrollY;
