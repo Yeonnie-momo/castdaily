@@ -86,7 +86,10 @@ function buildReport(rows: Row[], label: string): object | null {
   if (rows.length === 0) return null;
 
   const scrollRows = rows.filter((r) => r.eventType === "scroll");
-  const ctaRows = rows.filter((r) => r.eventType === "cta_click");
+  // 팝업 광고는 비활성화되어 리포트에서 제외 (popup_1, popup_2 무시)
+  const ctaRows = rows.filter(
+    (r) => r.eventType === "cta_click" && r.ctaType !== "popup_1" && r.ctaType !== "popup_2"
+  );
 
   // --- 페이지별 방문자 수 ---
   const pageVisits: Record<string, { title: string; count: number }> = {};
@@ -136,15 +139,10 @@ function buildReport(rows: Row[], label: string): object | null {
     })
     .join("\n");
 
-  // --- CTA 클릭 현황 ---
+  // --- CTA 클릭 현황 (팝업 제외, 콘텐츠 내 링크만) ---
   const ctaCounts: Record<string, number> = {};
   for (const r of ctaRows) {
-    const label =
-      r.ctaType === "popup_1"
-        ? "5초 팝업 광고"
-        : r.ctaType === "popup_2"
-          ? "40% 스크롤 팝업 광고"
-          : "콘텐츠 내 링크";
+    const label = "콘텐츠 내 링크";
     ctaCounts[label] = (ctaCounts[label] || 0) + 1;
   }
 

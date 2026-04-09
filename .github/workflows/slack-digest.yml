@@ -15,6 +15,11 @@ on:
         required: false
         default: 'morning'
 
+# 같은 모드의 중복 실행 방지 (대기 중인 동일 워크플로우는 취소)
+concurrency:
+  group: slack-digest-${{ github.event.schedule || github.event.inputs.mode || 'manual' }}
+  cancel-in-progress: false
+
 jobs:
   digest:
     runs-on: ubuntu-latest
@@ -33,18 +38,19 @@ jobs:
       - name: Determine mode
         id: mode
         run: |
+          # 수동 실행 시 입력값 우선
           if [ -n "${{ github.event.inputs.mode }}" ]; then
             echo "mode=${{ github.event.inputs.mode }}" >> "$GITHUB_OUTPUT"
-          else
-            HOUR=$(TZ=Asia/Seoul date +%H)
-            if [ "$HOUR" -lt 12 ]; then
-              echo "mode=morning" >> "$GITHUB_OUTPUT"
-            elif [ "$HOUR" -lt 16 ]; then
-              echo "mode=afternoon" >> "$GITHUB_OUTPUT"
-            else
-              echo "mode=evening" >> "$GITHUB_OUTPUT"
-            fi
+            exit 0
           fi
+          # GitHub Actions cron 지연 시에도 항상 동일 모드가 나오도록
+          # wall-clock이 아닌 트리거된 cron 식 자체로 모드 결정
+          case "${{ github.event.schedule }}" in
+            "0 0 * * *")  echo "mode=morning"   >> "$GITHUB_OUTPUT" ;;
+            "0 5 * * *")  echo "mode=afternoon" >> "$GITHUB_OUTPUT" ;;
+            "0 10 * * *") echo "mode=evening"   >> "$GITHUB_OUTPUT" ;;
+            *)            echo "mode=morning"   >> "$GITHUB_OUTPUT" ;;
+          esac
 
       - name: Send Slack digest
         env:
