@@ -2,11 +2,7 @@ name: Slack Digest
 
 on:
   schedule:
-    # 오전 9시 KST (UTC 0시)
-    - cron: '0 0 * * *'
-    # 오후 2시 KST (UTC 5시)
-    - cron: '0 5 * * *'
-    # 오후 7시 KST (UTC 10시)
+    # 오후 7시 KST (UTC 10시) — 하루 1회 발송
     - cron: '0 10 * * *'
   workflow_dispatch:
     inputs:
@@ -38,19 +34,11 @@ jobs:
       - name: Determine mode
         id: mode
         run: |
-          # 수동 실행 시 입력값 우선
           if [ -n "${{ github.event.inputs.mode }}" ]; then
             echo "mode=${{ github.event.inputs.mode }}" >> "$GITHUB_OUTPUT"
-            exit 0
+          else
+            echo "mode=evening" >> "$GITHUB_OUTPUT"
           fi
-          # GitHub Actions cron 지연 시에도 항상 동일 모드가 나오도록
-          # wall-clock이 아닌 트리거된 cron 식 자체로 모드 결정
-          case "${{ github.event.schedule }}" in
-            "0 0 * * *")  echo "mode=morning"   >> "$GITHUB_OUTPUT" ;;
-            "0 5 * * *")  echo "mode=afternoon" >> "$GITHUB_OUTPUT" ;;
-            "0 10 * * *") echo "mode=evening"   >> "$GITHUB_OUTPUT" ;;
-            *)            echo "mode=morning"   >> "$GITHUB_OUTPUT" ;;
-          esac
 
       - name: Send Slack digest
         env:
